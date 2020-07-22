@@ -10,6 +10,7 @@ FactoryBot.define do
     adult_content { false }
     spotify_uri { "MyString" }
     photo { "MyString" }
+    status { "unapproved" }
     user { nil }
   end
 end
