@@ -8,6 +8,11 @@ RSpec.describe "Podsmack Home Page" do
 
       expect(page).to have_content('Welcome to Podsmack')
       expect(page).to have_css("img[src*='giphy']")
+      expect(page).to have_link("Home")
+      expect(page).to have_link("Dashboard")
+      expect(page).to have_link("Browse")
+      expect(page).to have_link("Login")
+      expect(page).to have_link("Register")
     end
 
   end
