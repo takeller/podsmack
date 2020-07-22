@@ -5,6 +5,9 @@
   <%= f.label :location %>
   <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'] %> <br>
 
+  <%= f.label :tags %>
+  <%= f.select :tags, options_for_select(['Interviews', 'Music', 'Software']), {}, { multiple: true } %> <br>
+
   <%= f.label :description %>
   <%= f.text_field :description %> <br>
 
