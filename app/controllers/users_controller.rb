@@ -5,13 +5,13 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.new(user_params)
-    if user.save
-      session[:user_id] = user.id
+    @user = User.new(user_params)
+    if @user.save
+      session[:user_id] = @user.id
       flash[:success] = 'Successfully registered and logged in'
       redirect_to dashboard_path
     else
-      flash[:error] = user.errors.full_messages.to_sentence
+      flash[:error] = @user.errors.full_messages.to_sentence
       render :new
     end
   end
