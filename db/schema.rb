@@ -10,10 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_22_010904) do
+ActiveRecord::Schema.define(version: 2020_07_22_204120) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "applications", force: :cascade do |t|
+    t.string "podcast_name"
+    t.string "location"
+    t.string "twitter"
+    t.string "patreon"
+    t.string "instagram"
+    t.string "facebook"
+    t.string "description"
+    t.boolean "adult_content"
+    t.string "spotify_uri"
+    t.string "photo"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_applications_on_user_id"
+  end
 
   create_table "followings", force: :cascade do |t|
     t.bigint "podcast_id", null: false
@@ -77,6 +94,7 @@ ActiveRecord::Schema.define(version: 2020_07_22_010904) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "applications", "users"
   add_foreign_key "followings", "podcasts"
   add_foreign_key "followings", "users"
   add_foreign_key "podcast_tags", "podcasts"
