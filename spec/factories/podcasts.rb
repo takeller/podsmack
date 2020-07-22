@@ -10,7 +10,7 @@ FactoryBot.define do
     content { false }
     spotify_uri { Faker::Internet.domain_name }
     photo { Faker::Placeholdit.image }
-    producer { "" }
     status { false }
+    producer 
   end
 end
