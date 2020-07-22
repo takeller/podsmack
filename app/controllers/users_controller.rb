@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def new
     @user = User.new
   end
@@ -10,11 +11,16 @@ class UsersController < ApplicationController
       flash[:success] = 'Successfully registered and logged in'
       redirect_to dashboard_path
     else
+      flash[:error] = user.errors.full_messages.to_sentence
+      render :new
     end
+  end
+
+  def show
   end
 
   private
   def user_params
-    params.require(:user).permit(:username, :password)
+    params.require(:user).permit(:user_name, :password, :password_confirmation)
   end
 end
