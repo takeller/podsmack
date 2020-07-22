@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :producer do
-    name { "MyString" }
-    access_token { "MyString" }
-    refresh_token { "MyString" }
-    role { 1 }
-    password_digest { "MyString" }
+    name { Faker::Movies::Ghostbusters.actor}
+    access_token { Faker::Crypto.md5 }
+    refresh_token { Faker::Crypto.md5 }
+    role { :default  }
+    password_digest { Faker::Color.color_name }
   end
 end
