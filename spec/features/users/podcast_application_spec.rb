@@ -18,7 +18,7 @@ describe 'As a registered user' do
       #
       # expect(current_path).to eq('/application/new')
 
-      # Remove when above section is restored. 
+      # Remove when above section is restored.
       visit new_user_application_path(user)
 
       fill_in 'application[podcast_name]', with: 'Dissect'
@@ -44,6 +44,48 @@ describe 'As a registered user' do
       expect(application.user.user_name).to eq(user.user_name)
       expect(application.location).to eq('Denver')
       expect(application.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+    end
+
+    it 'Sad: Application must have a podcast name' do
+      user = create(:user, password: 'password')
+
+      visit new_user_application_path(user)
+
+      page.select 'Denver', from: 'application[location]'
+      fill_in 'application[description]', with: 'Favorite albums broken down'
+
+      click_on 'Submit'
+
+      expect(current_path).to eq(new_user_application_path(user))
+      expect(page).to have_content("Podcast name can't be blank")
+    end
+
+    it 'Sad: Application must have a location' do
+      user = create(:user, password: 'password')
+
+      visit new_user_application_path(user)
+
+      fill_in 'application[podcast_name]', with: 'Dissect'
+      fill_in 'application[description]', with: 'Favorite albums broken down'
+
+      click_on 'Submit'
+
+      expect(current_path).to eq(new_user_application_path(user))
+      expect(page).to have_content("Location can't be blank")
+    end
+
+    it 'Sad: Application must have a description' do
+      user = create(:user, password: 'password')
+
+      visit new_user_application_path(user)
+
+      fill_in 'application[podcast_name]', with: 'Dissect'
+      page.select 'Denver', from: 'application[location]'
+
+      click_on 'Submit'
+
+      expect(current_path).to eq(new_user_application_path(user))
+      expect(page).to have_content("Description can't be blank")
     end
   end
 end
