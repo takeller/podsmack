@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Podcast, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it {should belong_to :producer}
+  it {should have_many(:tags).through(:podcast_tags)}
+  it {should have_many(:podcast_tags).dependent(:destroy)}
 end

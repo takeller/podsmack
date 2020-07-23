@@ -1,16 +1,16 @@
 FactoryBot.define do
   factory :podcast do
-    name { "MyString" }
-    location { "MyString" }
-    twitter { "MyString" }
-    patreon { "MyString" }
-    instagram { "MyString" }
-    facebook { "MyString" }
-    description { "MyString" }
+    name { Faker::Name.unique.name  }
+    location { Faker::Address.city }
+    twitter { Faker::Hacker.noun  }
+    patreon { Faker::Hacker.noun  }
+    instagram { Faker::Hacker.noun  }
+    facebook { Faker::Hacker.noun  }
+    description {Faker::Movies::HitchhikersGuideToTheGalaxy.marvin_quote }
     content { false }
-    spotify_uri { "MyString" }
-    photo { "MyString" }
-    producer { "" }
+    spotify_uri { Faker::Internet.domain_name }
+    photo { Faker::Placeholdit.image }
     status { false }
+    producer 
   end
 end

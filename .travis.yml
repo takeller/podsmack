@@ -2,8 +2,10 @@ before_install:
   - gem install bundler
 
 language: ruby
+
 rbenv:
 - 2.5.3
+
 addons:
   postgresql: 12
   apt:
@@ -11,14 +13,31 @@ addons:
     - postgresql-12
     - postgresql-client-12
   chrome: stable
+
 env:
   global:
   - PGPORT=5433
+
 dist: xenial
+
+cache:
+  bundler: true
+  directories:
+    - node_modules
+  yarn: true
+
+install:
+  - bundle install
+  - nvm install node
+  - node -v
+  - npm i -g yarn
+  - yarn
+
 script:
-- yarn
-- bundle exec rails db:reset RAILS_ENV=test
-- bundle exec rspec
+  - bundle exec rails webpacker:compile
+  - yarn
+  - bundle exec rails db:reset RAILS_ENV=test
+  - bundle exec rspec
 deploy:
   provider: heroku
   api_key:

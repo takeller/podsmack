@@ -10,6 +10,7 @@
     
   </head>
 
+
   <body id="page-top"><div id="huntr-react-container-2"><!-- react-empty: 1 --></div>
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -84,6 +85,15 @@
         </div>
       </div>
     </section>
+
+  <body>
+  <% flash.each do |name, msg| %>
+    <div class= "<%=name%>-flash">
+      <p><%= msg %></p>
+    </div>
+  <% end %>
+    <%= yield %>
+
   </body>
       
 </html>
