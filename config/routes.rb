@@ -4,4 +4,6 @@ Rails.application.routes.draw do
     resources :applications, only: [:new, :create]
   end 
   get '/dashboard', to: 'users#show'
+
+  resources :producers, only: [:show]
 end
