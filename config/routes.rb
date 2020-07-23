@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   get 'auth/failutre', to:redirect('/')
 
   root 'welcome#index'
-  resources :users, only: [:new, :create]
+  resources :users, only: [:new, :create] do
+    resources :applications, only: [:new, :create]
+  end 
   get '/dashboard', to: 'users#show'
 
   resources :producers, only: [:show]

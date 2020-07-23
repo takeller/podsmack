@@ -1,0 +1,36 @@
+<%= form_for ([:user, @application]) do |f| %>
+  <%= f.label :podcast_name %>
+  <%= f.text_field :podcast_name %> <br>
+
+  <%= f.label :location %>
+  <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'], :include_blank => true %> <br>
+
+  <%= f.label :tags %>
+  <%= f.collection_check_boxes(:tags, Tag.all, :id, :name) %> <br>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %> <br>
+
+  <%= f.label :patreon %>
+  <%= f.text_field :patreon %> <br>
+
+  <%= f.label :instagram %>
+  <%= f.text_field :instagram %> <br>
+
+  <%= f.label :facebook %>
+  <%= f.text_field :facebook %> <br>
+
+  <%= f.label :twitter %>
+  <%= f.text_field :twitter %> <br>
+
+  <%= f.label :spotify_uri %>
+  <%= f.text_field :spotify_uri %> <br>
+
+  <%= f.label :photo %>
+  <%= f.text_field :photo %> <br>
+
+  <%= f.label :adult_content %>
+  <%= f.check_box :adult_content %> <br>
+
+  <%= f.submit 'Submit' %>
+<% end %>
