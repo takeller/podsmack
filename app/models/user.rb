@@ -6,4 +6,5 @@ class User < ApplicationRecord
   validates :user_name, uniqueness: true, presence: true
   has_many :followings
   has_many :podcasts, through: :followings
+  has_many :applications
 end
