@@ -9,7 +9,7 @@ class ApplicationsController < ApplicationController
     application = user.applications.new(application_params)
 
     if application.save
-      flash[:notice] = 'Application Submitted'
+      flash[:notice] = 'Application submitted and waiting approval'
       redirect_to '/dashboard'
     else
       flash[:notice] = 'Submission Failed'
