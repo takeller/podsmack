@@ -6,7 +6,7 @@
   <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'] %> <br>
 
   <%= f.label :tags %>
-  <%= f.select :tags, options_for_select(['Interviews', 'Music', 'Software']), {}, { multiple: true } %> <br>
+  <%= f.collection_check_boxes(:tags, Tag.all, :id, :name) %> <br>
 
   <%= f.label :description %>
   <%= f.text_field :description %> <br>
