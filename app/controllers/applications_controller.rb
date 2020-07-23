@@ -13,7 +13,7 @@ class ApplicationsController < ApplicationController
       redirect_to '/dashboard'
     else
       flash[:error] = application.errors.full_messages.to_sentence
-      render :new
+      redirect_to new_user_application_path(user)
     end
   end
 
