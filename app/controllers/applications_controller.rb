@@ -12,7 +12,7 @@ class ApplicationsController < ApplicationController
       flash[:notice] = 'Application submitted and waiting approval'
       redirect_to '/dashboard'
     else
-      flash[:notice] = 'Submission Failed'
+      flash[:error] = application.errors.full_messages.to_sentence
       render :new
     end
   end
