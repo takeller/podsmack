@@ -3,7 +3,7 @@
   <%= f.text_field :podcast_name %> <br>
 
   <%= f.label :location %>
-  <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'] %> <br>
+  <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'], :include_blank => true %> <br>
 
   <%= f.label :tags %>
   <%= f.collection_check_boxes(:tags, Tag.all, :id, :name) %> <br>
