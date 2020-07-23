@@ -3,9 +3,11 @@ Rails.application.routes.draw do
 
   get '/auth/:provider/callback', to: 'sessions#create'
   get 'auth/failutre', to:redirect('/')
-  
+
+  root 'welcome#index'
   resources :users, only: [:new, :create]
   get '/dashboard', to: 'users#show'
 
   resources :producers, only: [:show]
+
 end
