@@ -11,8 +11,8 @@ class CreatePodcasts < ActiveRecord::Migration[6.0]
       t.boolean :adult_content
       t.string :spotify_uri
       t.string :photo
-      t.references :producer, foreign_key: true
-      t.boolean :status
+      t.references :user, foreign_key: true
+      t.boolean :active, default: false
 
       t.timestamps
     end
