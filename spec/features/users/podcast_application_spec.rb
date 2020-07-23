@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
     it 'I can apply to submit a podcast' do
-      user = create(:user)
+      user = create(:user, password: 'password')
       create(:tag, name: 'Interviews')
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
@@ -38,9 +38,9 @@ describe 'As a registered user' do
 
       application = Application.last
 
-      expect(application.name).to eq(user.user_name)
+      expect(application.user.user_name).to eq(user.user_name)
       expect(application.location).to eq('Denver')
-      expect(application.show_id).to eq('2b025hq3gJ17tQdxS3aV43')
+      expect(application.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
     end
   end
 end
