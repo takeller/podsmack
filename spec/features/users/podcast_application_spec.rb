@@ -7,6 +7,8 @@ describe 'As a registered user' do
       create(:tag, name: 'Interviews')
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
+
+      # This needs to be restored once we have the user dashboard/session controller set up.
       #
       # allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       #
@@ -16,9 +18,10 @@ describe 'As a registered user' do
       #
       # expect(current_path).to eq('/application/new')
 
+      # Remove when above section is restored. 
       visit new_user_application_path(user)
 
-      fill_in 'application[podcast_name]', with: user.user_name
+      fill_in 'application[podcast_name]', with: 'Dissect'
       page.select 'Denver', from: 'application[location]'
       check 'Interviews'
       check 'Music'
