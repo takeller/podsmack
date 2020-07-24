@@ -8,7 +8,7 @@ RSpec.describe User, type: :model do
   end
 
   describe 'relationships' do
-    it {should have_many(:podcasts).through(:followings)}
+    it {should have_many(:favorite_podcasts).through(:followings)}
     it { should have_many(:followings)}
   end
 end
