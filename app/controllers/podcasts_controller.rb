@@ -6,9 +6,9 @@ class PodcastsController < ApplicationController
 
   def create
     user = User.find(params[:user_id])
-    binding.pry
+    
     podcast = user.podcasts.new(podcast_params)
-
+    binding.pry
     if podcast.save
       flash[:notice] = 'Podcast submitted and waiting approval'
       redirect_to '/dashboard'
