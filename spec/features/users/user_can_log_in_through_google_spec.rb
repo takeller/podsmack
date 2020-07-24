@@ -13,7 +13,7 @@ describe 'As a visitor' do
       OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
         :provider => 'google_oauth2',
         :uid => ENV['TAYLOR_UID'],
-        :info => { :name => "Taylor Keller" email: "takeller17@gmail.com" },
+        :info => { :name => "Taylor Keller", email: "takeller17@gmail.com" },
         :credentials => { :token => ENV['GOOGLE_API_TOKEN_TAYLOR'] }
         })
 
@@ -23,10 +23,9 @@ describe 'As a visitor' do
 
       user = User.last
 
-      expect(user.name).to eq('Taylor Keller')
+      expect(user.user_name).to eq('Taylor Keller')
       expect(user.uid).to eq(ENV['TAYLOR_UID'])
       expect(user.email).to eq('takeller17@gmail.com')
-      expect(user.token).to eq(ENV['GOOGLE_API_TOKEN_TAYLOR'])
     end
 
     it 'I create a session after loging in with google' do
@@ -34,7 +33,7 @@ describe 'As a visitor' do
       OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
         :provider => 'google_oauth2',
         :uid => ENV['TAYLOR_UID'],
-        :info => { :name => "Taylor Keller" email: "takeller17@gmail.com" },
+        :info => { :name => "Taylor Keller", email: "takeller17@gmail.com" },
         :credentials => { :token => ENV['GOOGLE_API_TOKEN_TAYLOR'] }
         })
 
@@ -42,7 +41,7 @@ describe 'As a visitor' do
 
       click_on 'Login With Google'
 
-      expect(current_page).to eq('/dashboard')
+      expect(current_path).to eq('/dashboard')
       expect(page).to have_content('Welcome Taylor Keller')
     end
   end
