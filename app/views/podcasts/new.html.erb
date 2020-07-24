@@ -1,12 +1,12 @@
-<%= form_for ([:user, @application]) do |f| %>
-  <%= f.label :podcast_name %>
-  <%= f.text_field :podcast_name %> <br>
+<%= form_for ([:user, @podcast]) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %> <br>
 
   <%= f.label :location %>
   <%= f.select :location, ['Denver', 'NYC', 'Dallas', 'San Francisco'], :include_blank => true %> <br>
 
   <%= f.label :tags %>
-  <%= f.collection_check_boxes(:tags, Tag.all, :id, :name) %> <br>
+  <%= f.collection_check_boxes(:tags, Tag.all, :id, :name, include_hidden: false) %> <br>
 
   <%= f.label :description %>
   <%= f.text_field :description %> <br>
