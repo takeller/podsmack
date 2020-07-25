@@ -94,3 +94,14 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+# Use for logging in a user with OmniAuth
+def login_user(user)
+  OmniAuth.config.test_mode = true
+  OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
+    :provider => 'google_oauth2',
+    :uid => user.uid,
+    :info => { :name => user.user_name, email: "takeller17@gmail.com" },
+    :credentials => { :token => ENV['GOOGLE_API_TOKEN_TAYLOR'] }
+  })
+end
