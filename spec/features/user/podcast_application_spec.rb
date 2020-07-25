@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
     it 'I can apply to submit a podcast' do
-      user = create(:user, password: 'password')
+      user = create(:user)
       create(:tag, name: 'Interviews')
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
@@ -47,7 +47,7 @@ describe 'As a registered user' do
     end
 
     it 'Sad: podcast must have a podcast name' do
-      user = create(:user, password: 'password')
+      user = create(:user)
 
       visit new_user_podcast_path(user)
 
@@ -61,7 +61,7 @@ describe 'As a registered user' do
     end
 
     it 'Sad: podcast must have a location' do
-      user = create(:user, password: 'password')
+      user = create(:user)
 
       visit new_user_podcast_path(user)
 
@@ -75,7 +75,7 @@ describe 'As a registered user' do
     end
 
     it 'Sad: podcast must have a description' do
-      user = create(:user, password: 'password')
+      user = create(:user)
 
       visit new_user_podcast_path(user)
 
