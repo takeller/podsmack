@@ -1,0 +1,11 @@
+<h2> Welcome, <%= @user.user_name %> </h2>
+
+<section class="podcast_following">
+      <h1><%= @user.favorite_podcasts.length %>Favorites</h1>
+      <% @user.favorite_podcasts.each do |podcast| %>
+        <section id="follow">
+            <%= podcast.name %>
+        </section>
+      <% end %>
+    </section>
+  </section>

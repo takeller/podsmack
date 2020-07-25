@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :following do
-    podcast { nil }
-    user { nil }
+    podcast { :podcast }
+    user { :user }
   end
 end
