@@ -22,8 +22,11 @@
     <h1><%= @user.podcasts.length %> </h1>
   <% @user.pending_podcasts.each do |podcast| %>
     <section id="podcast_pending_approval">
+    <h5>Name</h5>
       <%= podcast.name %>
-      <% button_to "Approve" %>
+    <h5>Description</h5>
+      <%= podcast.description %>
+    <%= button_to "Approve", '/dashboard' %>
     </section>
   <% end %>
   </section>
