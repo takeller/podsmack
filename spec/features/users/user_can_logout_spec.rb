@@ -12,6 +12,6 @@ describe 'As a registered user' do
     expect(current_path).to eq(root_path)
     expect(page).to_not have_content('Logout')
     expect(page).to have_content('Login')
-    expect(page).to_not have_content(user.name)
+    expect(page).to_not have_content(user.user_name)
   end
 end
