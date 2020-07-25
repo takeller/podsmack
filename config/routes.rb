@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/auth/google_oauth2/callback', to: 'sessions#create'
   # get '/auth/failure', to:redirect('/')
   get '/login', to: 'sessions#new'
-
+  get '/logout', to: 'sessions#destroy'
   root 'welcome#index'
   resources :users, only: [:new, :create] do
     resources :podcasts, only: [:new, :create]
