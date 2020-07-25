@@ -12,7 +12,8 @@ describe 'As an Admin' do
       :credentials => { :token => ENV['GOOGLE_API_TOKEN_TAYLOR'] }
       })
 
-    visit '/login'
+    visit '/'
+    click_on 'Login/Register'
 
     click_on '/Login With Google'
 
@@ -27,7 +28,6 @@ describe 'As an Admin' do
     visit '/dashboard'
 
     click_on 'Logout'
-
     expect(current_path).to eq(root_path)
     expect(page).to_not have_content('Logout')
     expect(page).to have_content('Login')

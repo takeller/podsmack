@@ -29,10 +29,14 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Browse</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/login">Login</a>
+              <% if current_user.nil? %>
+                <a class="nav-link js-scroll-trigger" href="/login">Login/Register</a>
+              <% end %>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Register</a>
+              <% if current_user %>
+                <a class="nav-link js-scroll-trigger" href="/logout">Logout</a>
+               <% end %>
             </li>
           </ul>
         </div>
