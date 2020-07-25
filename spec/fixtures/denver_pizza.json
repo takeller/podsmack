@@ -1,0 +1,1811 @@
+{
+  "available_markets": [
+    "AD",
+    "AE",
+    "AL",
+    "AR",
+    "AT",
+    "AU",
+    "BA",
+    "BE",
+    "BG",
+    "BH",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CO",
+    "CR",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "GT",
+    "HK",
+    "HN",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IS",
+    "IT",
+    "JO",
+    "JP",
+    "KW",
+    "LB",
+    "LI",
+    "LT",
+    "LU",
+    "LV",
+    "MA",
+    "MC",
+    "ME",
+    "MK",
+    "MT",
+    "MX",
+    "MY",
+    "NI",
+    "NL",
+    "NO",
+    "NZ",
+    "OM",
+    "PA",
+    "PE",
+    "PH",
+    "PL",
+    "PS",
+    "PT",
+    "PY",
+    "QA",
+    "RO",
+    "RS",
+    "SE",
+    "SG",
+    "SI",
+    "SK",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TW",
+    "US",
+    "UY",
+    "VN",
+    "XK",
+    "ZA"
+  ],
+  "copyrights": [],
+  "description": "From deep dish downtown to pepperoni in Park Hill, Megan and Paul are hungry enough to review every pie in Mile High.   New episodes released intermittently.",
+  "episodes": {
+    "href": "https://api.spotify.com/v1/shows/7xE2yZ7NgshFZk96waPtPJ/episodes?offset=0&limit=50",
+    "items": [
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/af85017652ba6135637ea71fb617807cbb196f79",
+        "description": "Paul and Megan enjoy delivery pies from Colorado's own Blackjack Pizza with JD Lopez and Mallory Vining.  ",
+        "duration_ms": 2808696,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1AVrHnDytoPX15M3NZNwJl"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1AVrHnDytoPX15M3NZNwJl",
+        "id": "1AVrHnDytoPX15M3NZNwJl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "44 - Blackjack with JD and Mallory (Delivery)",
+        "release_date": "2020-04-24",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1AVrHnDytoPX15M3NZNwJl"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/cdb964298b818ec6d04c8a781a9fa3b1a77db1c4",
+        "description": "Paul and Megan order a large pie and a salad from the Denver Pizza Company.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network.    ",
+        "duration_ms": 1694064,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1O9w4sPmfxnana5I1DkEne"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1O9w4sPmfxnana5I1DkEne",
+        "id": "1O9w4sPmfxnana5I1DkEne",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "43 - Denver Pizza Company (Delivery) 🗽",
+        "release_date": "2020-04-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1O9w4sPmfxnana5I1DkEne"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1e6b08266de12b7b2a47d357588ea437b0b85dca",
+        "description": "Megan and Paul sample the pizza delights at the Basil Doc's slice counter in Virginia Village. We only learned after recording this episode that Basil Doc's is -- or at least was -- something of a local pioneer in the cutting edge world of ghost kitchens. Luke Runyon has  the story for KUNC. The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 1460928,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4E51QOoSMKtxJ0uVw0Tbrb"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4E51QOoSMKtxJ0uVw0Tbrb",
+        "id": "4E51QOoSMKtxJ0uVw0Tbrb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "42 - Basil Doc's 🍕",
+        "release_date": "2020-01-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4E51QOoSMKtxJ0uVw0Tbrb"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/59488cd5dbe585a921cc2d6532ab7125530fc1d2",
+        "description": "Paul and Megan enter the throne room and review Frank the Pizza King with Rae Solomon and Matthew Simonson. You can hear Paul and Megan's pizza investigation, The Honey Trap, on the Range & Slope podcast. Find it at https://rangeandslope.com or wherever you listen to podcasts.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 3597744,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7I7SObydu2PKRj0qye6u0a"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7I7SObydu2PKRj0qye6u0a",
+        "id": "7I7SObydu2PKRj0qye6u0a",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "41 - Frank the Pizza King with Rae and Matthew",
+        "release_date": "2019-12-05",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7I7SObydu2PKRj0qye6u0a"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2fc888aa5440ec0a5343ba3d082a5644408a4a1f",
+        "description": "Paul and Megan finally take on the only iconic Colorado pizza institution, Beau Jo's, with special guests Andy Kenney and Elisa Elkind. We want to hear from you! How do you feel about honey on crust? Is it an authentic Colorado tradition? Beau Jo's has a website: https://www.beaujos.com/ We highly recommend reading the page on their history. It's got a humor-adjacent origin story and some interesting info on the company's dedication to wind power.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 2796199,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1V3YuVtLeZVtRLTOHfQELw"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1V3YuVtLeZVtRLTOHfQELw",
+        "id": "1V3YuVtLeZVtRLTOHfQELw",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "40 - Beau Jo's with Andy and Elisa",
+        "release_date": "2019-05-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1V3YuVtLeZVtRLTOHfQELw"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/12b7e05e68400235fcb7ef2de0b470ee4759e86c",
+        "description": "This time, mayoral candidate Lisa Calderón joins Paul and Megan for a trip to a favorite of her youth, Pizza Alley.  Learn more about Lisa Calderón here: https://lisa4denvermayor.org/ And you can find Pizza Alley's website here: https://www.pizzaalley.com/  The Denver Pizza Podcast is a proud member of the Denver Podcast Network. See you next time!",
+        "duration_ms": 1741916,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/52Lfm21acKEnk7FtCEgRtF"
+        },
+        "href": "https://api.spotify.com/v1/episodes/52Lfm21acKEnk7FtCEgRtF",
+        "id": "52Lfm21acKEnk7FtCEgRtF",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "39 - Pizza Alley with Lisa Calderón",
+        "release_date": "2019-04-05",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:52Lfm21acKEnk7FtCEgRtF"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e3f45d0b2cde0b7394dd522854cfb89549490803",
+        "description": "Megan and Paul visit Oblio's in Park Hill with Denver mayoral candidate Penfield Tate! To learn more about Penfield's campaign, you can find his website here: https://www.tatefordenver.com/ The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 1357688,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0lcznK0DJKR01PQOnGjhIf"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0lcznK0DJKR01PQOnGjhIf",
+        "id": "0lcznK0DJKR01PQOnGjhIf",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "37 - Oblio's with Penfield Tate",
+        "release_date": "2019-03-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0lcznK0DJKR01PQOnGjhIf"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0bb0a1c5383da0e09694cbd3aa5f93b7580c744c",
+        "description": "Paul and Megan try out Pizzeria Coperta inside the new Broadway Market with Denver mayoral candidate Jamie Giellis! For more on Jamie Giellis, check out her website: https://www.jamiefordenver.com/ The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 1190139,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5bVYyy5nviFKVNyAj0TajI"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5bVYyy5nviFKVNyAj0TajI",
+        "id": "5bVYyy5nviFKVNyAj0TajI",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "36 - Pizzeria Coperta with Jamie Giellis",
+        "release_date": "2019-03-01",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5bVYyy5nviFKVNyAj0TajI"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/4104a7a4581ae74acd2e3ffaca115cb551f6b672",
+        "description": "Paul and Megan traipse through downtown to Two-Fisted Mario's with Berry of Podcasts in Color. If you're looking for hot podcast #takes, you should absolutely follow Berry on Twitter: @PodcastsinColor Here's the website for Two-Fisted Mario's. The Denver Pizza Podcast is a proud member of the Denver Podcast Network.       ",
+        "duration_ms": 2399190,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3svKT5TFWoU6vpSfSaZwSf"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3svKT5TFWoU6vpSfSaZwSf",
+        "id": "3svKT5TFWoU6vpSfSaZwSf",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "35 - Two-Fisted Mario's with Berry",
+        "release_date": "2018-12-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3svKT5TFWoU6vpSfSaZwSf"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/4a7e5b5bec63b36cb39c89f0bec6ac467f8d95c5",
+        "description": "Paul and Megan visit the new Vero Boulder, formerly Pizzeria da Lupo, with Megan's brother Jake. For more on the Pizzeria Vero takeover of Pizzeria da Lupo, here's  a piece from Eater Denver. For another take on the new version, here's  a review from the Boulder Daily Camera.  Good luck finding Jake's YouTube channel! The Denver Pizza Podcast is a proud member of the Denver Podcast Network.  ",
+        "duration_ms": 1977051,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2tih1mR8tx9O4tILGAhiAM"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2tih1mR8tx9O4tILGAhiAM",
+        "id": "2tih1mR8tx9O4tILGAhiAM",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "34 - Vero Boulder (formerly Pizzeria da Lupo) with Jake",
+        "release_date": "2018-11-17",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2tih1mR8tx9O4tILGAhiAM"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/55f248a762c8045292016d0e1834224f51e82f30",
+        "description": "Megan and Paul visit Pizzeria Lui with JD and Mallory! Pizzeria Lui is in Lakewood.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 2061949,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3ukiKDfConx7LlGLOakwPc"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3ukiKDfConx7LlGLOakwPc",
+        "id": "3ukiKDfConx7LlGLOakwPc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "33 - Pizzeria Lui with JD and Mallory",
+        "release_date": "2018-11-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3ukiKDfConx7LlGLOakwPc"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6c4054d87ae2a80777e235fdcc7f07dae6d757d5",
+        "description": "Paul and Megan visit the impossible to pronounce Patxi's Pizza on 17th Avenue. Joining the fun this time are Jeremy and Kate, who recently returned from a year of exotic pizza in New Zealand and Southeast Asia. Pizza Duck is here.  Learn more about Patxi's. The Denver Pizza Podcast is a proud member of the Denver Podcast Network.  ",
+        "duration_ms": 2279288,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0JdiVo83I5Ic4wHbdPcehO"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0JdiVo83I5Ic4wHbdPcehO",
+        "id": "0JdiVo83I5Ic4wHbdPcehO",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "32 - Patxi's with Kate and Jeremy",
+        "release_date": "2018-10-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0JdiVo83I5Ic4wHbdPcehO"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d7013141e62d479b9012e17aa8cb7158c66b0f44",
+        "description": "Paul and Megan visit Colorado's only Mellow Mushroom with their friends Jesse and Alyssa! Check out Jesse's new musical project  Creekbed! The Denver Pizza Podcast is a proud member of the Denver Podcast Network. ",
+        "duration_ms": 2228898,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/78jvncQqsE38wCQsDdpBZx"
+        },
+        "href": "https://api.spotify.com/v1/episodes/78jvncQqsE38wCQsDdpBZx",
+        "id": "78jvncQqsE38wCQsDdpBZx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "31 - Mellow Mushroom with Jesse and Alyssa",
+        "release_date": "2018-10-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:78jvncQqsE38wCQsDdpBZx"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/94a0eafd92bd9003a31e992e494d4e696d61b8f3",
+        "description": "Paul and Megan invite their friend Margaret Williford on a trip to southeast Denver for a meal at Godfather's Pizza.  Follow Margaret on Twitter @lilwillifo! More on the Godfather's story in Denver from  Westword.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network.    ",
+        "duration_ms": 1629571,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3kNIC20RTbwydvMdzVmGoq"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3kNIC20RTbwydvMdzVmGoq",
+        "id": "3kNIC20RTbwydvMdzVmGoq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "30 - Godfather's Pizza with Margaret Williford",
+        "release_date": "2018-08-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3kNIC20RTbwydvMdzVmGoq"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/cfa43eb2bf9882ed602ed90619e63d23e50f6b19",
+        "description": "Paul and Megan bring their friend Stephanie along on a trip to Vero, the pizza place in the Denver Central Market.  If Top Chef was highlighting aspects of your life in Denver, what would one challenge be? #MyTopChefColorado Follow Stephanie on Twitter or Instagram!  The Denver Pizza Podcast is a proud member of the Denver Podcast Network.    ",
+        "duration_ms": 2601796,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5NmNQBZqwbAZIWr7QzXk0g"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5NmNQBZqwbAZIWr7QzXk0g",
+        "id": "5NmNQBZqwbAZIWr7QzXk0g",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "29 - Vero (Denver Central Market) with Stephanie Snyder",
+        "release_date": "2018-01-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5NmNQBZqwbAZIWr7QzXk0g"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/874c307cdf4bfcf3afba18080e25b9fd1b5de742",
+        "description": "Here it is, the stunning conclusion to November Demise: Death By Pizza: Death By a Thousand Pizza Cuts! Paul and Megan go on a guest-less pizza-dventure that ends with a meal at Pieology, the brand spanking new fast-casual franchise that just opened in the Golden Triangle.  The Denver Pizza Podcast is a proud member of the Denver Podcast Network. This week, we recommend trying out our sister show Beyond the Trope. It's a podcast for nerds, and their most recent episode features a terrific interview with local author Jason Heller. ",
+        "duration_ms": 1777972,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/04cSC08JoGi11oUyAFK5at"
+        },
+        "href": "https://api.spotify.com/v1/episodes/04cSC08JoGi11oUyAFK5at",
+        "id": "04cSC08JoGi11oUyAFK5at",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "28 - Pieology",
+        "release_date": "2017-11-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:04cSC08JoGi11oUyAFK5at"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/76b88f203fa7e569a7671df4ea48ad1afb30bff3",
+        "description": "Paul and Megan continue November Demise: Death By Pizza: Death By a Thousand Pizza Cuts with JD Lopez, fan favorite guest, and a trip to The Rock Wood Fired Kitchen at the Belmar shopping center in Lakewood. Check out JD's podcast Left Hand Right Brain!  The Denver Pizza Podcast is a proud member of the Denver Podcast Network.",
+        "duration_ms": 1593208,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4xJjKm0ErHJhP7qzWmo7tF"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4xJjKm0ErHJhP7qzWmo7tF",
+        "id": "4xJjKm0ErHJhP7qzWmo7tF",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "27 - The Rock Wood Fired Kitchen with JD Lopez",
+        "release_date": "2017-11-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4xJjKm0ErHJhP7qzWmo7tF"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b7c67d9c46b75f8910d6f9113a29aab140e1e401",
+        "description": "Paul and Megan bring back old favorite Adrian D. Garcia for a trip to Boulder's own Pizzeria da Lupo. Also, we're kicking off a theme month. It's November Demise: Death by Pizza: Death by a Thousand Pizza Cuts. The Denver Pizza Podcast is a proud member of the Denver Podcast Network. Click here to learn more.   ",
+        "duration_ms": 1713319,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0gJPPXYfRztUFNEGkV9FY8"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0gJPPXYfRztUFNEGkV9FY8",
+        "id": "0gJPPXYfRztUFNEGkV9FY8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "26 - Pizzeria da Lupo with Adrian D. Garcia",
+        "release_date": "2017-11-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0gJPPXYfRztUFNEGkV9FY8"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d4294651a7e3044d61bd2d5cc7ef799ec2323400",
+        "description": "Megan and Paul review Famous Pizza in front of a LIVE audience at the Denver Podcast Network launch showcase on 10/8. Click here to learn more about the DPN. You can hear the entire live show over on the Left Hand Right Brain podcast  here.  ",
+        "duration_ms": 752980,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2RoMMVIUk39l4bppnHQ0i3"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2RoMMVIUk39l4bppnHQ0i3",
+        "id": "2RoMMVIUk39l4bppnHQ0i3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "25 - Famous Pizza (LIVE)",
+        "release_date": "2017-10-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2RoMMVIUk39l4bppnHQ0i3"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/3dc3275efd1ca886aa17844471374fc5bc30fd92",
+        "description": "Megan and Paul check out the downtown location of Anthony's Pizza & Pasta with Jeff Albright, co-host of the Broadcast Geeks podcast! The Denver Pizza Podcast is a proud member of the Denver Podcast Network. Click here to learn more. ",
+        "duration_ms": 1618651,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1YhiLG22JTkEGQeqnpmFh0"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1YhiLG22JTkEGQeqnpmFh0",
+        "id": "1YhiLG22JTkEGQeqnpmFh0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "24 - Anthony's with Jeff Abright",
+        "release_date": "2017-09-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1YhiLG22JTkEGQeqnpmFh0"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0a9f3278167d16526a6092d77faa60f29aac5cd9",
+        "description": "Paul and Megan test out Black Shirt Brewery's new pizza with Samuel Sly, co-host of the Beer n' Loathing podcast! Is there any combination better than pizza and beer? You can hear Beer n' Loathing on their website,  Apple Podcasts, or the podcatcher of your choice. Follow Sam on Twitter at @beernloathing  ",
+        "duration_ms": 1371011,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0yfs0ojLUQy8pW0TIlIZiG"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0yfs0ojLUQy8pW0TIlIZiG",
+        "id": "0yfs0ojLUQy8pW0TIlIZiG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "23 - Black Shirt Brewery with Samuel Sly",
+        "release_date": "2017-08-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0yfs0ojLUQy8pW0TIlIZiG"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/59321541724f4189bb60d09b6e3a28f26fa938d3",
+        "description": "Paul and Megan bring Brian Flynn along on a trip to Ian's Pizza in LoDo.  Ask Brian what his top two hot sauces for pizza are on Twitter! He's at @ApparentlyBrian.  Here are the details for the live comedy show Brian hosts at the Deer Pile. ",
+        "duration_ms": 1633176,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5Taligjwmr2EELJ7t8h45z"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5Taligjwmr2EELJ7t8h45z",
+        "id": "5Taligjwmr2EELJ7t8h45z",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "22 - Ian's Pizza with Brian Flynn",
+        "release_date": "2017-08-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5Taligjwmr2EELJ7t8h45z"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e3036c3f90f3d5483a896b238a0fce76bab517da",
+        "description": "Paul and Megan invite Adrian D. Garcia back on the show, and we share a couple pies at Bar Dough.  If you're sick of hearing about white pies on the podcast, let us know with the hashtag #diversitypie Learn more about Bar Dough on their site: http://bardoughdenver.com/ You can follow Adrian on Twitter at @adriandgarcia    ",
+        "duration_ms": 1726145,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1R8rSCsdqrKa4jtXLpk4UU"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1R8rSCsdqrKa4jtXLpk4UU",
+        "id": "1R8rSCsdqrKa4jtXLpk4UU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "21 - Bar Dough with Adrian D. Garcia",
+        "release_date": "2017-08-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1R8rSCsdqrKa4jtXLpk4UU"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/11ff412145c207ba361dcb76bc56bc6aa1bdf8be",
+        "description": "Paul and Megan join JD Lopez on a trip to one of his favorite pizza haunts, Cosmo's Pizza. JD hosts the wonderful local podcast Left Hand Right Brain and Comedy Saved the Video Star, a comedy-music video mash-up show. Catch the latter on the last Saturday of every month at Mutiny Information Cafe and the former wherever you get your podcasts. And while you're there, why not try out Beyond the Trope? It's a podcast for nerds, and it's worth your time.",
+        "duration_ms": 1962475,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7CohsWzeDfdWa1uKravLVe"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7CohsWzeDfdWa1uKravLVe",
+        "id": "7CohsWzeDfdWa1uKravLVe",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "20 - Cosmo's Pizza with JD Lopez",
+        "release_date": "2017-07-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7CohsWzeDfdWa1uKravLVe"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e165be0f4492d93841d396e64b55e7975acf59fe",
+        "description": "Megan and Paul visit the pizza counter at Whole Foods. If you want to hear Brian Flynn's podcast The Revisionists, you can find it here. And here's the Facebook event for the next Nighttime Tonight.",
+        "duration_ms": 1029930,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6XLPPpmgkdI9tAlPnil2t4"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6XLPPpmgkdI9tAlPnil2t4",
+        "id": "6XLPPpmgkdI9tAlPnil2t4",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "19 - Whole Foods",
+        "release_date": "2017-07-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6XLPPpmgkdI9tAlPnil2t4"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2598a7dc9404e95ab51d478d18b6ee2e49c3bb52",
+        "description": "Megan and Paul check out the new New Haven-style pies at White Pie with Rebecca Aronauer and Bryon Quick. Bryon read Rebecca's short story \"A Lakeside Husband\" for the Lakeside episode of Changing Denver. You can find it here. Join all of us at Rebecca's event Making the Mountain at the Lighthouse Writers' Workshop this Friday night! And here's White Pie's website. When you're done listening, why not check out another local podcast. JD Lopez's Left Hand Right Brain is worth your time. He talks to artists and comedians every week, searching for that elusive art-life balance. Find it here and follow the show on Facebook. ",
+        "duration_ms": 1855739,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4fVbyyUEpQ6EvIGl4wJupD"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4fVbyyUEpQ6EvIGl4wJupD",
+        "id": "4fVbyyUEpQ6EvIGl4wJupD",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "18 - White Pie with Rebecca Aronauer and Bryon Quick",
+        "release_date": "2017-06-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4fVbyyUEpQ6EvIGl4wJupD"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e581c42ac103c9501e4a8c992336230f48704daf",
+        "description": "Megan and Paul pop into SliceWorks with local musician Brett Randell. Check out Brett's music at his bandcamp: https://brettrandell.bandcamp.com/ And you can learn more about SliceWorks here.  Get #cruspy out there tonight!",
+        "duration_ms": 1325949,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4CCLLKVNeZEIEDaFoSi7RU"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4CCLLKVNeZEIEDaFoSi7RU",
+        "id": "4CCLLKVNeZEIEDaFoSi7RU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "17 - SliceWorks with Brett Randell",
+        "release_date": "2017-05-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4CCLLKVNeZEIEDaFoSi7RU"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/8f6515fc537c351522f0e035bf8ba4759ada28c7",
+        "description": "Paul and Megan head to Racca's with Streetsblog Denver editor David Sachs! Here's Racca's website.",
+        "duration_ms": 1370958,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/71ubV5VBrN67k7aqoZdSjm"
+        },
+        "href": "https://api.spotify.com/v1/episodes/71ubV5VBrN67k7aqoZdSjm",
+        "id": "71ubV5VBrN67k7aqoZdSjm",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "16 - Racca's with David Sachs",
+        "release_date": "2017-05-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:71ubV5VBrN67k7aqoZdSjm"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/4ee9686b91c29ae6890d0d84a99e7b034cb2e59e",
+        "description": "Paul and Megan ship out to Cart-Driver with their dearest friend Chloe Aiello! Here's a blog post explaining panna. This is Cart-Driver's website.  Do you think pizza is TOO cool? #coolpizza",
+        "duration_ms": 1551543,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1XKacuX9P0aHRM6yDnU9vR"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1XKacuX9P0aHRM6yDnU9vR",
+        "id": "1XKacuX9P0aHRM6yDnU9vR",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "15 - Cart-Driver with Chloe Aiello",
+        "release_date": "2017-04-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1XKacuX9P0aHRM6yDnU9vR"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1a2a1d53bae6245ecdbdb6f913728fe40c0e8edc",
+        "description": "Paul and Megan visit the pizza counter at the Marquis Theater with Megan's pizza soulmate Sarah Harvey! You can read Sarah's work at the Denver VOICE here or pick up a copy on a street corner near you. The pizza certification Paul was talking about is called the Associazione Vera Pizza Napoletana. Who is your #pizzasoulmate?",
+        "duration_ms": 1591719,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1waVLxirinwqHQHLvLUmDh"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1waVLxirinwqHQHLvLUmDh",
+        "id": "1waVLxirinwqHQHLvLUmDh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "14 - Marquis Theater with Sarah Harvey",
+        "release_date": "2017-03-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1waVLxirinwqHQHLvLUmDh"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/dee5756dd630e00d34b91838298299cbeaf97ad8",
+        "description": "Adrian D. Garcia returns! We visit the Capitol Hill Tavern in, well, where else? Capitol Hill. The Capitol Hill Tavern is open 'til 3am on Mondays.  You can follow Adrian on Twitter @adriandgarcia and read his reporting on local business at Denverite.com.  ",
+        "duration_ms": 1037976,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1eoTS5VjD4TbFxFfHg7sjp"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1eoTS5VjD4TbFxFfHg7sjp",
+        "id": "1eoTS5VjD4TbFxFfHg7sjp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "13 - Capitol Hill Tavern with Adrian D. Garcia",
+        "release_date": "2017-02-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1eoTS5VjD4TbFxFfHg7sjp"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a95fddcd82a1e2a665022e5e018da379965c1351",
+        "description": "Paul and Megan share a couple of Detroit-style pies from Blue Pan Pizza with Chris Day! Blue Pan Pizza is  coming soon to Congress Park. Check out Chris's work on craft beer over at PorchDrinking.com.",
+        "duration_ms": 1150955,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4qB96l49T2TK8ZNCcTwASk"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4qB96l49T2TK8ZNCcTwASk",
+        "id": "4qB96l49T2TK8ZNCcTwASk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "12 - Blue Pan Pizza with Chris Day",
+        "release_date": "2017-02-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4qB96l49T2TK8ZNCcTwASk"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/f2753031cd28ac31deae792a7ab6a7a45671c56f",
+        "description": "Paul and Megan follow in Gordon Ramsey's footsteps on a visit to Pantaleone's with Sam and Ben Brasch! You can watch the episode of Kitchen Nightmares about Pantaleone's here and learn more about the restaurant on their website. If you want to learn more about the ancient Greek history alluded to in this episode, you're on your own. ",
+        "duration_ms": 1687275,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3zztXNU1XkanfjdLRiuRnS"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3zztXNU1XkanfjdLRiuRnS",
+        "id": "3zztXNU1XkanfjdLRiuRnS",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "11 - Pantaleone's with Sam and Ben Brasch",
+        "release_date": "2017-01-24",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3zztXNU1XkanfjdLRiuRnS"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/736822dfeef3a431344b1bcc7c2b5f8a1c3c4832",
+        "description": "Paul and Megan trek out to East Colfax with Nate and Annmarie Minor for a couple of Enzo's pies at the PS Lounge. PS Lounge  ",
+        "duration_ms": 991060,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7G5EVR47N7dq2y2mxi1Vjp"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7G5EVR47N7dq2y2mxi1Vjp",
+        "id": "7G5EVR47N7dq2y2mxi1Vjp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#10 - PS Lounge (Enzo's Pizzeria) with Nate and Annmarie",
+        "release_date": "2017-01-19",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7G5EVR47N7dq2y2mxi1Vjp"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ad180de7a73e4442106933bdc9ecbd5c2740ccc7",
+        "description": "Paul and Megan return to Sexy Pizza - Cap Hill with Megan's cousin Riley.  Are you into #pizzaburps or are you a #wyattburp?",
+        "duration_ms": 658103,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2a18slEHsDJmxZ07QTXqwV"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2a18slEHsDJmxZ07QTXqwV",
+        "id": "2a18slEHsDJmxZ07QTXqwV",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#9 - Sexy Pizza 2 with Megan's cousin Riley",
+        "release_date": "2017-01-12",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2a18slEHsDJmxZ07QTXqwV"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/92bfaea12f9215e0ea6df52b3b089a7244452a1d",
+        "description": "Paul and Megan march out to Santa Fe Drive for a visit to Black Sky Brewery with Jackie Zubrzycki! Have you ever had the pleasure of enjoying a New Haven-style 'za? You can follow Jackie on Twitter at @JZubrzycki and find her music on Bandcamp here: https://fivemilewoods.bandcamp.com/  ",
+        "duration_ms": 909505,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/00Vw2tLCOWg23wm2Ruk5h8"
+        },
+        "href": "https://api.spotify.com/v1/episodes/00Vw2tLCOWg23wm2Ruk5h8",
+        "id": "00Vw2tLCOWg23wm2Ruk5h8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#8 - Black Sky Brewery with Jackie Zubrzycki",
+        "release_date": "2016-12-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:00Vw2tLCOWg23wm2Ruk5h8"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/43822f425fd0b645d90ef47fc7b2f06658f31c31",
+        "description": "Paul and Megan visit the revamped Walter's in Uptown with Megan's brother Jake. Jake was recently recognized for his volunteer work at the Boulder County Aids Project.  Are you a #ParlorPartisan or a #StreetSlicer? Learn more about Walter's on their website: http://www.walters303.com/.",
+        "duration_ms": 929306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7F4zxsFlDqx8Ku6a43pi5N"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7F4zxsFlDqx8Ku6a43pi5N",
+        "id": "7F4zxsFlDqx8Ku6a43pi5N",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#7 - Walter's 303 Pizzeria and Publik House with Megan's brother Jake",
+        "release_date": "2016-12-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7F4zxsFlDqx8Ku6a43pi5N"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/befe91120c7bc96f33a3d145bfdd20e199cdf2d9",
+        "description": "Megan and Paul plumb the depths of the Pie Hole with Mark Columb and Mel Evans.  Mark and Mel host the wonderful podcast An Hour With Your Ex. ",
+        "duration_ms": 1121097,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5JA8xL2OV0SunWtC14aSjO"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5JA8xL2OV0SunWtC14aSjO",
+        "id": "5JA8xL2OV0SunWtC14aSjO",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#6 - Pie Hole with Mark and Mel",
+        "release_date": "2016-11-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5JA8xL2OV0SunWtC14aSjO"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/f4cca65b2bc2c15e51728a0fc00848498ec4072e",
+        "description": "Megan and Paul visit City O' City with JD Lopez, host of Left Hand Right Brain.  Are you a true #PizzaWarrior?",
+        "duration_ms": 1215582,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6uUCxvaMWiZdboaaKeeaZQ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6uUCxvaMWiZdboaaKeeaZQ",
+        "id": "6uUCxvaMWiZdboaaKeeaZQ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#5 - City, O' City with JD Lopez",
+        "release_date": "2016-10-31",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6uUCxvaMWiZdboaaKeeaZQ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2e48e39a7e64a7a409cf29c553f4f86c7cd1d9cc",
+        "description": "Megan and Paul visit Nicolo's with Jeremy Zornow.",
+        "duration_ms": 1048869,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6npKV7rb1ndoz7mSqYmsOK"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6npKV7rb1ndoz7mSqYmsOK",
+        "id": "6npKV7rb1ndoz7mSqYmsOK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#4 - Nicolo's with Jeremy Zornow",
+        "release_date": "2016-10-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6npKV7rb1ndoz7mSqYmsOK"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ce8cbc5833cba05a273a7379b0b806304584c9dd",
+        "description": "Megan and Paul visit Benny Blanco's with Andy, just Andy.",
+        "duration_ms": 845009,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/27hO983reiWWf5EGZ4kmlt"
+        },
+        "href": "https://api.spotify.com/v1/episodes/27hO983reiWWf5EGZ4kmlt",
+        "id": "27hO983reiWWf5EGZ4kmlt",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#3 - Benny Blanco's with Andy",
+        "release_date": "2016-10-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:27hO983reiWWf5EGZ4kmlt"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/28d2d492890bb614a29af66772b06f54266ae8d1",
+        "description": "Megan and Paul are joined by Denverite reporter Adrian D. Garcia on a visit to Pizzeria Locale.",
+        "duration_ms": 1051585,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3cqGzvBCLVVNDCfoxg5CEi"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3cqGzvBCLVVNDCfoxg5CEi",
+        "id": "3cqGzvBCLVVNDCfoxg5CEi",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#2 - Pizzeria Locale with Adrian D. Garcia",
+        "release_date": "2016-09-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3cqGzvBCLVVNDCfoxg5CEi"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d66bb644f48fefbf2608a4e1be5a0149f9de0b4d",
+        "description": "Megan and Paul visit Sexy Pizza in Cap Hill.",
+        "duration_ms": 571429,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7nAWPogFGZBkyMupdLvqnO"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7nAWPogFGZBkyMupdLvqnO",
+        "id": "7nAWPogFGZBkyMupdLvqnO",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "#1 - Sexy Pizza",
+        "release_date": "2016-09-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7nAWPogFGZBkyMupdLvqnO"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 43
+  },
+  "explicit": true,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/7xE2yZ7NgshFZk96waPtPJ"
+  },
+  "href": "https://api.spotify.com/v1/shows/7xE2yZ7NgshFZk96waPtPJ",
+  "id": "7xE2yZ7NgshFZk96waPtPJ",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/eb1fc219f7c2b486a995ee22a77dbb4e892eed82",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/a71c3db726bffca8dfc97535df848ee436af1ceb",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/0a4a45751bea917220f473850b94bbd8fb4b2fe0",
+      "width": 64
+    }
+  ],
+  "is_externally_hosted": false,
+  "languages": [
+    "en"
+  ],
+  "media_type": "audio",
+  "name": "Denver Pizza Podcast",
+  "publisher": "Paul and Megan",
+  "total_episodes": 43,
+  "type": "show",
+  "uri": "spotify:show:7xE2yZ7NgshFZk96waPtPJ"
+}
