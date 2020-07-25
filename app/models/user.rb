@@ -3,7 +3,7 @@ class User < ApplicationRecord
   validates :uid, uniqueness: true, presence: true
   has_many :followings
   has_many :podcasts
-  has_many :favorite_podcasts, through: :followings
+  has_many :following_podcasts, through: :followings, source: :podcast
   has_many :applications
 
   def self.from_omniauth(params)
@@ -14,3 +14,4 @@ class User < ApplicationRecord
     user
   end
 end
+
