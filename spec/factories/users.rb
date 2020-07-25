@@ -4,10 +4,10 @@ FactoryBot.define do
     uid { rand(100000).to_s }
     access_token { Faker::Crypto.md5 }
     refresh_token { Faker::Crypto.md5 }
-    admin { :default  }
+    admin { false  }
   end
 
   factory :admin, parent: :user do
-    admin { :true }
+    admin { true }
   end
 end
