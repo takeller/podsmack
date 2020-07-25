@@ -10,7 +10,7 @@ describe 'As a registered user' do
 
       # This needs to be restored once we have the user dashboard/session controller set up.
       #
-      # allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       #
       # visit '/dashboard'
       #

@@ -2,8 +2,8 @@
 
 <h3> Following </h3>
 <section class="podcast_following">
-  <h1><%= @user.favorite_podcasts.length %>Favorites</h1>
-  <% @user.favorite_podcasts.each do |podcast| %>
+  <h1><%= @user.following_podcasts.length %>Favorites</h1>
+  <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
       <%= podcast.name %>
     </section>
