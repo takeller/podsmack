@@ -7,7 +7,7 @@
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application' %>
-    
+
   </head>
 
 
@@ -29,16 +29,20 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Browse</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Login</a>
+              <% if current_user.nil? %>
+                <a class="nav-link js-scroll-trigger" href="/login">Login/Register</a>
+              <% end %>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Register</a>
+              <% if current_user %>
+                <a class="nav-link js-scroll-trigger" href="/logout">Logout</a>
+               <% end %>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+
 
     <header class="masthead row">
       <div class="masthead-text container h-100 col-lg-6">
@@ -95,5 +99,5 @@
     <%= yield %>
 
   </body>
-      
+
 </html>

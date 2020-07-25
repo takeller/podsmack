@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_22_010904) do
+ActiveRecord::Schema.define(version: 2020_07_25_151758) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,9 +62,10 @@ ActiveRecord::Schema.define(version: 2020_07_22_010904) do
     t.string "access_token"
     t.string "refresh_token"
     t.boolean "admin", default: false
-    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "email"
+    t.string "uid"
   end
 
   add_foreign_key "followings", "podcasts"
