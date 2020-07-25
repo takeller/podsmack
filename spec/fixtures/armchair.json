@@ -1,0 +1,2084 @@
+{
+  "available_markets": [
+    "AD",
+    "AE",
+    "AL",
+    "AR",
+    "AT",
+    "AU",
+    "BA",
+    "BE",
+    "BG",
+    "BH",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CO",
+    "CR",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "GT",
+    "HK",
+    "HN",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IS",
+    "IT",
+    "JO",
+    "JP",
+    "KW",
+    "LB",
+    "LI",
+    "LT",
+    "LU",
+    "LV",
+    "MA",
+    "MC",
+    "ME",
+    "MK",
+    "MT",
+    "MX",
+    "MY",
+    "NI",
+    "NL",
+    "NO",
+    "NZ",
+    "OM",
+    "PA",
+    "PE",
+    "PH",
+    "PL",
+    "PS",
+    "PT",
+    "PY",
+    "QA",
+    "RO",
+    "RS",
+    "SE",
+    "SG",
+    "SI",
+    "SK",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TW",
+    "US",
+    "UY",
+    "VN",
+    "XK",
+    "ZA"
+  ],
+  "copyrights": [],
+  "description": "Hi, I’m Dax Shepard, and I love talking to people. I am endlessly fascinated by the messiness of being human, and I find people who are vulnerable and honest about their struggles and shortcomings to be incredibly sexy. I invite you to join me as I explore other people’s stories. We will celebrate, above all, the challenges and setbacks that ultimately lead to growth and betterment. What qualifies me for such an endeavor? More than a decade of sobriety, a degree in Anthropology and four years of improv training. I will attempt to discover human “truths” without any laboratory work, clinical trials or data collection. I will be, in the great tradition of 16th-century scientists, an Armchair Expert.",
+  "episodes": {
+    "href": "https://api.spotify.com/v1/shows/6kAsbP8pxwaU2kPibKTuHE/episodes?offset=0&limit=50",
+    "items": [
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/7a294e12a35dda1a3680a8ea28bd8d5ab936ae21",
+        "description": "Travis Pastrana an American professional motorsports competitor and stunt performer who has won X Games gold medals in supercross, motocross, freestyle motocross, and rally racing. Travis chats with the Armchair Expert about how he started riding dirt bikes at age 4, his risk/reward philosophy on life and his goal to make motocross safer and more accessible. Dax asks about addiction in the sport and Travis talks about his harrowing injuries. The two discuss having kids in conjunction with dangerous hobbies and Travis talks about the future of his profession.",
+        "duration_ms": 5906887,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3I7Utiu89mPtYvXSfXjM2G"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3I7Utiu89mPtYvXSfXjM2G",
+        "id": "3I7Utiu89mPtYvXSfXjM2G",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/b65b319b066dd53905c7f363df2fa35cf4c56fba",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/0d6720529d8902f91935e1ca582f0ed864fe2169",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/44147c51f2e49bfe2d7b1e5b18605bdc84d9e0fc",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Travis Pastrana",
+        "release_date": "2020-07-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3I7Utiu89mPtYvXSfXjM2G"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/de59a3bb797b2499bbcd543579e4a580bfca350c",
+        "description": "Rob Corddry (The Daily Show with Jon Stewart, Children’s Hospital, Hot Tub Time Machine, Ballers) is an American actor and comedian. Rob chats with the Armchair Expert about how he was seduced by Dax many years ago, his experience being bullied in Boston and why he’d “do great in jail”. Dax praises Rob for being a comedian’s comedian and Rob performs a Shakespearean monologue. Rob talks about his commitment to productivity, he shares his inspiration for Children’s Hospital and the two talk about their new show, Top Gear America.",
+        "duration_ms": 6677568,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1QIhce3tia5IP7zoisEsC9"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1QIhce3tia5IP7zoisEsC9",
+        "id": "1QIhce3tia5IP7zoisEsC9",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/de39a25660d4096c277067807030953274a11135",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/3d8193e3f5ad6eaf7cc33782e4218b0f65ba24c4",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0f50f29f8443acf0863b8b700fadefdfb27dfdd1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Rob Corddry",
+        "release_date": "2020-07-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1QIhce3tia5IP7zoisEsC9"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c8a430995f74b12b26b25cf990bc7fdc66fea101",
+        "description": "David Sinclair is an Australian biologist and professor of genetics at Harvard known for his research on aging and longevity mechanisms. David chats with the Armchair Expert on his field of advancing the age of an organism, the stigma around aging research and his existing accomplishment of reversing the age of eyes in mice. Dax asks why humans have evolved to die and David explains the epigenome and it’s part in longevity.  The two talk about the ethical questions surrounding this issue and David explains the potential for erasing diseases eventually leading to 300 and 400 year long life spans. ",
+        "duration_ms": 5800020,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5FAdrDh8nBgLKtcB0ycWfg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5FAdrDh8nBgLKtcB0ycWfg",
+        "id": "5FAdrDh8nBgLKtcB0ycWfg",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/1f7923ede68427263e73a8e4b55815da0b6bbdcb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/5eaff09a9b424f7b792114fdeb230e7825e1b429",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/9181cb79e54c0a792ae61584fd0b1aa6fe48bff5",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "David Sinclair",
+        "release_date": "2020-07-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5FAdrDh8nBgLKtcB0ycWfg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/667dede70971f4df03283fe5d5e5eb8d55cd3ac1",
+        "description": "John Legend is an American singer, songwriter, producer, actor, and philanthropist. John chats with the armchair expert about skipping multiple grades as a kid and how music saved him. He talks about his claim to fame working on Lauryn Hill’s record in college and he explains why his hair still looks so groomed in quarantine. Dax wonders if having kids has changed John’s career and John talks about why he participated in the R Kelly documentary. Dax and John talk about their histories of cheating and John talks about his creative process. ",
+        "duration_ms": 5501880,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6HUG0ZaWf5dQ3RLx9K3V8o"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6HUG0ZaWf5dQ3RLx9K3V8o",
+        "id": "6HUG0ZaWf5dQ3RLx9K3V8o",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/8e45ca6031c4d1e1d02e9f1a20b98c1b3ba513a6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/22bbd51417af6a54f9a3193113233c4ffb7cb2de",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/34c86ba64401e667168064e27eee79120db74d31",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "John Legend",
+        "release_date": "2020-07-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6HUG0ZaWf5dQ3RLx9K3V8o"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/83c0dcacc00cd7f2af276035375e54e0efc8465c",
+        "description": "Jud Brewer is an American psychiatrist, neuroscientist and author. He studies the neural mechanisms of mindfulness using fMRI technology and has used his findings to treat addictions. Jud chats with the Armchair Expert about contentment vs. excitement, how meditation dissolves the sense of self and the biological reasons humans have cravings. Dax talks about how food scientists flavor foods to lose their taste and Jud gives Dax and Monica a test on openness. The two talk about the neurological reasons we behave the way we do and Monica reveals a big update in the fact check. ",
+        "duration_ms": 7717982,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0raHArSmcYLL1DXttlsadA"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0raHArSmcYLL1DXttlsadA",
+        "id": "0raHArSmcYLL1DXttlsadA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/2025817cbe5000acb749a109a9bbbc5961d10813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/33334cf008e53b0182f4b430b832ec6c2dace726",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/458b9362ba6878a49d91164b86b9d5dc12755277",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Jud Brewer",
+        "release_date": "2020-07-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0raHArSmcYLL1DXttlsadA"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ca9f4423dc0f9aeb9c088c0c960d10eeb7b802c3",
+        "description": "Emily Mortimer (Lars and the Real Girl, Shutter Island, The Newsroom) is an English actress and screenwriter. Emily chats with the Armchair Expert about her newfound realization of her social anxiety, her mother’s patronization and overcoming a lazy eye in her first big movie. Dax wonders what it’s like working for Aaron Sorkin and Emily Is forced to define many British words. The two talk about the power of delivering a message via horror movie and Emily talks about her early nepotistic start in show business. ",
+        "duration_ms": 4745544,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5dlhyBj4Xm3tha78JOlRWN"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5dlhyBj4Xm3tha78JOlRWN",
+        "id": "5dlhyBj4Xm3tha78JOlRWN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/71b1aead9d325daff187d8dd5700cb2fef06f4fc",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a1f75d36ef44e6c44cda3c49a700e44b78d1f2c9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/444ced2aeee869175197d6488a0740b11b38e2e6",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Emily Mortimer",
+        "release_date": "2020-07-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5dlhyBj4Xm3tha78JOlRWN"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d280bde327783a8a093c0abc9839d6d06d2ad4cf",
+        "description": "BONUS EPISODE with Jennifer Eberhardt (social psychologist who is currently a professor in the Department of Psychology at Stanford University) is the first in a monthly series on dissecting the Black experience in America. Jennifer chats with the Armchair Expert about her work in police reform, her personal experiences with racism and the biological impact of cultural biases. Dax asks if there are any model police departments and Jennifer shares a story of when she got arrested. She talks about having “the talk” with her sons and she shares the details of many psychological experiments she did on race and discrimination. ",
+        "duration_ms": 4871280,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0SvVxTbEC9tYLyCUeN9Dt3"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0SvVxTbEC9tYLyCUeN9Dt3",
+        "id": "0SvVxTbEC9tYLyCUeN9Dt3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/15865af24d28813775aad3ab510b7e1924b47a09",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/3e960b768fa076f7dcf22ffaa93d25b2c7117332",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/964b4c51c999b9cb1dfb406dcc02381c5025f92d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Jennifer Eberhardt",
+        "release_date": "2020-07-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0SvVxTbEC9tYLyCUeN9Dt3"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/5c16b5edf5e0d3e5d394123496fb25766dc3df93",
+        "description": "Nina Vasan is a professor at Stanford University and the Founder and Executive Director of Brainstorm: The Stanford Lab for Mental Health Innovation. She is the Chief Medical Officer of Real, a new women's mental health company and a psychiatrist at Silicon Valley Executive Psychiatry, a boutique concierge clinical for executives, entrepreneurs, and elite performers. Nina chats with the Armchair Expert about her personal experience with anxiety/depression, the continued prevalence of stigma and the loop of actions, thoughts and emotions. Dax asks about the concern of treating addiction with psychiatric drugs and Nina discusses how technology can aid in this problem. They talk about mental health as a three-pronged bio, psycho and social endeavor and they discuss the tenets of cognitive-behavioral therapy. ",
+        "duration_ms": 6471837,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5N5GKwd9mjNon5K48Xqnnz"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5N5GKwd9mjNon5K48Xqnnz",
+        "id": "5N5GKwd9mjNon5K48Xqnnz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4cf697459410d1c7548ab91db218bda46b0e81f9",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/03ccaa6067944f653a5859f64c7f59c19b32ea16",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/c4b35c5e18ab64b0ed2122b5f35467fac2aa4306",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Nina Vasan",
+        "release_date": "2020-07-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5N5GKwd9mjNon5K48Xqnnz"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/73056c64078c477390edd376622682c0d7891127",
+        "description": "Juliette Lewis (Natural Born Killers, Old School, What’s Eating Gilbert Grape, National Lampoon’s Christmas Vacation) is an American actress. Juliette chats with the Armchair Expert about wanting to be seen as her current self rather than her past self, she talks about her early struggle with fame and how acting course corrected her wayward path. Dax asks what’s it’s like to be a part of an evergreen holiday movie and Juliette talks about the distraction of beauty in acting. The two discuss the phenomena of Natural Born Killers, her pull towards music and her new show, I Know This Much Is True.",
+        "duration_ms": 4583424,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6N0pgA7mdaKnfOfw2X5QEx"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6N0pgA7mdaKnfOfw2X5QEx",
+        "id": "6N0pgA7mdaKnfOfw2X5QEx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/3c965721dc91e4f6669b703658b609b8a447587b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/e2e59165de8eb1bf21e3eaf80b51df00c4a527b4",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/bcaddba44588b1b31dacd47d157c1959c944afad",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Juliette Lewis",
+        "release_date": "2020-06-29",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6N0pgA7mdaKnfOfw2X5QEx"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b8aa2c514326c232fef5883a7e528d733c879b03",
+        "description": "Jeff Sachs an American economist, academic, public policy analyst and former director of The Earth Institute at Columbia University, where he holds the title of University Professor. He is known as one of the world's leading experts on economic development and the fight against poverty. Jeff chats with the Armchair Expert about his career in international economics, what he’s learned from advising other countries and his propensity to model Scandinavia’s middle way economic model. Dax asks about communism in theory vs. in practice and Jeff implores us to take care of one another. The two talk about how the history of WWI has led to today and Jeff describes ways in which we couldn’t have a more balanced economy.",
+        "duration_ms": 6859076,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5trbYMnLrwd76Vg5xf9h2E"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5trbYMnLrwd76Vg5xf9h2E",
+        "id": "5trbYMnLrwd76Vg5xf9h2E",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4574319bd128d833a2813b335f2442ca25943395",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ffb484b26d7ec0d63c77f2db1b5e4131c38fc2fa",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/09ba3eb3c27bd03145d173b2ca182d81ece7890c",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Jeffrey Sachs",
+        "release_date": "2020-06-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5trbYMnLrwd76Vg5xf9h2E"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6d51735c2e8b0d67324de8cff76af902ef8c47f7",
+        "description": "Blake Griffin is an American professional basketball player for the NBA the  Detroit Pistons. Blake chats with the armchair expert about growing up playing basketball with his dad and brother, learning to be a leader amongst players who are older than him and he talks through his game-day routine. Dax asks about Blake’s experience with racism and Blake discusses managing money. They talk about balancing egos and Blake shares what he learned after enduring an injury early in his career. ",
+        "duration_ms": 6557112,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2VYeaMux9PvqRDHfCtGuY2"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2VYeaMux9PvqRDHfCtGuY2",
+        "id": "2VYeaMux9PvqRDHfCtGuY2",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/50828646ae92bb3e41c7f8da1ce0525b1b3f3c4c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/b6581f0e59b86c74c93176db3572f954cb9ccfa8",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/3fdadcd452ddabd8375c6412ad92a37d68d6493f",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Blake Griffin",
+        "release_date": "2020-06-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2VYeaMux9PvqRDHfCtGuY2"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d657ef5445a31f315d0cf81512b71c98bcc29459",
+        "description": "BONUS EPISODE! Malcolm Gladwell joins the Armchair Expert to talk about the upcoming season of The Revisionist History podcast.",
+        "duration_ms": 1963080,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0uINgYvOn1sWNw7COXFkih"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0uINgYvOn1sWNw7COXFkih",
+        "id": "0uINgYvOn1sWNw7COXFkih",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/670fa4b85bc822749876da158a5179a140fb28a8",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/26a540a6dbb47c2f1541561439c8650d0948f991",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/50f48cd84c400621587fbf187e277c33932330cb",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "BONUS: Malcolm Gladwell",
+        "release_date": "2020-06-19",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0uINgYvOn1sWNw7COXFkih"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/bd60be627fc123c7bd87827e003ae7296a87e8bd",
+        "description": "Vivek Murthy is an American physician and former vice admiral in the Public Health Service Commissioned Corps who served as the 19th Surgeon General of the United States. Vivek chats with the armchair expert about the health implications of loneliness, how his childhood as an outsider made him more compassionate and why he became interested in public policy. Dax wonders about the dilemma between liberty and equality on health legislation and Vivek talks about the biggest boat rescue in human history. He talks about what he learned from a patient who won the lottery and the lessons he’s taken from patients on their deathbeds.",
+        "duration_ms": 7338789,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6JYFyuP3TPq5vn3uVibCRh"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6JYFyuP3TPq5vn3uVibCRh",
+        "id": "6JYFyuP3TPq5vn3uVibCRh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/9b53ad359fb63187709035b3edbd219766699012",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a5b0ad88aa980d2b3b6536109adc20cf8e62fddd",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/59da3ef63119f1d68470f2cdaff971f3e444d2dd",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Vivek Murthy",
+        "release_date": "2020-06-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6JYFyuP3TPq5vn3uVibCRh"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b21557fa597c103513fbfe2897e61ec9d46c1a59",
+        "description": "Beastie Boys were an American hip hop group from New York City. Adam and Mike D sit down with the Armchair Expert to discuss the nascent beginnings of the band, the protective nature of a group dynamic and working with legends early in their careers. Dax makes predictions about Mike and Adam's life and they discuss the conflation of personal identity with band identity. They talk about what it feels like to lose a band member and Adam is the first to introduce Zoom chat to the Armchair Expert recording history.",
+        "duration_ms": 4503768,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3RxJN5ah02jdr6Zj6LTTBW"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3RxJN5ah02jdr6Zj6LTTBW",
+        "id": "3RxJN5ah02jdr6Zj6LTTBW",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/32e0760ca45fe120d51ac106b4d72290d51989a7",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/cea8a09660e2a4d206ec848c6657415ab6a7f0d3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/f549115ee1c2d7a295194599aaad527c4fc31265",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Beastie Boys",
+        "release_date": "2020-06-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3RxJN5ah02jdr6Zj6LTTBW"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2b29f64224b738987f44a6d7100a594fe3b412bf",
+        "description": "Alanis Morissette is a Canadian-American singer, songwriter, record producer, and actress. Alanis chats with the Armchair Expert about finding music as a young kid, the concept of \"deserving\" fame and the attributes of being a highly sensitive person.  Dax is hung up on one of her song lyrics  and Alanis shares what it's like to be a principal's daughter. The two talk about shedding the desire for loyalty, they dissect the word perverted and they talk discuss the fundamental difference between Canadian and Americans.",
+        "duration_ms": 4880640,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5fywYvVoqbyivG8A83eBeZ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5fywYvVoqbyivG8A83eBeZ",
+        "id": "5fywYvVoqbyivG8A83eBeZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ec89b1e95ed6e4d88ee552e11cbea923f829708f",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a64ad5c91b9d5da15724886a303d9f9e8a2c0208",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a3a3e3378c18f7659c3e7d89ee29c3c9450cfb13",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Alanis Morissette",
+        "release_date": "2020-06-12",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5fywYvVoqbyivG8A83eBeZ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b52f8ae308e405aee6f94be1228d28ae30feb899",
+        "description": "Ibram X. Kendi is an American author and historian who teaches at American University. From July 2020, Kendi will join Boston University to launch the BU Center for Antiracist Research. Ibram sits down with the Armchair Expert to discuss the definitions of racism vs. anti-racism, the importance of acknowledging moments of racism in your life and his own racist beliefs that he has worked on shedding. Dax wonders if it’s realistic to ask people to prioritize issues that don’t directly affect them and Ibram equates fighting racists ideas to fighting addictions. They talk about the police system, how to educate children and the unspoken element of gun deaths in America. ",
+        "duration_ms": 5344444,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2t3qaCj5RsJBwQa0XEmCJa"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2t3qaCj5RsJBwQa0XEmCJa",
+        "id": "2t3qaCj5RsJBwQa0XEmCJa",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69426ead0e8ac86696a0449184c69f5afcabdba6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/18468cbf4494c926378098c91c40fcc2e67b27f7",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/78c8958ad979c71eeac7f2408b84d22d0c59eb78",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Ibram X. Kendi",
+        "release_date": "2020-06-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2t3qaCj5RsJBwQa0XEmCJa"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ee472b26c0964a5718ab131f8699c0c63e656027",
+        "description": "Bradley Whitford (The West Wing, The Handmaid’s Tale, Get Out) is an American actor and political activist. Bradley chats with the armchair expert about growing up in a Quaker household, the impact of social change through storytelling and the three thoughts that flood his brain when receiving direction. Dax asks about the events that led to Bradley writing episodes for The West Wing and Bradley talks about his experience of playing complex characters. The two talk about professions that draw arrogant people and their mutual desire to say the worst thing at the worst moment. ",
+        "duration_ms": 5016888,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/41zNeRDX6gwiiHUAp05H49"
+        },
+        "href": "https://api.spotify.com/v1/episodes/41zNeRDX6gwiiHUAp05H49",
+        "id": "41zNeRDX6gwiiHUAp05H49",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/83be0cf3f9bdde273daf63deb5d12a65cc949e22",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/2a59f7334fa7996671f04623c0ae2edea3858fb4",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0b21f66572dbe740ea458d87100a420d4eddc916",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Bradley Whitford",
+        "release_date": "2020-06-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:41zNeRDX6gwiiHUAp05H49"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/bb6e3effa785f373a43be4314a465ba61a8d43a7",
+        "description": "Heather McGhee is an American political commentator, political strategist, currently a distinguished senior fellow and former president of Demos, a non-profit progressive U.S. think tank. Heather sits down with the Armchair Expert to discuss race in America - her takeaway from going to a white school but living in a black neighborhood and her theory that racism comes at a cost to all races. Dax asks about the economic impact of systemic racism and Heather talks about her epiphany watching Black Panther. They talk about colorism, the history of police interfacing with the black community and the hope of change. ",
+        "duration_ms": 5110700,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5WF5Dbz4SBx9QsD6QGAPtd"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5WF5Dbz4SBx9QsD6QGAPtd",
+        "id": "5WF5Dbz4SBx9QsD6QGAPtd",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/2c6904afbd7fc513a0bfa042dae739d2dad05647",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/b06bf9c3f89b0172a2fabc4bae9e59139e60435a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/bcefa0a801e4796e0bd2fe015ebf9d8e388f5e62",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Heather McGhee",
+        "release_date": "2020-06-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5WF5Dbz4SBx9QsD6QGAPtd"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/03a984b8d51dd4be166d1db2b4955b67bcbc8f7a",
+        "description": "Jon Meacham is a Pulitzer prize winning author, reviewer, and presidential biographer. Jon chats with the Armchair Expert about this early fascination with politics, attending Ronald Reagan's inauguration as a young boy and the importance of delineating historical figures from saints. Jon states his position on confederate statues and Dax asks what factors distinguished his pulitzer prize winning book from the others. The two talk about how age has affected their career outlook and they debate the impact of Christianity in the modern world. ",
+        "duration_ms": 6021669,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0zu3mkTscg6rrtbBVaL1nN"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0zu3mkTscg6rrtbBVaL1nN",
+        "id": "0zu3mkTscg6rrtbBVaL1nN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c7e02c1de62d843152dd69e60d831e66d6e068e4",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/dca21469ae29715a69c587b5d13dc964147b8d6a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/99c6a63584fedd4406589a3c14c3e2b8f0b2b961",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Jon Meacham",
+        "release_date": "2020-05-28",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0zu3mkTscg6rrtbBVaL1nN"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/eda5ccdde2ba2555937ce2e23a781bb1a9a70e2b",
+        "description": "Melissa McCarthy (Bridesmaids, Mike and Molly, Spy, Identity Thief) is an American actress, comedian, writer and producer. Melissa chats with her old pal, the armchair expert, about how she found the Groundlings, tanking her Bridesmaids audition and her hatred of e-mail.  Dax commends Melissa for continuing to work with old friends and Melissa talks about her love of renovating homes. The two discuss the dream of Saturday Night Live, the unifying experience of seeing comedies in a theatre and they reminisce on an old comedy show they did together in which one audience member (in a 400 seat theatre) came to see it.",
+        "duration_ms": 5356056,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6SqSTuqGinBZqEfct2TNXd"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6SqSTuqGinBZqEfct2TNXd",
+        "id": "6SqSTuqGinBZqEfct2TNXd",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/b169ced398f46346baaaed9a2c6736258af05f78",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/5b6e0d2ff35787f88a40f1999368ad1dbeffd1ac",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/324902e55c5c04be94e46ccf7722f0941648d388",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Melissa McCarthy",
+        "release_date": "2020-05-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6SqSTuqGinBZqEfct2TNXd"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/4008d9e454dc5c0c0c352245a64abf3c5ea4641b",
+        "description": "Dr. Laurie Santos is a cognitive scientist and Professor of Psychology at Yale University and host of The Happiness Lab podcast. Laurie chats with the armchair expert to discuss 5 ways to increase happiness during quarantine, the neuroscience behind deep breaths and why studying animals is better than studying humans. Dax connects Laurie's principals to the principals of AA and Laurie talks about the negative impact of academic grades. The two discuss the scientific effects of giving and the connection between anthropology and psychology.",
+        "duration_ms": 5670844,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2c7hVtKKYxEh2hFDUtqtWa"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2c7hVtKKYxEh2hFDUtqtWa",
+        "id": "2c7hVtKKYxEh2hFDUtqtWa",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4fb64f82760824600f69b6dd767bfa6c7025d1a8",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/6e28061b2bfc5c9174ca8687a59adac58b000a56",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0b10dd04f3b9067d9b3078f72d088f18f6486ccf",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Laurie Santos",
+        "release_date": "2020-05-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2c7hVtKKYxEh2hFDUtqtWa"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/7b154db5871422c8b1ab3f24e005ca1fcd2939e3",
+        "description": "Curtis Jackson better known as 50 Cent is an American rapper, actor, producer, and entrepreneur. 50 cent chats with the Armchair Expert about towing the line between Curtis and 50 Cent, hustling at age 12 and having to make the distinction between the one who sells and the one who consumes. Dax asks about masculinity and 50 Cent talks about being a lightweight. The two talk about their instinctual guard against people and why it’s important to have a career that evolves over time. ",
+        "duration_ms": 3777144,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2eA48a5PZNVz9MKQQYAiBk"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2eA48a5PZNVz9MKQQYAiBk",
+        "id": "2eA48a5PZNVz9MKQQYAiBk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/63bef7c05eb44577b13dd4f09f5f69f1252204d6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/eced80f1aced61fae4e9dfaab66f5530cc20d9e2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6359683e627816c01d26dfd0fd446034943303a1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "50 Cent",
+        "release_date": "2020-05-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2eA48a5PZNVz9MKQQYAiBk"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0c6d506ff55e319d3069cbbc0c4c2bcaac02aefe",
+        "description": "Rajiv Shah is the President of the Rockefeller Foundation. He is a former American government official, physician and health economist who served as the 16th Administrator of the United States Agency for International Development from 2010–2015 under President Obama. He also held many leadership positions at the Bill and Melinda Gates Foundation. Raj chats with the Armchair Expert about the economics of the healthcare system, leading the U.S response to the Ebola outbreak in West Africa and the Rockefeller Foundation's commitment to expand Covid-19 testing. Dax asks what he learned from Bill and Melinda Gates and Raj talks about having to address the crisis in Haiti only 6 days into the job. They two talk about America's interest in expanding American values around the globe, vaccinations and the importance of agriculture in humanitarian efforts.",
+        "duration_ms": 6863987,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6iYaegMkktolQPUG10w4Uh"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6iYaegMkktolQPUG10w4Uh",
+        "id": "6iYaegMkktolQPUG10w4Uh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d5c2e41d08d674c79008284e1e41e86db1b41e9e",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/99ad16ff15a70702e6d1f170ddf19e89a277c611",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a5e8794c4738be51c3285ef196aae8207e063d8b",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Rajiv Shah",
+        "release_date": "2020-05-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6iYaegMkktolQPUG10w4Uh"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d43faaad17673bcf304fa2c24d514cd103175e93",
+        "description": "America Ferrera (Ugly Betty, End Of Watch, The Sisterhood of the Traveling Pants, Superstore) is an American actress, voice actress, producer, and director. America chats with the Armchair Expert to discuss her feelings of insecurity when she won her Emmy, growing up being told she wouldn’t make it and her learned skill of molding stereotypes into true representations. Dax wonders if it can feel burdensome to be the voice of a community and America talks about her identity crisis at the conclusion of Ugly Betty. Dax and America discuss raising children in a place of privilege and the newfound proximity amongst women in the industry.",
+        "duration_ms": 5286648,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/65zUt3BzhoypkQhFLeyV5f"
+        },
+        "href": "https://api.spotify.com/v1/episodes/65zUt3BzhoypkQhFLeyV5f",
+        "id": "65zUt3BzhoypkQhFLeyV5f",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/0024f9e3dcaf20ac80b0b2e4315212253e26cb0c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/049f2aaf7f42c740f61eb1cf2fe664a2852ad8ff",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/82bf8b0b259754baa2f45d7d2052ecbe5e1314af",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "America Ferrera",
+        "release_date": "2020-05-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:65zUt3BzhoypkQhFLeyV5f"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/3c6f5b632ab114e6138bcc204fe68e3547700377",
+        "description": "Dan Heath is an American bestselling author, speaker and fellow at Duke University's CASE center. Dan chats with the Armchair Expert about why certain ideas stick, the emotionality behind urban legends and the benefit of thinking upstream. Dax implores those to think about the financial benefits to upstream social reform and Dan explains that every system is designed for its outcome. The two talk about systemic preventions that have a lasting impact, getting caught in a bad plan loop and they commiserate about being older dads.",
+        "duration_ms": 5911798,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/76M5QZL1uQemqtXnA2pBMX"
+        },
+        "href": "https://api.spotify.com/v1/episodes/76M5QZL1uQemqtXnA2pBMX",
+        "id": "76M5QZL1uQemqtXnA2pBMX",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/01bc8d2f2413c3f07b029a1996ca5364bee61569",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/6ae1acc0403726dda0a4f556e909c71386594a3a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/78db968792fe1e2b4a85565f0117adac7a6d77bf",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Dan Heath",
+        "release_date": "2020-05-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:76M5QZL1uQemqtXnA2pBMX"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/de007e7b200e5ed59699225588cad6bd9f4ce6d1",
+        "description": "Zoë Kravitz (Mad Max: Fury Road, Big Little Lies, High Fidelity) is an American actress and singer. Zoë chats with the Armchair Expert to discuss the differences between living with her mom versus her dad and her experience working with many powerful women on Big Little Lies. Dax checks himself on asking a potentially misogynistic question and Zoë outs Dax on being obsessed with her mom. The two talk about how Zoë caught Dax is in a compliment paradox the first time they met, they bond over Koo Koo Roo and they debate whether or not to refer to the superhero as Batman or The Batman.",
+        "duration_ms": 6480552,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2xznfnGpOAoAuA5IvpGU4p"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2xznfnGpOAoAuA5IvpGU4p",
+        "id": "2xznfnGpOAoAuA5IvpGU4p",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/b7c428f610a13e7fd26cdce619f35dffea966723",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/0c358cc4b0b97b103a854a620d2b1556619f7dfb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/7082604cb588a234bf46e312632e1f75472a20f0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Zoë Kravitz",
+        "release_date": "2020-05-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2xznfnGpOAoAuA5IvpGU4p"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d7d5e7ae2473b32e77a9c44660e780e441827566",
+        "description": "David Chang is an American restaurateur, author, television personality and founder of the Momofuku restaurant group. David chats with the Armchair Expert about growing up Korean American, his first time eating ramen in Japan and how he found his way into cooking. Dax talks about elitism in food and David discusses how depression led him to open Momofuku. The two talk about self-medicating, the responsibility to share one’s painful experiences and the importance of asking for help.",
+        "duration_ms": 5911197,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/35CIFPSuFRyKQuwnNo8J7O"
+        },
+        "href": "https://api.spotify.com/v1/episodes/35CIFPSuFRyKQuwnNo8J7O",
+        "id": "35CIFPSuFRyKQuwnNo8J7O",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/16abc596e866bdbaa48c41fd80feadbf405cd887",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/3fe1ee6f06bd6b69dd9c6bef5bc8f4266c85ae39",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/f20dd0251de379e80b48b648dac02332859a26cb",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "David Chang",
+        "release_date": "2020-04-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:35CIFPSuFRyKQuwnNo8J7O"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1dfd77779a5c19552e664ba4fcfcf375ac14eb50",
+        "description": "Rob Lowe (The Outsiders, St. Elmo’s Fire, The West Wing, Parks and Recreation) is an American actor, producer, and director. Rob chats with the Armchair Expert about moving to Malibu as a child and feeling out of place, his time and ultimate departure from The West Wing and going to high school with many famous faces before they were famous. Dax asks about his navigation through negative public moments and Rob talks about his experience on The Outsiders. The two talk about sobriety and Rob’s foresight that caused him to move away from Hollywood. ",
+        "duration_ms": 6178032,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6yabs9s8D7NesrS5tMBsT8"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6yabs9s8D7NesrS5tMBsT8",
+        "id": "6yabs9s8D7NesrS5tMBsT8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/0cca6781dd1d23a0ac8b9800a5d5e1f108774f3a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/4118e2c6e5d8675684dec96770b3ec4af2e0593d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/407bc0c4e63d326b4bd8d0d117604928d7b2bc9d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Rob Lowe",
+        "release_date": "2020-04-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6yabs9s8D7NesrS5tMBsT8"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c224216375c953b48a1b6203254d3cf1a99920bc",
+        "description": "Glennon Doyle is an American author known for her #1 New York Times bestsellers Untamed and Love Warrior and bestseller Carry On, Warrior. Glennon chats with the Armchair Expert about her struggle with addiction, falling in love with a stranger and her realization about forgiveness. Glennon talks about overcoming societal memos and Dax questions if following your personal truth is a realistic goal. They discuss the responsibility of highly sensitive people and why control and love are inherently at odds.",
+        "duration_ms": 6956069,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5GzfFJ7PpTpGLBSUSo3xU7"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5GzfFJ7PpTpGLBSUSo3xU7",
+        "id": "5GzfFJ7PpTpGLBSUSo3xU7",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d9bee5f10cd2275512950278cc0e34d92920fd21",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/8261d2c404468276c8095ac6c40f9a106adda5ba",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/42a3ef4e38d23887a4373608dc7c201adc219a02",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Glennon Doyle",
+        "release_date": "2020-04-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5GzfFJ7PpTpGLBSUSo3xU7"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c7f51c37ad13be585f57199d693ecaa2d7d3f437",
+        "description": "Sheryl Crow is an American musician, singer, songwriter, and actress. She joins the armchair expert to discuss starting her career later in life, how breast cancer changed her perspective and her pattern of attraction. Dax wonders about her experience on the Michael Jackson Bad Tour and Sheryl talks about the physiological impact of music. The two talk about meditation, Sheryl declares she’s done making albums and Monica and Dax discuss their enneagram in the fact check.",
+        "duration_ms": 5131560,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/08Sr9GKMnuB13ZzFxNwk9X"
+        },
+        "href": "https://api.spotify.com/v1/episodes/08Sr9GKMnuB13ZzFxNwk9X",
+        "id": "08Sr9GKMnuB13ZzFxNwk9X",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/920c596485735b9b62c842e9f54993303761a37f",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/46c307116508bb1dcd0b211317c01c1743efb536",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/1b4b0734fbe1c2ef16d7450d1e3efdce286ef20b",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Sheryl Crow",
+        "release_date": "2020-04-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:08Sr9GKMnuB13ZzFxNwk9X"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/acb30e96e4a07bd44d5d6af27c8bc74137f9ff65",
+        "description": "Jessica Lahey is an American teacher and author. She writes the bi-weekly 'Parent-Teacher Conference' advice column for the New York Times, is a regular contributor to the Atlantic and wrote the book, The Gift of Failure. Jessica chats with the Armchair Expert about the importance of childhood autonomy, the level of parental involvement to maximize childhood growth, and the profundity of the word 'yet' when engaging with children. Dax asks about the concept of \"desirable difficulties\" and Jessica explains why the internet hasn't replaced the need for learning facts. The two discuss loving your children for who they are; not who you want them to be, how to commit information to long term memory and allowing kids to have ownership of their knowledge.",
+        "duration_ms": 5860362,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1Z2tZnLF4cvbw4sCWuEkbs"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1Z2tZnLF4cvbw4sCWuEkbs",
+        "id": "1Z2tZnLF4cvbw4sCWuEkbs",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d9eefddc59d9ec1573a234b6276b46973ed98fc6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/d42795f8d663d95a50c36ded7e7b378298126297",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/313003e6b434932181110324406e7a67ea10593a",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Jessica Lahey",
+        "release_date": "2020-04-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1Z2tZnLF4cvbw4sCWuEkbs"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6e5ca2845022a47a35958a964b9680d2cb47a6ed",
+        "description": "In Part 10: Monica and Jess love each other, M and J chat with Kristen and Dax for their final episode. The four discuss what Monica and Jess learned from the experience, how they've grown and the things they can't un-learn after this journey. Monica talks about a newfound relationship to her narrative and Jess has a growing acceptance of addiction. Dax wonders what the big take-aways have been, Kristen praises M and J's vulnerability and the four verbally \"write\" their relationship manuals. Monica and Jess say farewell to this adventure and hello to whatever's next.",
+        "duration_ms": 4167262,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3o7LEhPbIxRvBDtpwSN0d0"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3o7LEhPbIxRvBDtpwSN0d0",
+        "id": "3o7LEhPbIxRvBDtpwSN0d0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/a774adf99b27ed486c56242eeb00654165f290f5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/275d4e4c2b8a3756456f444fe521b7fac17a1a5e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/b49efffb95e23855dee05e6db48984fd25dd3740",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 10: Monica & Jess Love Each Other with Dax & Kristen",
+        "release_date": "2020-04-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3o7LEhPbIxRvBDtpwSN0d0"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d54fd8856d66a0ab1b9663f22b3f9fe6b9b8513b",
+        "description": "Ed Helms (The Daily Show, The Office, The Hangover) is an American actor, comedian and musician. Ed chats with the Armchair Expert about his love of the banjo, feeling guilty about leaving The Daily Show and being self admittedly repressed.   Dax asks about Ed's open heart surgery and Ed tells the story of having food poisoning when shooting The Hangover.   The two talk about the loss of control that comes with fame, Ed’s new movie- Coffee and Kareem and Dax recalls escaping a career-ending situation in Thailand.",
+        "duration_ms": 5694024,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4lNcs5eHTcM5OYbsakaePv"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4lNcs5eHTcM5OYbsakaePv",
+        "id": "4lNcs5eHTcM5OYbsakaePv",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c49c75927374874fd5940f4c7422046b0601761a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/f8e9cfbc1255de1e9f0bae005fe9b4fb96abca03",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a79fdc34260505a4d688ae9e52afe2fef2d8fec9",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Ed Helms",
+        "release_date": "2020-04-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4lNcs5eHTcM5OYbsakaePv"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/f6bfbc6d21f16a215189a5c484aaaa288705fe31",
+        "description": "Andrew Marantz is a journalist, staff writer for The New Yorker magazine and author of Antisocial: Online Extremists, Techno-Utopians and the Hijacking of the American Conversation. Andrew sits down with the Armchair Expert (pre social distancing) to discuss working as a journalist and specifically his time researching internet trolls and the direct ways in which they impact society. He talks about his experience getting to know many white nationalists and the revelation they aren’t always people you would expect. Dax wonders if there is an effective way to attack hateful ideologies without forgoing free speech and Andrew encourages social media companies to implement more foresight. ",
+        "duration_ms": 6217064,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3kowrmLhtE28gjxsmCGph0"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3kowrmLhtE28gjxsmCGph0",
+        "id": "3kowrmLhtE28gjxsmCGph0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c2c4c781a9293c919336ac8538a1fbb0089f74a2",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/434c9b9a2f83bcd13eefd09f8fb867c178469cff",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e212b848799f7cd4ebe84872f6d62d5215e1bd7f",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Andrew Marantz",
+        "release_date": "2020-04-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3kowrmLhtE28gjxsmCGph0"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d2fdcc5b3187f72b6e877c71ae4d61061032ae12",
+        "description": "In Part 9: Monica & Jess love Love Addiction, M and J chat with author and the Clinical Director of Center for Healthy Sex in Los Angeles, Dr. Alex Katehakis. Dr. Alex talks about the tenants of unmanageability and addiction. Monica wonders if you can be a love addict who’s never fallen in love and Jess asks questions about post relationship nostalgia. Dr. Alex declares both Monica and Jess have some dissociative tendencies in relationships and adhere to fantasy as an outlet. Monica expresses her fears of being replaceable and Dr.Alex thinks Jess uses sex to mitigate anxiety. The three talk about childhood abandonment and how that has trickled into adulthood and she gives both Monica and Jess 90 day challenges to take into the world.",
+        "duration_ms": 4991856,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/56xG88IHXW9Y4pSYDe5zx5"
+        },
+        "href": "https://api.spotify.com/v1/episodes/56xG88IHXW9Y4pSYDe5zx5",
+        "id": "56xG88IHXW9Y4pSYDe5zx5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/6870bf3f7bdc66c92460c0e0d9cce482b3b9fc66",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/5682170462552a8298abca806d34d6c58407d7fa",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/754efd6021ee93f970ccff34f965f849e8b11f18",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 9: Monica & Jess love Love Addiction with Dr. Alex Katehakis",
+        "release_date": "2020-04-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:56xG88IHXW9Y4pSYDe5zx5"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ba22ab5feed51e235575110ddaf3e51658f1233d",
+        "description": "Alicia Keys is an American musician, singer, composer, actress and pianist. Alicia joins the Armchair Expert to discuss overcoming resentments, her pattern of people pleasing and releasing the notion that being overworked equals success. Dax relates to Alicia's love of her grandparents and Alicia talks about a life lesson that taught her the necessity of boundaries.  The two talk about fear of abandonment, the mix of work and friendship and Dax proves to have good phone game. Alicia’s new book More Myself: A Journey is out now.",
+        "duration_ms": 6359520,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3r6Nd3pU6a6HPdvYpWMhma"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3r6Nd3pU6a6HPdvYpWMhma",
+        "id": "3r6Nd3pU6a6HPdvYpWMhma",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/088946c57f449ae9629256c7995655bbe110c634",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/725de6a9a9d4d644eb632ba19439a274ca573bee",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/9ba285702b2032a71edc48ae8984eeed5305e5c5",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Alicia Keys",
+        "release_date": "2020-04-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3r6Nd3pU6a6HPdvYpWMhma"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/3d801f2c9431dde57940335c13a05aff7db4f279",
+        "description": "Stephen Dubner is an author, journalist, and podcast/radio host. He is co-author of the Freakonomics book series and host of Freakonomics Radio. Stephen sits down with the Armchair Expert to discuss being drawn to counterintuitive thinking, his journey to Judaism and looking at politics through an objective lens. Dax asks about Stephen’s childhood and Stephen talks about popular Freakonomics pieces. The two weave in and out of many topics including the prevalence of artificial insemination in turkeys, the uptick in pedestrian deaths and the potential of eating humans.",
+        "duration_ms": 7840235,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/64Iz6ykGC8Hjek6OgeN8J5"
+        },
+        "href": "https://api.spotify.com/v1/episodes/64Iz6ykGC8Hjek6OgeN8J5",
+        "id": "64Iz6ykGC8Hjek6OgeN8J5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/0c3ec9fac38942b487a9f97f8867e290e3fa0b45",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/46abefbbaccc86922fbc3510fcfbe067575208a3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/7fffe0f23e6167320607456c52da99030a0db237",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Stephen Dubner",
+        "release_date": "2020-04-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:64Iz6ykGC8Hjek6OgeN8J5"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/42ddbacf752e0ae3f6bd20ca0d57daaeb6c7ff16",
+        "description": "In Part 8: Monica & Jess Love Cock Buffets, M and J welcome Dan Savage (author, media pundit, journalist, and LGBT community activist) to the attic via video chat. Dan delineates many differences between dating in the gay community vs. the straight one. He talks to Monica about why women are engrained to \"vet a guy before they bed a guy\" and talks to Jess about transgressive behaviors in the gay community. He discusses the notion that we meet a few people in life who are .68 and we make the choice to round them up to a 1. He talks about the equality complex and how we need to give ourselves permission to have successful short term relationships. Monica talks to Sam on the phone and relays to Jess what they talked about and Dan takes the challenges to a new level of scary. ",
+        "duration_ms": 5185123,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0f0FUMax9NQzgdxI74WiUq"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0f0FUMax9NQzgdxI74WiUq",
+        "id": "0f0FUMax9NQzgdxI74WiUq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/e0286a5dae76c891f3610761afb4ad0aca8aec5e",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/0d2025020d4af1aebd60fa28761be47397058c5e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/dbe1c5b7d550a84f7f965b9d85a569fccb7d3e5d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 8: Monica & Jess Love Cock Buffets with Dan Savage",
+        "release_date": "2020-04-01",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0f0FUMax9NQzgdxI74WiUq"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/36228dc9886001a1ef0a02dcc982cd22997da363",
+        "description": "Joy Bryant (For Life, Parenthood, Get Rich or Die Tryin') is an American actress. Joy returns to Armchair Expert and sits down with her ex-TV husband to discuss her new obsession with duck, living bi-coastal and the parameters of when she wears a headscarf.  Dax tries to induct two new people to the soul spectrum and Joy revisits the conversation of house note vs. house payment. The two talk about whether traumatic backgrounds give you a pass for problematic behavior, they discuss the extremities of the societal pendulum swing and Dax updates Joy on a recent change of opinion.",
+        "duration_ms": 4514880,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6LNRgx6Lu8FLE1EwQ03CGY"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6LNRgx6Lu8FLE1EwQ03CGY",
+        "id": "6LNRgx6Lu8FLE1EwQ03CGY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ef8a2e766008e4761a5cd22bfb5409220f6ad9fc",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/4d53de02fdc078059c67b440bcb374d7f5108c41",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/40f98fcc77d03700b0baf3c4973ce756e2e87efe",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Joy Bryant Returns",
+        "release_date": "2020-03-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6LNRgx6Lu8FLE1EwQ03CGY"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b77d3b8af6a9c521f1cc55193596ea9cad0e183e",
+        "description": "Lydia Denworth is a science journalist and author. She is the contributing editor for Scientific American and writes for Psychology Today. Her work has also appeared in The Atlantic, Newsweek, The New York Times, The Wall Street Journal, and Time. Lydia sits down with the Armchair Expert to talk about the biology of friendship, the science of social bonding and the evidence that we are social animals. Dax asks for suggestions to aid social development for kids who struggle to make friendships and Lydia details how friendship impacts mortality and longevity. They also touch on Lydia's work in the Deaf community, quality vs. quantity in friendships and Lydia explains why Monica is Exhibit A in the necessity of friendship.",
+        "duration_ms": 6464653,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6tLXcbdQHxqDytvAqyb50B"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6tLXcbdQHxqDytvAqyb50B",
+        "id": "6tLXcbdQHxqDytvAqyb50B",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/3e181d31a86dffbd47509351bf7c6fbeb04f4188",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/08a4febc7bf03925e3be3ec79ec8bc6de5e6c0e2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/d65d09467d246ff325c03acc0ced0f6e7cbbae25",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Lydia Denworth",
+        "release_date": "2020-03-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6tLXcbdQHxqDytvAqyb50B"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/fa9235c460e1d023042a4487972194fa1519b19f",
+        "description": "In Part 7: Monica & Jess Love Goblins with Esther Perel, M and J are thrilled to welcome psychotherapist, Esther Perel to the attic. Esther makes the distinction between love and desire and she reminds them that having a lot of sex with many partners is equivalent to avoiding sex- both are methods to avoid rejection. Esther encourages Monica to let go of the goblin on her shoulder and she removes the phrase \"losing feelings for\" from the relationship vocabulary. The three talk about \"want\" vs. \"should\" and Esther is intrigued by Jess's interactions with \"out of my league guy\". Esther does exercises with M and J on how to spark desire and she gently tells them if they don't let go of their narratives, regardless of who they date, they will always be dating their narrative.",
+        "duration_ms": 4782000,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4etLiMvHstWMN78OsJqn8J"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4etLiMvHstWMN78OsJqn8J",
+        "id": "4etLiMvHstWMN78OsJqn8J",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/a2e95830f56ecc007c648ff682f9c2e00b42c292",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/d196e32eeb1281269abd2ce600a2304948b4cc59",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e107142b3e0067858094475deb154f4946cbbc54",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 7: Monica & Jess Love Goblins with Esther Perel",
+        "release_date": "2020-03-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4etLiMvHstWMN78OsJqn8J"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/25ad555f3cba4fa3f381e0ee403fbf00f8d38bfc",
+        "description": "Dr. Sanjay Gupta (American neurosurgeon and medical reporter) joins us for an informative episode on COVID-19. Sanjay takes time out of his incredible busy schedule to answer Dax and Monica’s questions about the pandemic. He hits many topics such as immunity, correct precautions, the danger of overwhelming our medical system, human ingenuity in times of crisis and balancing honesty and hope. ",
+        "duration_ms": 3258436,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3qo5giSzEYNhwYykc6sZiY"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3qo5giSzEYNhwYykc6sZiY",
+        "id": "3qo5giSzEYNhwYykc6sZiY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4136897f7d5bf96a3c1b45fa537c7e3e90f79153",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/9514190b11d05971b44df6fc9f478cb3cecfc0e1",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/2ffad8b6503d768260886d83b6477143c3fcbaa8",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Sanjay Gupta on COVID-19",
+        "release_date": "2020-03-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3qo5giSzEYNhwYykc6sZiY"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1bb2261ec4573aa004cde5d5c52dcef949347895",
+        "description": "Tom Silver is a Hypnotherapist with over 35 years of experience developing powerful, proven therapeutic hypnosis methods. Tom sits down with the Armchair Expert to discuss his relationship with sobriety, how he stumbled into hypnosis and the depth of the subconscious mind. Dax asks about the distinction between a hypnotist and a hypnotherapist and Tom talks about his experience hypnotizing Guillermo on the Jimmy Kimmel Show. In the second half of the episode, Tom hypnotizes Miniature Mouse. He hooks her up to an EEG and they note the difference in her brain waves in and out of hypnosis.  Dax and Monica have another long-distance fact check in which they dissect the experience. Visit Tom’s website at www.tomsilver.com.",
+        "duration_ms": 6616790,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2aR9ZXT2wuSDsFRhuI0exY"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2aR9ZXT2wuSDsFRhuI0exY",
+        "id": "2aR9ZXT2wuSDsFRhuI0exY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/029f9e3b72de2ca86c75a9ea4e6a1e4a65311699",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/d756a81adc2e8a65e83c464d31140ce816e0d3b3",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/bd3c3381f4dc613fac32f7c4a4a8ddf56e94eabd",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Tom Silver",
+        "release_date": "2020-03-19",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2aR9ZXT2wuSDsFRhuI0exY"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/214e2e2febbd72509f9d2f63d2af8a463c4931ff",
+        "description": "In Part 6: Monica & Jess Love Tough Love with Patti Stanger, M and J welcome the Millionaire Matchmaker to the attic. Patti is direct and no-nonsense when giving her opinion on Monica and Jess’s love lives. She asks about their dream men, she prods for details about Monica’s fantasies and believes Jess wants to be chased. She talks about the differences between “beta” and “alpha” partners, differences between matchmaking in gay vs. straight communities and how she believes money and love are more connected than people want to believe. She encourages Monica to get more in touch with her sexuality and discusses the concept of “out of your league” with Jess. At the end of the episode, Patti doles out challenges that terrify both Monica and Jess.",
+        "duration_ms": 4181943,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4aLBHJOGYbrxuzSeFqK1Dz"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4aLBHJOGYbrxuzSeFqK1Dz",
+        "id": "4aLBHJOGYbrxuzSeFqK1Dz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/60b82276d68a2686842d43043ac24c1e12319359",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a69cb97e6a6a37ea8fa449fd09156f2fdbfc396b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/5a3d2bb4d134ffe7e733ba7422b9ce37ef031371",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 6: Monica & Jess Love Tough Love with Patti Stanger (the Millionaire Matchmaker)",
+        "release_date": "2020-03-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4aLBHJOGYbrxuzSeFqK1Dz"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/5c27a2c01995b1e7853e69736712bfb63ef09ac3",
+        "description": "Lennon Parham (Playing House, Veep, Bless This Mess) is an American actress, comedian and improviser. Lennon sits down with the Armchair Expert to discuss growing up in the deep south, feeling like she couldn't find \"her people\", and the balance of holding on to your personal dream while in a relationship. Dax praises Lennon on her work on Bless this Mess and Lennon talks about the experience of creating her own show. The two talk about questionable 80's songs, new ideas for the yearly hot bodies calendar and Dax and Monica do a long distance fact check.",
+        "duration_ms": 6522408,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1e4FmbRChMrtzPvVJVLjQd"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1e4FmbRChMrtzPvVJVLjQd",
+        "id": "1e4FmbRChMrtzPvVJVLjQd",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ad7dfeca6891894c17faeaa98434542ac8ab3c52",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/dab0ff84027ab7e392e6cd63cb2037fd67b854f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/6b5cfaa6bba7c0d5a197639cb9faadb9d7f51206",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Lennon Parham",
+        "release_date": "2020-03-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1e4FmbRChMrtzPvVJVLjQd"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/45b9b35eccdad7bff8405d4acbce482565cc4a6b",
+        "description": "Adam Mosseri is the current CEO of Instagram. Adam sits down in the attic to talk about how he landed a job at Facebook, the responsibility of social media and the rise of the individual. Dax wonders if Mark Zuckerberg likes McDonalds and Adam talks through the reasoning behind the hiding likes trial. The two discuss how Facebook got intertwined with Cambridge Analytica, designing platforms to have a certain energy and Dax thinks men's preferences boil down to circles.",
+        "duration_ms": 6944731,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1UxKSrxFIOzyRs2VkcRBCg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1UxKSrxFIOzyRs2VkcRBCg",
+        "id": "1UxKSrxFIOzyRs2VkcRBCg",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/8a4c096cc16088e4236a7383c8512ca7f334e0c3",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/9604db46498675fd9e4a3d12d7523a1b4fa28b6d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a753c8c1c06a12a6f12fce1b8970608fb82ee4e9",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Adam Mosseri",
+        "release_date": "2020-03-12",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1UxKSrxFIOzyRs2VkcRBCg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/74d4c579ab597cd64e54c54bfe07f307f9a0bdfe",
+        "description": "In Part 5: Monica and Jess Love Getting Called Out on Their Bullshit with Dr. Drew, M and J invite the esteemed addiction medicine specialist and personality Dr. Drew Pinsky to the attic. Dr. Drew cuts right to the chase asking Jess about his relationship to mania, asking Monica about family trauma and he calls both of them out on negating themselves. He talks about removing expectations and how our country puts pathological love on a pedestal. He discusses neurological wiring regarding attachment styles and asks about Monica’s sexual history. The two are assigned a very interesting challenge at the end of the episode.",
+        "duration_ms": 4138872,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0AwGrXPP1s8MrPpSCY8rVe"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0AwGrXPP1s8MrPpSCY8rVe",
+        "id": "0AwGrXPP1s8MrPpSCY8rVe",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/7ae930d075ad27147a9752c4e75ccef2d4bc0573",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/211a65199b812f92bcfaae8232095fde60a0600a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/d719b5e7d11f96beef317d250d76458a05554d64",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 5: Monica & Jess Love Getting Called Out on Their Bullshit with Dr. Drew",
+        "release_date": "2020-03-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0AwGrXPP1s8MrPpSCY8rVe"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/dc72284df04c828daf51bdf9e5ca19098e40c6ba",
+        "description": "In this episode, Dax invites Rob McElhenney (It's Always Sunny in Philadelphia, Mythic Quest: Raven's Banquet) and Kumail Nanjiani (Silicon Valley, The Big Sick) into the attic to discuss their obsession with male bodies. Dax remains shirtless through the duration of this episode while the three dissect childhood insecurities that led to this predilection, their opinions of the perfect male body, body dysmorphia, societal influences on females vs. males, and not being in on the joke. Rob mentions the high point when a stranger wanted to take a shirtless picture of him and Kumail reveals a tidbit about his abs. Monica commends the three for talking openly and vulnerably. ",
+        "duration_ms": 6791856,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/00KAa1klYWB6KRITHH8G9w"
+        },
+        "href": "https://api.spotify.com/v1/episodes/00KAa1klYWB6KRITHH8G9w",
+        "id": "00KAa1klYWB6KRITHH8G9w",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/fa1225f2d831cbfa82d8b2724082ce8695519b9d",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/df77677270c61e7bca5b79eb12572e723ec9b58c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/52ad24c24b6ba1232480913061c36f5eb6864dd2",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Men's Bodies with Kumail Nanjiani & Rob McElhenney",
+        "release_date": "2020-03-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:00KAa1klYWB6KRITHH8G9w"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a38708297aba5a1edb845809a84ec7d06a08296c",
+        "description": "BJ Fogg is an author and social science research associate at Stanford. BJ sits down with the Armchair Expert to discuss his approach to changing behavior, growing up in the Mormon faith and his new book Tiny Habits. Dax commends BJ's approach of habit building by stating \"after I blank, I will blank\" and BJ talks about overcoming a childhood condition. The two discuss the behavior grid, lowering the bar on aspiration and technology in regards to behavior.",
+        "duration_ms": 6328320,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/67fctgl0Ps8LDOKg4MaEOU"
+        },
+        "href": "https://api.spotify.com/v1/episodes/67fctgl0Ps8LDOKg4MaEOU",
+        "id": "67fctgl0Ps8LDOKg4MaEOU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d65f6e6b4ebf640699a244f4587cdf4794107aac",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/67e0a3363e10e0489d65ebd4727d034f77e792e1",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/69c6f9f3832d183ae867ca126ed6fa99d8adaa03",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "BJ Fogg",
+        "release_date": "2020-03-05",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:67fctgl0Ps8LDOKg4MaEOU"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/3b9513f6da8369591568de1bdca4416f8f57fc87",
+        "description": "In Part 4: Monica and Jess Love Therapy with Harry the Therapist, M and J invite Harry - Kristen and Dax's couples therapist, to the attic. Harry specializes in both personal and couples therapy and Kristen and Dax have credited Harry for giving them the tools for relationship longevity. But today he brings his expertise to Monica and Jess's love lives. Harry wonders if Monica has any unresolved parental issues and he encourages Jess to listen to his small inner voice. He provides a few Harry rules for approaching a forever relationship and reminds M and J that we are all a work in progress. Monica and Jess talk about their challenges from last week and the realization that these challenges have nothing to do with the other person - it’s all about personal growth. ",
+        "duration_ms": 5281985,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3CzuIhzmfM9KAOxVGKsJRy"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3CzuIhzmfM9KAOxVGKsJRy",
+        "id": "3CzuIhzmfM9KAOxVGKsJRy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/3e0debfcda141ae8cc6501b82c8d813eb26dff0e",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/082e43ab545c6928e3a84304f043d042f5659084",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/05e578bc830831a5bc5c2adb7b26d5449babbe01",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Part 4: Monica & Jess Love Therapy with Harry the Therapist",
+        "release_date": "2020-03-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3CzuIhzmfM9KAOxVGKsJRy"
+      }
+    ],
+    "limit": 50,
+    "next": "https://api.spotify.com/v1/shows/6kAsbP8pxwaU2kPibKTuHE/episodes?offset=50&limit=50",
+    "offset": 0,
+    "previous": null,
+    "total": 240
+  },
+  "explicit": true,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/6kAsbP8pxwaU2kPibKTuHE"
+  },
+  "href": "https://api.spotify.com/v1/shows/6kAsbP8pxwaU2kPibKTuHE",
+  "id": "6kAsbP8pxwaU2kPibKTuHE",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/720c6f8a4b9d19ccc73024894ae9f5ff0a7cd198",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ce82428abcf2c411ee78314ebc014034ba7be668",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/4320bb7d4c00793df4c75e4ffd7b52c04cfd7de8",
+      "width": 64
+    }
+  ],
+  "is_externally_hosted": false,
+  "languages": [
+    "en"
+  ],
+  "media_type": "audio",
+  "name": "Armchair Expert with Dax Shepard",
+  "publisher": "Armchair Umbrella",
+  "total_episodes": 240,
+  "type": "show",
+  "uri": "spotify:show:6kAsbP8pxwaU2kPibKTuHE"
+}
