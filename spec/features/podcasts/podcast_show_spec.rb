@@ -5,8 +5,9 @@ describe 'As a visitor' do
     it 'I can see details about the podcast' do
       user = create(:user)
       podcast = create(:podcast)
-      bad_tags = create_list(:tag, 3)
-      tags = create_list(:tag, 5)
+      tags = create_list(:tag, 10).uniq
+      bad_tags = tags[5..9]
+      tags = tags[0..4]
       tags.each do |tag|
         create(:podcast_tag, podcast_id: podcast.id, tag_id: tag.id)
       end
@@ -25,7 +26,6 @@ describe 'As a visitor' do
       expect(".podcast-photo").to_not be_empty
 
       # Needs to test podcast episodes here.
-
       within('.tags') do
         podcast.tags.each do |tag|
           expect(page).to have_content(tag.name)
@@ -38,9 +38,7 @@ describe 'As a visitor' do
     end
 
     it 'I dont see a button to follow the podcast' do
-      user = create(:user)
       podcast = create(:podcast)
-      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       visit "/podcasts/#{podcast.id}"
 
       expect(page).to_not have_button('Follow')

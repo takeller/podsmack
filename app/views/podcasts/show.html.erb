@@ -7,10 +7,12 @@
 <p> instagram: <%= @podcast.instagram %> </p>
 <p> facebook: <%= @podcast.facebook %> </p>
 <p> facebook: <%= @podcast.facebook %> </p>
-<%= button_to 'Follow', followings_path(podcast_id: @podcast.id, user_id: current_user.id), method: :post %>
+<% if current_user %>
+  <%= button_to 'Follow', followings_path(podcast_id: @podcast.id, user_id: current_user.id), method: :post %>
+<% end %>
 
 <section class="tags">
   <% @podcast.tags.each do |tag| %>
-    tag.name
+    <%= tag.name %>
   <% end %>
 </section>
