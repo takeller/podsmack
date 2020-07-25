@@ -3,11 +3,11 @@ FactoryBot.define do
     user_name { Faker::Artist.name }
     access_token { Faker::Crypto.md5 }
     refresh_token { Faker::Crypto.md5 }
-    role { :default  }
+    admin { :default  }
     password_digest { Faker::Creature::Dog.name }
   end
 
   factory :admin, parent: :user do
-    role { :admin }
+    admin { :true }
   end
 end

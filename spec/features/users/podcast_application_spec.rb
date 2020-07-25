@@ -19,72 +19,72 @@ describe 'As a registered user' do
       # expect(current_path).to eq('/application/new')
 
       # Remove when above section is restored.
-      visit new_user_application_path(user)
+      visit new_user_podcast_path(user)
 
-      fill_in 'application[podcast_name]', with: 'Dissect'
-      page.select 'Denver', from: 'application[location]'
+      fill_in 'podcast[name]', with: 'Dissect'
+      page.select 'Denver', from: 'podcast[location]'
       check 'Interviews'
       check 'Music'
       check 'Software'
-      fill_in 'application[twitter]', with: 'www.twitter.com/test'
-      fill_in 'application[patreon]', with: 'www.patreon.com/test'
-      fill_in 'application[instagram]', with: 'www.instagram.com/test'
-      fill_in 'application[facebook]', with: 'www.facebook.com/test'
-      fill_in 'application[description]', with: 'Favorite albums broken down'
-      check 'application[adult_content]'
-      fill_in 'application[spotify_uri]', with: '2b025hq3gJ17tQdxS3aV43'
-      fill_in 'application[photo]', with: 'https://picsum.photos/200'
+      fill_in 'podcast[twitter]', with: 'www.twitter.com/test'
+      fill_in 'podcast[patreon]', with: 'www.patreon.com/test'
+      fill_in 'podcast[instagram]', with: 'www.instagram.com/test'
+      fill_in 'podcast[facebook]', with: 'www.facebook.com/test'
+      fill_in 'podcast[description]', with: 'Favorite albums broken down'
+      check 'podcast[adult_content]'
+      fill_in 'podcast[spotify_uri]', with: '2b025hq3gJ17tQdxS3aV43'
+      fill_in 'podcast[photo]', with: 'https://picsum.photos/200'
 
       click_on 'Submit'
 
       expect(current_path).to eq('/dashboard')
 
-      application = Application.last
+      podcast = Podcast.last
 
-      expect(application.user.user_name).to eq(user.user_name)
-      expect(application.location).to eq('Denver')
-      expect(application.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+      expect(podcast.user.user_name).to eq(user.user_name)
+      expect(podcast.location).to eq('Denver')
+      expect(podcast.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
     end
 
-    it 'Sad: Application must have a podcast name' do
+    it 'Sad: podcast must have a podcast name' do
       user = create(:user, password: 'password')
 
-      visit new_user_application_path(user)
+      visit new_user_podcast_path(user)
 
-      page.select 'Denver', from: 'application[location]'
-      fill_in 'application[description]', with: 'Favorite albums broken down'
+      page.select 'Denver', from: 'podcast[location]'
+      fill_in 'podcast[description]', with: 'Favorite albums broken down'
 
       click_on 'Submit'
 
-      expect(current_path).to eq(new_user_application_path(user))
-      expect(page).to have_content("Podcast name can't be blank")
+      expect(current_path).to eq(new_user_podcast_path(user))
+      expect(page).to have_content("Name can't be blank")
     end
 
-    it 'Sad: Application must have a location' do
+    it 'Sad: podcast must have a location' do
       user = create(:user, password: 'password')
 
-      visit new_user_application_path(user)
+      visit new_user_podcast_path(user)
 
-      fill_in 'application[podcast_name]', with: 'Dissect'
-      fill_in 'application[description]', with: 'Favorite albums broken down'
+      fill_in 'podcast[name]', with: 'Dissect'
+      fill_in 'podcast[description]', with: 'Favorite albums broken down'
 
       click_on 'Submit'
 
-      expect(current_path).to eq(new_user_application_path(user))
+      expect(current_path).to eq(new_user_podcast_path(user))
       expect(page).to have_content("Location can't be blank")
     end
 
-    it 'Sad: Application must have a description' do
+    it 'Sad: podcast must have a description' do
       user = create(:user, password: 'password')
 
-      visit new_user_application_path(user)
+      visit new_user_podcast_path(user)
 
-      fill_in 'application[podcast_name]', with: 'Dissect'
-      page.select 'Denver', from: 'application[location]'
+      fill_in 'podcast[name]', with: 'Dissect'
+      page.select 'Denver', from: 'podcast[location]'
 
       click_on 'Submit'
 
-      expect(current_path).to eq(new_user_application_path(user))
+      expect(current_path).to eq(new_user_podcast_path(user))
       expect(page).to have_content("Description can't be blank")
     end
   end

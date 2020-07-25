@@ -15,25 +15,6 @@ ActiveRecord::Schema.define(version: 2020_07_24_005110) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "applications", force: :cascade do |t|
-    t.string "podcast_name"
-    t.string "location"
-    t.string "twitter"
-    t.string "patreon"
-    t.string "instagram"
-    t.string "facebook"
-    t.string "description"
-    t.boolean "adult_content"
-    t.string "spotify_uri"
-    t.string "photo"
-    t.bigint "user_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "status", default: "unapproved"
-    t.string "tags"
-    t.index ["user_id"], name: "index_applications_on_user_id"
-  end
-
   create_table "followings", force: :cascade do |t|
     t.bigint "podcast_id", null: false
     t.bigint "user_id", null: false
@@ -63,21 +44,11 @@ ActiveRecord::Schema.define(version: 2020_07_24_005110) do
     t.boolean "adult_content"
     t.string "spotify_uri"
     t.string "photo"
-    t.bigint "producer_id"
-    t.boolean "status"
+    t.bigint "user_id"
+    t.boolean "active", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["producer_id"], name: "index_podcasts_on_producer_id"
-  end
-
-  create_table "producers", force: :cascade do |t|
-    t.string "name"
-    t.string "access_token"
-    t.string "refresh_token"
-    t.integer "role"
-    t.string "password_digest"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_podcasts_on_user_id"
   end
 
   create_table "tags", force: :cascade do |t|
@@ -90,7 +61,7 @@ ActiveRecord::Schema.define(version: 2020_07_24_005110) do
     t.string "user_name"
     t.string "access_token"
     t.string "refresh_token"
-    t.integer "role", default: 0
+    t.boolean "admin", default: false
     t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -98,10 +69,9 @@ ActiveRecord::Schema.define(version: 2020_07_24_005110) do
     t.string "uid"
   end
 
-  add_foreign_key "applications", "users"
   add_foreign_key "followings", "podcasts"
   add_foreign_key "followings", "users"
   add_foreign_key "podcast_tags", "podcasts"
   add_foreign_key "podcast_tags", "tags"
-  add_foreign_key "podcasts", "producers"
+  add_foreign_key "podcasts", "users"
 end

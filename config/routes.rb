@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   resources :users, only: [:new, :create] do
-    resources :applications, only: [:new, :create]
+    resources :podcasts, only: [:new, :create]
   end
   get '/dashboard', to: 'users#show'
 
