@@ -22,7 +22,7 @@ describe 'As a visitor' do
       expect(page).to have_content(podcast.facebook)
       expect(".podcast-photo").to_not be_empty
 
-      # Needs to test podcast episodes here. 
+      # Needs to test podcast episodes here.
 
       within('.tags') do
         podcast.tags.each do |tag|
@@ -36,7 +36,8 @@ describe 'As a visitor' do
     end
 
     it 'I dont see a button to follow the podcast' do
-      podcast = create(:podcast)
+      user = create(:user)
+      podcast = create(:podcast, user_id: user.id)
 
       visit "/podcasts/#{podcast.id}"
 
@@ -48,7 +49,8 @@ end
 describe 'As a user' do
   describe 'When I visit a podcasts show page' do
     it 'I see a buttong to follow the podcast' do
-      podcast = create(:podcast)
+      user = create(:user)
+      podcast = create(:podcast, user_id: user.id)
 
       visit "/podcasts/#{podcast.id}"
 
