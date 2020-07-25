@@ -3,8 +3,7 @@ require 'rails_helper'
 describe 'As a visitor' do
   describe 'When I visit a podcasts show page' do
     it 'I can see details about the podcast' do
-      user = create(:user)
-      podcast = create(:podcast, user_id: user.id)
+      podcast = create(:podcast)
       bad_tags = create_list(:tag, 3)
       tags = create_list(:tag, 5)
       tags.each do |tag|
@@ -36,8 +35,7 @@ describe 'As a visitor' do
     end
 
     it 'I dont see a button to follow the podcast' do
-      user = create(:user)
-      podcast = create(:podcast, user_id: user.id)
+      podcast = create(:podcast)
 
       visit "/podcasts/#{podcast.id}"
 
@@ -48,10 +46,8 @@ end
 
 describe 'As a user' do
   describe 'When I visit a podcasts show page' do
-    it 'I see a buttong to follow the podcast' do
-      user = create(:user)
-      podcast = create(:podcast, user_id: user.id)
-
+    it 'I see a button to follow the podcast' do
+      podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
 
       expect(page).to have_button('Follow')
