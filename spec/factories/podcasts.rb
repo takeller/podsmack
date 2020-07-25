@@ -7,10 +7,9 @@ FactoryBot.define do
     instagram { Faker::Hacker.noun  }
     facebook { Faker::Hacker.noun  }
     description {Faker::Movies::HitchhikersGuideToTheGalaxy.marvin_quote }
-    content { false }
+    adult_content { false }
     spotify_uri { Faker::Internet.domain_name }
     photo { Faker::Placeholdit.image }
-    status { false }
-    producer 
+    active { false } 
   end
 end
