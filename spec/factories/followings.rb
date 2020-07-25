@@ -1,6 +1,7 @@
 FactoryBot.define do
   factory :following do
-    podcast { :podcast }
-    user { :user }
+    association :podcast, factory: :podcast
+    association :user, factory: :user 
   end
 end
+

@@ -6,6 +6,11 @@ class User < ApplicationRecord
   validates :user_name, uniqueness: true, presence: true
   has_many :followings
   has_many :podcasts
-  has_many :favorite_podcasts, through: :followings
+  has_many :favorite_podcasts, through: :followings, source: :podcast
   has_many :applications
+  
+#   def self.favorite_podcasts
+#     require 'pry'; binding.pry
+#   end
 end
+

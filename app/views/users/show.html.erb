@@ -1,11 +1,18 @@
 <h2> Welcome, <%= @user.user_name %> </h2>
 
+<h3> Following </h3>
 <section class="podcast_following">
-      <h1><%= @user.favorite_podcasts.length %>Favorites</h1>
-      <% @user.favorite_podcasts.each do |podcast| %>
-        <section id="follow">
-            <%= podcast.name %>
-        </section>
-      <% end %>
+  <h1><%= @user.favorite_podcasts.length %>Favorites</h1>
+  <% @user.favorite_podcasts.each do |podcast| %>
+    <section id="follow">
+      <%= podcast.name %>
     </section>
-  </section>
+  <% end %>
+</section>
+
+
+<h3> Edit Profile </h3>
+
+<h4> Podcast Application </h4>
+
+<%= button_to 'Podcast Application', new_user_podcast_path(@user), class: "btn btn-outline btn-xl js-scroll-trigger" %>
