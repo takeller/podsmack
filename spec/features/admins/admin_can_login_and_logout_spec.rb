@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'As an Admin' do
-  it 'I can login through google oauth' do
+  xit 'I can login through google oauth' do
     admin = create(:admin)
 
     OmniAuth.config.test_mode = true
@@ -20,7 +20,7 @@ describe 'As an Admin' do
     expect(page).to have_css('.admin-dashboard')
   end
 
-  it 'I can logout' do
+  xit 'I can logout' do
     admin = create(:admin)
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
 
