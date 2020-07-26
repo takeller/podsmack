@@ -22,19 +22,6 @@ class PodcastsController < ApplicationController
     end
   end
 
-  #TODO make more restful - could be update OR Seperate controller for ApprovalController
-  def approve_podcast
-    podcast = Podcast.find(params[:id])
-    podcast.update(active: true) 
-    if podcast.save
-      redirect_to '/dashboard'
-      flash[:success] = 'Application approved'
-    else
-      flash[:error] = podcast.errors.full_messages.to_sentence
-      redirect_to new_user_podcast_path(user)
-    end
-  end
-
   private
 
   def podcast_params
