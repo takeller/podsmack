@@ -28,8 +28,10 @@ describe 'As a User' do
   end
   it 'I find podcasts by location' do
 
-    expect(current_path).to eq('/browse')
-    page.select 'Denver', from: 'podcast[location]'
+    expect(current_path).to eq('/podcasts')
+    # click_button('Location')
+    
+    page.select 'Denver'
 
     click_on('Search')
 
