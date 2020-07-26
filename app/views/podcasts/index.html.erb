@@ -9,7 +9,11 @@
 <br>
 <%= form_tag(podcasts_path, method: "get") do %>
   <%= label_tag 'Location' %>
-  <%= select_tag(:location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-xl js-scroll-trigger" } )%>
+  <%= select_tag(:location, options_for_select([nil, 'Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-xl js-scroll-trigger" })%>
+
+  <%= label_tag :tags %>
+  <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) %> <br>
+
 
   <%= submit_tag 'Search' %>
 <% end %>

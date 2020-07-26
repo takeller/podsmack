@@ -1,8 +1,12 @@
 class PodcastsController < ApplicationController
 
   def index
-    @podcasts = Podcast.where(nil)
-    @podcasts = Podcast.filter_by_location(params[:location])if params[:location].present?
+    if params[:tags].present?
+      @podcasts = Podcast.joins(:tags).where(tags: {id: params[:tags][:ids]})
+    else
+      @podcasts = Podcast.where(nil)
+    end
+    @podcasts = @podcasts.filter_by_location(params[:location])if params[:location].present?
   end
 
   def new

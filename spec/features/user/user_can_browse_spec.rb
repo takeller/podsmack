@@ -37,5 +37,57 @@ describe 'As a User' do
 
     expect(page).to have_css('.podcast-browse')
     expect(page).to have_css("#podcast_results", count: 2)
+
+    within('.podcast-browse') do
+      expect(page).to have_content('2 Results')
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to have_content(@podcast3.name)
+      expect(page).to have_content(@podcast3.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+    end
+  end
+
+  it 'I find podcasts by tag' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 3)
+
+    check 'Mystery'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 2)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast2.name)
+      expect(page).to have_content(@podcast2.description)
+      expect(page).to have_content(@podcast3.name)
+      expect(page).to have_content(@podcast3.description)
+      expect(page).to_not have_content(@podcast.name)
+      expect(page).to_not have_content(@podcast.description)
+    end
+  end
+  it 'I find podcasts by multiple tags' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 3)
+
+    check 'Interviews'
+    check 'Sports'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 2)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to have_content(@podcast3.name)
+      expect(page).to have_content(@podcast3.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+    end
   end
 end
