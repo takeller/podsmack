@@ -6,7 +6,6 @@ class User < ApplicationRecord
   has_many :following_podcasts, through: :followings, source: :podcast
   has_many :applications
   
-  #TODO model method and take to podcast model
   def pending_podcasts
     podcasts.where(active: false)
   end

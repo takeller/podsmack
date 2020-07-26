@@ -5,9 +5,4 @@ class Podcast < ApplicationRecord
   validates_presence_of :name
   validates_presence_of :location 
   validates_presence_of :description
-
-  # def self.pending
-  #   require 'pry'; binding.pry
-  #   podcasts.where(active: false)
-  # end
 end
