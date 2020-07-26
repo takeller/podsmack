@@ -10,6 +10,7 @@ FactoryBot.define do
     adult_content { false }
     spotify_uri { Faker::Internet.domain_name }
     photo { Faker::Placeholdit.image }
-    active { false } 
+    active { false }
+    user
   end
 end

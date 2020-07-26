@@ -1,0 +1,24 @@
+<h1> <%= @podcast_facade.podcast.name %> </h1>
+<%= image_tag(@podcast_facade.podcast.photo) %>
+<p> Description: <%= @podcast_facade.podcast.description %> </p>
+<p> Location: <%= @podcast_facade.podcast.location %> </p>
+<% @podcast_facade.social_media.each do |platform, handle|%>
+  <p> <%= platform + ": " + handle  %> </p>
+<% end %>
+<% if current_user %>
+  <%= button_to 'Follow', followings_path(podcast_id: @podcast_facade.podcast.id, user_id: current_user.id), method: :post %>
+<% end %>
+
+<section class="tags">
+  <h3>Content Tags</h3>
+  <% @podcast_facade.podcast.tags.each do |tag| %>
+    <%= tag.name + "," %>
+  <% end %>
+</section>
+<% @podcast_facade.episodes.each do |episode| %>
+  <section class ="episodes">
+    <p class="name"><%= episode.name %></p>
+    <p class="description"><%= episode.description %></p>
+    <audio src= <%= episode.audio %> controls> </audio>
+  </section>
+<% end %>

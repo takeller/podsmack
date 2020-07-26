@@ -8,9 +8,14 @@ class PodcastsController < ApplicationController
     @podcast = Podcast.new
   end
 
+  def show
+    podcast = Podcast.find(params[:id])
+    @podcast_facade = PodcastFacade.new(podcast)
+  end
+
   def create
     user = User.find(params[:user_id])
-    
+
     podcast = user.podcasts.new(podcast_params)
     if podcast.save
       params[:podcast][:tags].each {|tag| PodcastTag.create({podcast_id: podcast.id, tag_id: tag})}
