@@ -27,13 +27,14 @@ describe 'As an Admin' do
       expect(page).to have_button("Approve")
       expect(page).to have_content(@podcast.name)
       expect(page).to have_content(@podcast.description)
+      click_on("Approve")
     end
-
-    click_on("Approve")
 
     expect(page).to have_content("Application approved")
     expect(current_path).to eq('/dashboard')
-    
+
   end
+
+  #TODO make a sad path spec for a podcast that cant be approved. Later for EXTNS
 
 end

@@ -9,7 +9,11 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :create] do
     resources :podcasts, only: [:new, :create]
   end
+
+  post '/approve_podcast/:id', to: 'podcasts#approve_podcast'
+
   get '/dashboard', to: 'users#show'
+  
 
   resources :producers, only: [:show]
 

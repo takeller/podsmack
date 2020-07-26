@@ -26,7 +26,7 @@
       <%= podcast.name %>
     <h5>Description</h5>
       <%= podcast.description %>
-    <%= button_to "Approve", '/dashboard' %>
+    <%= button_to "Approve", "/approve_podcast/#{podcast.id}" %>
     </section>
   <% end %>
   </section>
