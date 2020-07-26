@@ -2,7 +2,7 @@
 
 <h3> Following </h3>
 <section class="podcast_following">
-  <h1><%= @user.following_podcasts.length %>Favorites</h1>
+  <h1><%= @user.following_podcasts.length %> Favorites</h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
       <%= podcast.name %>
@@ -15,9 +15,19 @@
 
 <h4> Podcast Application </h4>
 
-<%= button_to 'Podcast Application', new_user_podcast_path(@user), class: "btn btn-outline btn-xl js-scroll-trigger" %>
+<%= button_to 'Upload your own podcast', new_user_podcast_path(@user), class: "btn btn-outline btn-xl js-scroll-trigger" %>
+
 <% if current_user.admin %>
   <section class = "admin-dashboard">
-
+    <h1><%= @user.podcasts.length %> </h1>
+  <% @user.pending_podcasts.each do |podcast| %>
+    <section id="podcast_pending_approval">
+    <h5>Name</h5>
+      <%= podcast.name %>
+    <h5>Description</h5>
+      <%= podcast.description %>
+    <%= button_to "Approve", "/approve_podcast/#{podcast.id}" %>
+    </section>
+  <% end %>
   </section>
 <% end %>

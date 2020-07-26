@@ -1,0 +1,25 @@
+<div class="jumbotron-jumbotron-fluid">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<br>
+<br>
+<%= form_tag(podcasts_path, method: "get") do %>
+  <%= label_tag 'Location' %>
+  <%= select_tag(:location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-xl js-scroll-trigger" } )%>
+
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<h3> Podcast Collection </h3>
+<section class='podcast-browse'>
+  <h1><%= @podcasts.length %> Results </h1>
+  <% @podcasts.each do |podcast| %>
+    <section id='podcast_results'>
+      <%= podcast.name %>, <%= podcast.description %>
+    </section>
+  <% end %>
+</section>

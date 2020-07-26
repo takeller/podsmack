@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :podcast_tag do
-    podcast { nil }
-    tag { nil }
+    association :podcast, factory: :podcast
+    association :tag, factory: :tag
   end
 end
