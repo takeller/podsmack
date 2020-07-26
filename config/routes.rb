@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
   resources :podcasts, only: [:index, :show]
 
-  post '/approve_podcast/:id', to: 'podcasts#approve_podcast'
+  post '/approve_podcast/:id', to: 'approvals#update'
 
   get '/dashboard', to: 'users#show'
   
