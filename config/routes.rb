@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :create] do
     resources :podcasts, only: [:new, :create]
   end
+  resources :podcasts, only: [:show]
+  resources :followings, only: [:create]
   get '/dashboard', to: 'users#show'
 
   resources :producers, only: [:show]
