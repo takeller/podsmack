@@ -5,16 +5,17 @@ describe 'As a visitor' do
     it 'I can see details about the podcast' do
       user = create(:user)
       podcast = create(:podcast)
-      tags = create_list(:tag, 10).uniq
-      bad_tags = tags[5..-1]
-      tags = tags[0..4]
+      tags = [create(:tag, name: "dog"),create(:tag, name: "cat"),
+              create(:tag, name: "mouse"), create(:tag, name: "opposum")]
+      bad_tags = tags[2..3]
+      tags = tags[0..1]
       tags.each do |tag|
         create(:podcast_tag, podcast_id: podcast.id, tag_id: tag.id)
       end
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
       visit "/podcasts/#{podcast.id}"
-      expect(podcast.tags.count).to eq(5)
+      expect(podcast.tags.count).to eq(2)
       expect(page).to have_content(podcast.name)
       expect(page).to have_content(podcast.location)
       expect(page).to have_content(podcast.description)
