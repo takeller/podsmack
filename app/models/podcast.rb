@@ -8,5 +8,5 @@ class Podcast < ApplicationRecord
 
   scope :filter_by_location, -> (location) {where location: location}
   scope :filter_by_adult_content, -> (adult_content) {where adult_content: adult_content}
-  
+  scope :filter_by_name, -> (name) {where('name ILIKE ?', "%#{name}%")}
 end

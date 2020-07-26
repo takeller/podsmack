@@ -8,6 +8,7 @@ class PodcastsController < ApplicationController
     end
     @podcasts = @podcasts.filter_by_location(params[:location])if params[:location].present?
     @podcasts = @podcasts.filter_by_adult_content(params[:adult_content])if params[:adult_content].present?
+    @podcasts = @podcasts.filter_by_name(params[:name])if params[:name].present?
   end
 
   def new
