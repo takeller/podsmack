@@ -3,10 +3,11 @@ require 'rails_helper'
 describe 'As a User' do
   before :each do
     @user = create(:user)
-    @podcast = create(:podcast, user: @user, location: "Denver")
-    @podcast2 = create(:podcast, user: @user, location: "NYC")
-    @podcast3 = create(:podcast, user: @user, location: "Denver")
-  
+    @podcast = create(:podcast, user: @user, location: "Denver", name: 'podcast1', description: 'description1')
+    @podcast2 = create(:podcast, user: @user, location: "NYC", name: 'podcast2', description: 'description2')
+    @podcast3 = create(:podcast, user: @user, location: "Denver", name: 'podcast3', description: 'description3')
+    @podcast4 = create(:podcast, user: @user, location: "Dallas", name: 'podcast11', description: 'description4', adult_content: true)
+
     @tag1 = create(:tag, name: 'Interviews')
     @tag2 = create(:tag, name: 'Music')
     @tag3 = create(:tag, name: 'Software')
@@ -29,7 +30,7 @@ describe 'As a User' do
   it 'I find podcasts by location' do
 
     expect(current_path).to eq('/podcasts')
-    expect(page).to have_css("#podcast_results", count: 3)
+    expect(page).to have_css("#podcast_results", count: 4)
 
     page.select 'Denver'
 
@@ -51,7 +52,7 @@ describe 'As a User' do
 
   it 'I find podcasts by tag' do
     expect(current_path).to eq('/podcasts')
-    expect(page).to have_css("#podcast_results", count: 3)
+    expect(page).to have_css("#podcast_results", count: 4)
 
     check 'Mystery'
     
@@ -71,7 +72,7 @@ describe 'As a User' do
   end
   it 'I find podcasts by multiple tags' do
     expect(current_path).to eq('/podcasts')
-    expect(page).to have_css("#podcast_results", count: 3)
+    expect(page).to have_css("#podcast_results", count: 4)
 
     check 'Interviews'
     check 'Sports'
@@ -88,6 +89,52 @@ describe 'As a User' do
       expect(page).to have_content(@podcast3.description)
       expect(page).to_not have_content(@podcast2.name)
       expect(page).to_not have_content(@podcast2.description)
+    end
+  end
+  it 'I find podcasts by adult_content' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 4)
+
+    check 'adult_content'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 3)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to have_content(@podcast3.name)
+      expect(page).to have_content(@podcast3.description)
+      expect(page).to have_content(@podcast2.name)
+      expect(page).to have_content(@podcast2.description)
+      expect(page).to_not have_content(@podcast4.name)
+      expect(page).to_not have_content(@podcast4.description)
+    end
+  end
+
+  it 'I find podcasts by name' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 4)
+    save_and_open_page
+
+    fill_in "Name", with: 'Podcast1'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 2)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to have_content(@podcast4.name)
+      expect(page).to have_content(@podcast4.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+      expect(page).to_not have_content(@podcast3.name)
+      expect(page).to_not have_content(@podcast3.description)
     end
   end
 end

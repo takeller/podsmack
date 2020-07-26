@@ -14,6 +14,12 @@
   <%= label_tag :tags %>
   <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) %> <br>
 
+  <%= label_tag 'Exclude Adult Content' %>
+  <%= check_box_tag :adult_content, checked = false %> <br>
+
+  <%= label_tag :name %>
+  <%= text_field_tag :name %> <br>
+
 
   <%= submit_tag 'Search' %>
 <% end %>
