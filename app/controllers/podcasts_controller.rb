@@ -22,6 +22,7 @@ class PodcastsController < ApplicationController
     end
   end
 
+  #TODO make more restful - could be update OR Seperate controller for ApprovalController
   def approve_podcast
     podcast = Podcast.find(params[:id])
     podcast.update(active: true) 
