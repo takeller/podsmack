@@ -1,0 +1,24 @@
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Browse</h1>
+    <p class="lead">Our unique search system helps you narrow down your favorites</p>
+  </div>
+</div>
+
+<%= form_tag(podcasts_path, method: "get") do %>
+  <%= label_tag 'Location' %>
+  <%= select_tag(:location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-xl js-scroll-trigger" } )%>
+
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<h3> Podcast Collection </h3>
+<section class='podcast-browse'>
+  <h1><%= @podcasts.length %> Results </h1>
+  <% @podcasts.each do |podcast| %>
+    <section id='podcast_results'>
+      <%= podcast.name %>, <%= podcast.description %>
+    </section>
+  <% end %>
+</section>
