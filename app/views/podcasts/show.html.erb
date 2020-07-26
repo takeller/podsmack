@@ -15,3 +15,10 @@
     <%= tag.name + "," %>
   <% end %>
 </section>
+<% @podcast_facade.episodes.each do |episode| %>
+  <section class ="episodes">
+    <p class="name"><%= episode.name %></p>
+    <p class="description"><%= episode.description %></p>
+    <audio src= <%= episode.audio %> controls> </audio>
+  </section>
+<% end %>

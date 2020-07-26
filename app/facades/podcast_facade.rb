@@ -15,5 +15,9 @@ class PodcastFacade
     find.to_h
   end
 
+  def episodes
+    @podcast.make_episodes #we want an array of episode name, description,  audio preview url
+    require "pry"; binding.pry
+  end
 
 end

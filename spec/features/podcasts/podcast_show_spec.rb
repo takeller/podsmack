@@ -14,7 +14,6 @@ describe 'As a visitor' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
       visit "/podcasts/#{podcast.id}"
-      save_and_open_page
       expect(podcast.tags.count).to eq(5)
       expect(page).to have_content(podcast.name)
       expect(page).to have_content(podcast.location)
