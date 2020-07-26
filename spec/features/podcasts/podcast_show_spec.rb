@@ -39,7 +39,6 @@ describe 'As a visitor' do
     it 'I dont see a button to follow the podcast' do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
-
       expect(page).to_not have_button('Follow')
     end
   end

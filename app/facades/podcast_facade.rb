@@ -16,8 +16,11 @@ class PodcastFacade
   end
 
   def episodes
-    @podcast.make_episodes #we want an array of episode name, description,  audio preview url
-    require "pry"; binding.pry
+    formatted_episodes = Episode.make_episodes(@podcast.spotify_uri) #we want an array of episode name, description,  audio preview url
+    test = formatted_episodes.map do |episode_hash|
+      Episode.new(episode_hash)
+    end
   end
+
 
 end
