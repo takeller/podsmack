@@ -5,6 +5,10 @@ class User < ApplicationRecord
   has_many :podcasts
   has_many :following_podcasts, through: :followings, source: :podcast
   has_many :applications
+  
+  def pending_podcasts
+    podcasts.where(active: false)
+  end
 
   def self.from_omniauth(params)
     user = find_or_create_by(uid: params[:uid])
