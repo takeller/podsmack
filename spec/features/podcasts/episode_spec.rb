@@ -13,9 +13,16 @@ describe "When I visit the podcast show page" do
       end
     end
     it "see episodes description" do
+      podcast = create(:podcast)
+      visit "/podcasts/#{podcast.id}"
+
+      within(first('.episodes')) do
+        description = find(".description").text
+        expect(description).not_to be_empty
+      end
 
     end
-    it "I can play a full episode" do
+    xit "I can play a full episode" do
 
     end
   end
