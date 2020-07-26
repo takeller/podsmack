@@ -23,7 +23,7 @@ describe 'As a User' do
     login_user(@user) 
 
     visit '/'
-    click_on 'Browse'
+    click_on 'Find your next favorite podcast'
 
   end
   it 'I find podcasts by location' do

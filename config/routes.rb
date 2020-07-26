@@ -10,6 +10,8 @@ Rails.application.routes.draw do
     resources :podcasts, only: [:new, :create]
   end
 
+  resources :podcasts, only: [:index, :show]
+
   post '/approve_podcast/:id', to: 'podcasts#approve_podcast'
 
   get '/dashboard', to: 'users#show'
