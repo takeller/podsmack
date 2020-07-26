@@ -6,6 +6,8 @@ class Podcast < ApplicationRecord
   validates_presence_of :location 
   validates_presence_of :description
 
+  scope :filter_by_location, -> (location) {where location: location}
+
   # def self.pending
   #   require 'pry'; binding.pry
   #   podcasts.where(active: false)

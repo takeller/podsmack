@@ -29,8 +29,8 @@ describe 'As a User' do
   it 'I find podcasts by location' do
 
     expect(current_path).to eq('/podcasts')
-    # click_button('Location')
-    
+    expect(page).to have_css("#podcast_results", count: 3)
+
     page.select 'Denver'
 
     click_on('Search')
