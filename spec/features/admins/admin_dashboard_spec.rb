@@ -21,18 +21,22 @@ describe 'As an Admin' do
     expect(page).to have_css("#podcast_pending_approval", count: 3)
   end
 
+  #TODO make sure the count goes down
+  
+
   it "An admin can approve pending podcasts" do 
 
     within(first("#podcast_pending_approval")) do
       expect(page).to have_button("Approve")
       expect(page).to have_content(@podcast.name)
       expect(page).to have_content(@podcast.description)
+    
       click_on("Approve")
     end
 
     expect(page).to have_content("Application approved")
     expect(current_path).to eq('/dashboard')
-
+    expect(page).to have_css("#podcast_pending_approval", count: 2)
   end
 
   #TODO make a sad path spec for a podcast that cant be approved. Later for EXTNS

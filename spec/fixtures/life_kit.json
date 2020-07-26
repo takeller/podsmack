@@ -1,0 +1,2000 @@
+{
+  "available_markets": [
+    "US"
+  ],
+  "copyrights": [],
+  "description": "Everyone needs a little help being a human. From sleep to saving money to parenting and more, we talk to the experts to get the best advice out there. Life Kit is here to help you get it together.",
+  "episodes": {
+    "href": "https://api.spotify.com/v1/shows/5J0xAfsLX7bEYzGxOin4Sd/episodes?offset=0&limit=50",
+    "items": [
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/95472daac19d4ca50a03d71fd3cc0c6c915788e2",
+        "description": "Attention new campers! This episode will get you ready for your first car camping trip so you'll feel comfortable and confident in being a responsible member of the outdoor community. We'll discuss what to bring camping, how to make meals, how to stay safe and how to honor the land. ",
+        "duration_ms": 1336033,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5B9ozs7QdDGWXhMwVjTq1b"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5B9ozs7QdDGWXhMwVjTq1b",
+        "id": "5B9ozs7QdDGWXhMwVjTq1b",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/1154243cc3812f7292d90f598a4262ac067e3d1c",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/7331697a289d8ac114b1a4fbf04429914ea7adbc",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/2e5a6826ea6b86e3c13aba4c1a4ebaf3ba0d8b33",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "New To Camping? Here's How To Get Started",
+        "release_date": "2020-07-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5B9ozs7QdDGWXhMwVjTq1b"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/87928b2d97562618739467cbca9688e96b542687",
+        "description": "Some parents think the best way to manage a child's screen time is to set hard limits. But those rules are particularly difficult to keep during a pandemic, when screens are a lifeline for all of us. So what should the rules be? Sonia Livingstone and Alicia Blum-Ross, coauthors of Parenting For A Digital Future, explain why being too strict about screen time might not be the best strategy for your kids — or the whole family. ",
+        "duration_ms": 947644,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3QtxfMdyc4uiWgVuAdoW1W"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3QtxfMdyc4uiWgVuAdoW1W",
+        "id": "3QtxfMdyc4uiWgVuAdoW1W",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/b91dec9aa5d7f1247cd0f3d66ce853ec6b76a6cf",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/c6fded9a9e7cc52663824a5e22d1699a37e97e15",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/b26c9870546cd1fc058cc3e0083094595d60fda8",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Work With — Not Against — Screen Time",
+        "release_date": "2020-07-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3QtxfMdyc4uiWgVuAdoW1W"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b88832f2f1579d55e79ae06fa71f0e11d4227f38",
+        "description": "No matter your skin tone, sunscreen keeps your skin safe from harmful UVA and UVB rays. But to use it right, you need to know a few things: What SPF to use, how often to reapply and the difference between chemical and physical sunscreen. This episode explains what to look for on the back of a sunscreen bottle and how to use it effectively. ",
+        "duration_ms": 1228173,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3jfXrFEUtLJQ0V2GssPDQg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3jfXrFEUtLJQ0V2GssPDQg",
+        "id": "3jfXrFEUtLJQ0V2GssPDQg",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/257933a6c8881dd138f900263a027a2e89fed22b",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/4ee4bb1540a2193ba96cce7f7692dbca605c4b3e",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/c0dee1ab09f61ea0f513064ee014e0d24d4cc664",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "A Sunscreen Evangelist Explains Why You Need To Get On Board ",
+        "release_date": "2020-07-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3jfXrFEUtLJQ0V2GssPDQg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/56ffe36e598686d6f57b8b920aef585df3de9bef",
+        "description": "Thinking about making a trip to visit family? In the age of the coronavirus, there are questions you need to answer before showing up at your relative's house. In this episode, we talk through best practices for if, or when, you decide to visit elderly relatives during this pandemic. ",
+        "duration_ms": 1007804,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4MGKfGPBqKrQp3iWMYFx6z"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4MGKfGPBqKrQp3iWMYFx6z",
+        "id": "4MGKfGPBqKrQp3iWMYFx6z",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/a94dad59f7ae7c0a926cd819404e1f3254d606b3",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/242fda4c96067df3958584d43fc3da5563a84448",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/fb4d7ae7735844eb7bb93ca475975ae8f08332fa",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "The Grandparents Want To See You. Is It Worth The Risk In A Pandemic?  ",
+        "release_date": "2020-07-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4MGKfGPBqKrQp3iWMYFx6z"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ed1d79184c3a705685746f6760bfab67018b5d00",
+        "description": "One in five Americans struggles with medical bills. The secret is that there's something you can do about it — you just have to know where to look and how to ask. ",
+        "duration_ms": 1422942,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1gtv5gpsSUwEDIzTIBWcFN"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1gtv5gpsSUwEDIzTIBWcFN",
+        "id": "1gtv5gpsSUwEDIzTIBWcFN",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/ef9c403b966a5e39d4c89812d8843a26b07ca4ec",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/7a57890ec05c253a574664933cb48faf34610160",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/9a0d833282c3289007799a0f20e9b96a73c48fac",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Getting Out Of Medical Debt Can Feel Impossible. Here's How To Do It ",
+        "release_date": "2020-07-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1gtv5gpsSUwEDIzTIBWcFN"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/fea903f3345d87f052fcdc31f9629d1e94aad324",
+        "description": "Face masks are crucial for curbing the spread of the coronavirus. This episode goes over some best practices when it comes to face masks, including how to wear a mask properly, the protection given by cloth vs. surgical masks, and how to safely take a break.",
+        "duration_ms": 700839,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7DSVEjKJ3IUuy4BTnN3tcg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7DSVEjKJ3IUuy4BTnN3tcg",
+        "id": "7DSVEjKJ3IUuy4BTnN3tcg",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/81be56de20e9ad7ef6e191be7c8c76869d1fa35a",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/156a4b566b38e804e9411803fae502e00cd30e66",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/21c35dad9a0456eb83025b0665cd8a8591fec0ea",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "What You Need To Know About Protective Face Masks",
+        "release_date": "2020-07-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7DSVEjKJ3IUuy4BTnN3tcg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/df0f5b2e8751d52e9f087a208a9ff7470746626c",
+        "description": "There's been a lot of talk about the work white people need to do to understand their role in racism. Layla Saad's book, Me and White Supremacy, helps readers do just that. Saad explains why it's important to dig into the uncomfortable work, why being an ally isn't enough, and ideas to combat white supremacy in your everyday life.",
+        "duration_ms": 1013159,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4qb77HAqglr3e7JTNhgXDD"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4qb77HAqglr3e7JTNhgXDD",
+        "id": "4qb77HAqglr3e7JTNhgXDD",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/86dca0aa2fff737d5d9054f130c7f4ac84561c72",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/f401c54edbdc76bb9d44d63f8b82bd6aad2c610b",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/0cb4cbba2a9b804f8c60cc6878c51f440ce679ff",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "'Me And White Supremacy' Helps You Do The Work Of Dismantling Racism",
+        "release_date": "2020-07-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4qb77HAqglr3e7JTNhgXDD"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/65a1560ac849f8f8ca9ad165e1215c9b6cf9fc7d",
+        "description": "Returning to work during the COVID-19 pandemic? This episode helps workers understand their rights, including current rules about unemployment, safety concerns and underlying conditions. ",
+        "duration_ms": 972826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/70wJEX2Hf16ywrdTzYSKuO"
+        },
+        "href": "https://api.spotify.com/v1/episodes/70wJEX2Hf16ywrdTzYSKuO",
+        "id": "70wJEX2Hf16ywrdTzYSKuO",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/ac6a81c065af6b4515f53612551f0e5eda16f026",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/cce9ecd5d2b16946e88357059aeb35a286f42fe2",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/f72db9c77d22e821b0a9e20a7e762f737116ef9d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Your Boss Wants You Back. But Is It Safe? ",
+        "release_date": "2020-07-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:70wJEX2Hf16ywrdTzYSKuO"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d631ca962fff1c72dd1d65a08d07c0fc7fa428f2",
+        "description": "Eager to bring new plants home, but aren't sure where to begin? This episode will get you started with the basics of houseplant care — from watering schedule to light conditions. Because anyone can become a green thumb with a little time and attention. ",
+        "duration_ms": 1221433,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/75WOaRy3bkbcknqenNtSyL"
+        },
+        "href": "https://api.spotify.com/v1/episodes/75WOaRy3bkbcknqenNtSyL",
+        "id": "75WOaRy3bkbcknqenNtSyL",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/cc4e238190f7fefc6fe50a1fed2a6ef54f47a20f",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/e0070bbe706f9bc07ddcd08d5ccc67c43fb5d921",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/392c355e253e293095fd93c2e01ee326fefb0070",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Why Does My Plant Look Sad? 6 Tips For Raising Happy Houseplants",
+        "release_date": "2020-07-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:75WOaRy3bkbcknqenNtSyL"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/600f7470565d4208b55fa78af3480f56b7939b31",
+        "description": "We all need strategies to push back against conflict, anger and worry. Tara Brach distills the practice of mindfulness into a simple 4-step tool from her book Radical Compassion. This daily practice can help you show up for 'life' – and let go of regret and anxiety.",
+        "duration_ms": 963422,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2kn2bVrCqYItHHHLCBSEOw"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2kn2bVrCqYItHHHLCBSEOw",
+        "id": "2kn2bVrCqYItHHHLCBSEOw",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/030310d5265ed93a2fdff8ade87e50987efec494",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/f13f99a2f399162e30204b1adbe20be38180b2ac",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/6ea48e2ec4e03abb047bba4957ef2a9b71e1b067",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Anxiety Is Overwhelming. Here's A Mindfulness Tool That Works",
+        "release_date": "2020-07-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2kn2bVrCqYItHHHLCBSEOw"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e3abfd03dd4a0219d568a0ba835a70c41df679f5",
+        "description": "Talking about death makes many of us uncomfortable, so we don't plan for it. But the reality is that even a small amount of planning ensures our final wishes are honored — and makes it easier on our family and friends. This episode will help you get started on making a will and an advance directive, even if you don't have a big estate.",
+        "duration_ms": 1279451,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/483pDhKIcDFIpA4Gg8HY4X"
+        },
+        "href": "https://api.spotify.com/v1/episodes/483pDhKIcDFIpA4Gg8HY4X",
+        "id": "483pDhKIcDFIpA4Gg8HY4X",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/62938e56671895d8b04bc6ca8ba5fd17c6d40e20",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/fb25dca62b65bd36628fbdfc8943f05449dc5066",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/543b0afbd33e0a47ec87e30cb198aa33b94a3d75",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "End-Of-Life Planning Is A 'Lifetime Gift' To Your Loved Ones",
+        "release_date": "2020-06-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:483pDhKIcDFIpA4Gg8HY4X"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d357cbd7ea899bed1c635b73f3991096a8942f1d",
+        "description": "Everyone wants to be happy, and science has some answers. In this episode, Laurie Santos, the host of The Happiness Lab podcast, shares the science of cultivating gratitude and reframing positive thinking.",
+        "duration_ms": 922018,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0t4JnkgibTA34eqPGscuq0"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0t4JnkgibTA34eqPGscuq0",
+        "id": "0t4JnkgibTA34eqPGscuq0",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/887b6d3423fe51d4fdf6eba1df75200a75de1121",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/c424150f80e8462206a1ecd31faf43a723d72246",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/872c155ada1dcec6cf06ba6d2fbbe1b721295363",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Want To Be Happier? Evidence-Based Tricks To Get You There",
+        "release_date": "2020-06-29",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0t4JnkgibTA34eqPGscuq0"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/21cea94da6ec64f85ffdaa43ced82033b55feb46",
+        "description": "Coming out looks different for everyone and is a continuous process. WNYC Studio's Nancy hosts talk with people about their coming out stories to learn what went well, what could have gone better, and what to say if someone comes out to you. ",
+        "duration_ms": 1434749,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5Scwe1lS66vNPMm8fUxMuN"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5Scwe1lS66vNPMm8fUxMuN",
+        "id": "5Scwe1lS66vNPMm8fUxMuN",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/d5187a5ce5cb5c44899f6df880b82b57863c5249",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/e02bda17eec7fbe64d3bf20b299a3d28ef1c0f78",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/035db9566333fcdc0c2bca53d26ff8d255cab483",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Navigating The Coming Out Conversation — From Both Sides ",
+        "release_date": "2020-06-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5Scwe1lS66vNPMm8fUxMuN"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/5de23783667708d5ee22d7a4cf8193c9ab0c1c90",
+        "description": "Journaling helps you process emotions and gain insight. But you don't have to write for an hour a day or keep a beautiful bullet journal to get the benefits of journaling. This episode helps you get started with helpful journal prompts, even if you're wary about putting your feelings out there.",
+        "duration_ms": 780304,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3JNz2iTxJB0zGewMSUw70K"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3JNz2iTxJB0zGewMSUw70K",
+        "id": "3JNz2iTxJB0zGewMSUw70K",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/09d959703d9648742c3ea9be5b06d54cc843713e",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/1b09908084bc9dee6813a70286bf2aba339a61a8",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/69fa0277cd61543aafaa3aec53a38e79a188e187",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Make Journaling Work For You",
+        "release_date": "2020-06-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3JNz2iTxJB0zGewMSUw70K"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d8f1b94d24c138c90bd2205adf7e4ed31628f575",
+        "description": "American parents often feel like event planners for their kids. There's a pressure to make sure kids are entertained and content every minute of the day. NPR's Michaeleen Doucleff says kids can be trained to occupy themselves.",
+        "duration_ms": 777169,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0TvSdStahqAsK9n23RW1ny"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0TvSdStahqAsK9n23RW1ny",
+        "id": "0TvSdStahqAsK9n23RW1ny",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/054eca6581bfacaa1ba35500047f2b28310b3ebf",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/5a2d28760f5db637b882452b4b009bc0c6c5a211",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/67fe43a7fc350bb520503987600fc3b2fb9bef4b",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Kids Know How To Occupy Themselves. We Need To Let Them Do It ",
+        "release_date": "2020-06-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0TvSdStahqAsK9n23RW1ny"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1be984250ebcc8b3f5c2b74b94a1d0e01acc1902",
+        "description": "You may not think of yourself as racist, but Robin DiAngelo says that \"nice white people\" are still complicit in racist structures. DiAngelo has tips to help white people break from apathy, interrupt racist systems and commit to anti-racist practices.",
+        "duration_ms": 663197,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6L2AfvD2WsMjEJ40UtwldC"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6L2AfvD2WsMjEJ40UtwldC",
+        "id": "6L2AfvD2WsMjEJ40UtwldC",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/7f21d2be455073fc59f4581e6888b2bbd1a18d5e",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/a1271a2a8c4fb3c3aad8fc382f51a4a3c21adf99",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/22b9131f30f9dd628f303777513bb0cb85580ec0",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "'Interrupt The Systems': Robin DiAngelo On 'White Fragility' And Anti-Racism",
+        "release_date": "2020-06-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6L2AfvD2WsMjEJ40UtwldC"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/873e61fcb360695b90c41edb17b0c35cd628c969",
+        "description": "This week, the Supreme Court ruled LGBTQ workers are protected from job discrimination. So how can your workplace be truly equitable to transgender people? Gender Reveal host Tuck Woodstock answers questions about making the workplace safer and more inclusive for trans people and provides simple ideas to help you be a trans ally at work and beyond. ",
+        "duration_ms": 1247478,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/37aM2zY8yJEGdtMI0F8OoK"
+        },
+        "href": "https://api.spotify.com/v1/episodes/37aM2zY8yJEGdtMI0F8OoK",
+        "id": "37aM2zY8yJEGdtMI0F8OoK",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/eebf695f14e73d5683432f79780381ee6495d924",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/2aaa5a93e37fc0af21cbe1d7818f0d71300c0ac2",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/f51cb9f3a6b9ded646721132df7561a43182463f",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "4 Ways To Make Your Workplace Equitable For Trans People ",
+        "release_date": "2020-06-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:37aM2zY8yJEGdtMI0F8OoK"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d2d1701e3e152837bc51b661f97395f4d2a6657b",
+        "description": "For some, talking to your parents and elders about racism can lead nowhere, or even backfire. Ijeoma Oluo, author of So You Want To Talk About Race, offers tips to make that conversation less confrontational and more constructive. ",
+        "duration_ms": 1024131,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0FxnIMuSENx06man3ooYrR"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0FxnIMuSENx06man3ooYrR",
+        "id": "0FxnIMuSENx06man3ooYrR",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/6a8c4fc840bb4f0aba14ea5121e101e042084622",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/8c9c77b297e9c6fc9d167b870df2cc72372f4e62",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/9f6e415ab3436e8861a92af1bddcc0b7b5416d7e",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Want To Have Better Conversations About Racism With Your Parents? Here's How",
+        "release_date": "2020-06-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0FxnIMuSENx06man3ooYrR"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2bf3fca046ada9501b81b9bde2a15eee2db9077f",
+        "description": "It's Been A Minute host Sam Sanders talks with his colleague Kenya Young, executive producer of Morning Edition and mother of three boys about \"the talk\" — The series of conversations black parents have with their kids, particularly their sons, about how to deal with police encounters. ",
+        "duration_ms": 1212578,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0QB3fmhjtyicafdEEp7zQb"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0QB3fmhjtyicafdEEp7zQb",
+        "id": "0QB3fmhjtyicafdEEp7zQb",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/da77bc129fb2d43d6588bedc115af58f928297e2",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/1a082c23b72101dd2c6c38c2b403da082ff1e262",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/2faeff884aacad5a8b09869217b03b17f56a88ce",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Discussing 'The Talk'  ",
+        "release_date": "2020-06-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0QB3fmhjtyicafdEEp7zQb"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b2b7e30215560a1784aa44da31d3776e84cf9b16",
+        "description": "Microaggressions are the everyday, thinly veiled instances of racism, homophobia, sexism and other biases that come across in gestures, comments or insults. But the \"micro\" doesn't mean that the acts don't have a big impact. While there's no one right way to address a microaggression, we have some pointers for ways you can begin to respond.",
+        "duration_ms": 1314142,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2tY8dRRWpOU9heBVqTJxuS"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2tY8dRRWpOU9heBVqTJxuS",
+        "id": "2tY8dRRWpOU9heBVqTJxuS",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/f331f2fc77fdbec062d51ea8b3ae638a2c9f843d",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/0135e78082a5f6f9e3d5a0698cc1f6cae8186e6e",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/0af2216723bd9437f0348f36148b461f920705d3",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Microaggressions Are A Big Deal: How To Talk Them Out And When To Walk Away",
+        "release_date": "2020-06-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2tY8dRRWpOU9heBVqTJxuS"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9b40c156cd22cff4ab8826dd418883b0b7f02c3e",
+        "description": "How do you get a good night's sleep? Many of us have routines we use to try and reach that blissful state of slumber — from meditation to melatonin to putting on a pair of socks. Sleep scientists weigh in on what sleep rituals actually work. ",
+        "duration_ms": 1284336,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7x4OEfSnxub8sW1ffvcijY"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7x4OEfSnxub8sW1ffvcijY",
+        "id": "7x4OEfSnxub8sW1ffvcijY",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/bb317df1eb10d7fc1fb02e97cb55e1f835ba3b56",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/567de9a8acef0b5bf81448b45671859c372d0f17",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/6c50afca6678bb58f0ff1a3d2bbeaabfb774b40d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Sleep Better With These Bedtime Rituals  ",
+        "release_date": "2020-06-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7x4OEfSnxub8sW1ffvcijY"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/8b376b63ceed1d8225a555e110adbef749b8745a",
+        "description": "NPR's Michel Martin talks with Jennifer Harvey, author of Raising White Kids: Bringing Up Children in a Racially Unjust America, about how to talk with white kids about racially charged events — and how to keep the conversation going. If you're a white (or nonblack) parent, don't wait for your kids to bring up the topic of race to start the discussion, says Harvey.",
+        "duration_ms": 625424,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5sahVB9KRSVcBgZLbDGTG2"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5sahVB9KRSVcBgZLbDGTG2",
+        "id": "5sahVB9KRSVcBgZLbDGTG2",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/ed25f5e7ba542b7f0db8fa5555f318d8701c864e",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/deb48cf47441d73d1be8dbc8c9828ab31c3cfc20",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/59a0a12121b8499e568b31ea23fde81bdbbd3f27",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How White Parents Can Talk To Their Kids About Race",
+        "release_date": "2020-06-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5sahVB9KRSVcBgZLbDGTG2"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/830f5ae041625f85931d50de4bbff27bf4f5790a",
+        "description": "The last few weeks have been filled with devastating stories about the police killing black people. In this episode of Code Switch, Jamil Smith, a senior writer at Rolling Stone, reads from an essay that he wrote at The New Republic more than five years ago titled \"What Does Seeing Black Men Die Do for You?\" The episode doesn't have answers, and neither do we, but we're working hard to find voices that you —  our listeners — could use right now.",
+        "duration_ms": 1334256,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5bndHadQQCxd7eAxoHEEKl"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5bndHadQQCxd7eAxoHEEKl",
+        "id": "5bndHadQQCxd7eAxoHEEKl",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/3f33e3a70385da8d2ea66ed3c71b1f53d50036ea",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/16c363b6466c3681b5dfd1c79c1023b1aa779788",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/4cae54f53f09707d572c4482e0b80df7858dd1fe",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Code Switch: A Decade Of Watching Black People Die ",
+        "release_date": "2020-06-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5bndHadQQCxd7eAxoHEEKl"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0495b40ad8319b08cb5cee6aeba60a93572e4874",
+        "description": "A visit to the doctor's office looks a little different during the pandemic. Doctors are using telemedicine services to treat patients more frequently. In this episode, Dr. Mara Gordon provides tips to help you get the most out of your telehealth visit. ",
+        "duration_ms": 1038602,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1PTnn51iF9qEoHOY7pTLFx"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1PTnn51iF9qEoHOY7pTLFx",
+        "id": "1PTnn51iF9qEoHOY7pTLFx",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/4174c26d7d74cf1b5c1b266b3460369be53296b9",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/a076c1a7b36ebb4e55aab04a6b86c4e315742e18",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/9597103249747d01c1ea2b77fa4fc8e2ca6973c6",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Telehealth Tips: How To Make The Most Of Video Visits With Your Doctor",
+        "release_date": "2020-06-01",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1PTnn51iF9qEoHOY7pTLFx"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0d4e92eaa4e7efff574fd18059d9e11f8afe9af9",
+        "description": "Summer is here, but the typical summer activities don't feel quite as carefree. How do you know if it's safe to hit the beach, rent a vacation home or pitch a tent? Life Kit host Allison Aubrey interviews experts to rate the risks of favorite summer pastimes. ",
+        "duration_ms": 461061,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4oUKA280rTZ3Hb81AwBXSF"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4oUKA280rTZ3Hb81AwBXSF",
+        "id": "4oUKA280rTZ3Hb81AwBXSF",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/c2837967ecd5eccc2c2e92532ddbea2801bc3bfc",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/bcf46eaee10d4aa615a5573a7cbc63b2c917c2dc",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/b83e2125b009a140aecdd08406c08235a2657cd1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "From Camping To Road Trips: Here's How Experts Rate The Risks Of Summer Activities ",
+        "release_date": "2020-05-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4oUKA280rTZ3Hb81AwBXSF"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/07525e2868f553e7bb7e5225d7947876a3398d54",
+        "description": "Whether it's a family pet or a loved one, every child will experience a death at some point — and their parents will likely struggle to explain it. This episode, we revisit the Mr. Hooper episode of Sesame Street, which provides a master class in talking about death and grief with young children. ",
+        "duration_ms": 1407269,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0MQ6A3T71JE7g9syZQeDTu"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0MQ6A3T71JE7g9syZQeDTu",
+        "id": "0MQ6A3T71JE7g9syZQeDTu",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/6efb59c864b176b6651bf1016e42643260f3aa87",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/61ed6909117a52fa7162eeb38422e14cfd52dcae",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/82c8b1b7487191cb42a5b9f1e02729243353b408",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Be Honest And Concrete: Tips For Talking To Kids About Death  ",
+        "release_date": "2020-05-28",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0MQ6A3T71JE7g9syZQeDTu"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c84a99c45789309ea3e7441015daba73844278b5",
+        "description": "While it's hard to know what college will look like this fall, college decision day is almost here. So what can students do to make a sound choice during this uncertain time? Education reporter Elissa Nadworny gives an update on what incoming college students need to know about appealing financial aid, changing plans and thinking through a gap year. ",
+        "duration_ms": 986645,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2hvrK0P0thds7wyuEYClJG"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2hvrK0P0thds7wyuEYClJG",
+        "id": "2hvrK0P0thds7wyuEYClJG",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/7f97899ef4ccb9b835a8fef8b5108ca7db6993bd",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/4bac19f2eb0236d275f73667ba9d78a56d0cfd06",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/28465808d8503d0f8e891175e24ee081c9906ba6",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Picking A College For The Fall? Here's How To Decide For An Unknown Future",
+        "release_date": "2020-05-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2hvrK0P0thds7wyuEYClJG"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/bcfb15f671d9cf9964f954f154cda5952e32da21",
+        "description": "Weight stigma can hurt more than just your feelings. Negative messages about weight are actually bad for your health. This episode, a case for ditching the obsession with weight loss and focusing on celebrating all different body shapes and sizes. ",
+        "duration_ms": 1269420,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5VLeck2MOZSLbvxdwQIlc2"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5VLeck2MOZSLbvxdwQIlc2",
+        "id": "5VLeck2MOZSLbvxdwQIlc2",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/23fca70f62ea240c79ad327acf57c7a4b6e08b15",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/e06fe6c40284a08dbb7d2adb5b9d49248236b13a",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/2d7b3a9206828d3181b3816bb30fa76cda3c6ec4",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How Body Positivity Can Lead To Better Health ",
+        "release_date": "2020-05-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5VLeck2MOZSLbvxdwQIlc2"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e6ba39561d26832f7f949233a0b228d0f9165e2c",
+        "description": "It's easy to get caught in a cycle of mounting overdraft fees, credit card interest and high-cost loans. A few simple tools can help you hold onto those hard-earned dollars.",
+        "duration_ms": 1369156,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4VfNNrEWLGatOI5RRo03io"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4VfNNrEWLGatOI5RRo03io",
+        "id": "4VfNNrEWLGatOI5RRo03io",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/09c3d2796057c4d0c8f232ea160fb38d8346b0b3",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/b14696e9761cd461d0a1983398d4a17a3a77e9f5",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/9b76932f4b308548eb3b1c7b4365841c2f9132b4",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Don't Fall For The Unnecessary Fee Trap",
+        "release_date": "2020-05-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4VfNNrEWLGatOI5RRo03io"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6be10c6d77107b69e74610e5f580323d77e8a1e1",
+        "description": "When we see a friend going through a rough patch, it can be hard to know how to help. What do you say? What if you say the wrong thing? In the second part of our conversation with author Rachel Wilkerson Miller, we talk about how to support your friends when things get tough.",
+        "duration_ms": 802403,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3REXkCQ4OIPW3VS4w1Cnmo"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3REXkCQ4OIPW3VS4w1Cnmo",
+        "id": "3REXkCQ4OIPW3VS4w1Cnmo",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/df5fc81c1953ad8dd97e28acfd81597062b8fd36",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/0e1845360c59c3a2243ae11f7fa1972a1dc547f1",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/d2e10abfa987347b815aae09f78d65c4e69c6702",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "What To Say When A Friend Is Struggling",
+        "release_date": "2020-05-19",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3REXkCQ4OIPW3VS4w1Cnmo"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a5c66dec7281b36300803143257d7e0756e5784c",
+        "description": "You can't fully show up for the people in your life until you know how to do the same for yourself. In this episode, we talk with Rachel Wilkerson Miller, author of The Art of Showing Up, about how to take care of yourself.",
+        "duration_ms": 916245,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3Gf7p7emyRE8TQr5OMLalo"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3Gf7p7emyRE8TQr5OMLalo",
+        "id": "3Gf7p7emyRE8TQr5OMLalo",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/d208646673409fe61e8503d7ac60ddd706174556",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/59f3b144ca2b77fd607d562008005f5ca638939b",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/8eb210e1bb703b471f5c4f432b8306b0af398fa2",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Why Caring For Yourself Helps You Care For Others",
+        "release_date": "2020-05-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3Gf7p7emyRE8TQr5OMLalo"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/229ed065c046b80664b3b5fd0430a7d0a8275a15",
+        "description": "We're all experiencing some kind of grief these days. As this pandemic progresses, more of us will experience losing someone important to us. This episode lays a groundwork for the grieving process, no matter what your loss.",
+        "duration_ms": 1205917,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7wewYDSACcyWMe7Ljg7NXR"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7wewYDSACcyWMe7Ljg7NXR",
+        "id": "7wewYDSACcyWMe7Ljg7NXR",
+        "images": [
+          {
+            "height": 359,
+            "url": "https://i.scdn.co/image/522bee7db711c875350deffcfc9c44d0baad8469",
+            "width": 639
+          },
+          {
+            "height": 168,
+            "url": "https://i.scdn.co/image/aa460b712577af6292f7ae1176ed9cf67e97ac83",
+            "width": 299
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/ef028a7ff36b6cffdf4d7ed70b6a6ffa47449977",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Grief For Beginners: 5 Things To Know About Processing Loss",
+        "release_date": "2020-05-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7wewYDSACcyWMe7Ljg7NXR"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2c26d003f469492c74c7f8b905b258996fb65290",
+        "description": "Many parents are struggling right now — juggling kids at home 24/7 and coping with their own losses. In this episode, Rosemarie Truglio, a developmental psychologist and vice president of research at Sesame Workshop, offers helpful, pandemic parenting tips.",
+        "duration_ms": 1031001,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0I1FxLVPmgWyt4MK5UT2iE"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0I1FxLVPmgWyt4MK5UT2iE",
+        "id": "0I1FxLVPmgWyt4MK5UT2iE",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/298efa56ef9a94c4045a4b4cf9ecd65e94335f2b",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/32375256dbe927850591ef49eec894332877be6b",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/b8b4a3199d04aad0ccabdbf4a44700b8def4018c",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "'When Will This Be Over?' Sesame Workshop's Tips For Parenting In A Pandemic ",
+        "release_date": "2020-05-12",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0I1FxLVPmgWyt4MK5UT2iE"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/591975bbf91887bcccda652ee3bcb88ca3e45bc2",
+        "description": "Dog adoptions are up now that people are spending more time at home. Before you get in over your head, here are some things to consider before adopting a coronavirus dog. This episode will help you weigh the pros and cons, including costs, training and how to adjust your pooch to post-pandemic life.",
+        "duration_ms": 934687,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4tR2hHET0hRG0edbKiDqFA"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4tR2hHET0hRG0edbKiDqFA",
+        "id": "4tR2hHET0hRG0edbKiDqFA",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/481cedc6d702ff646d68201c05fe471ee3aaeaea",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/edbbac97bca8ecda6951a2fca958ecdccda0fb80",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/dae15e42b2d90c4cee12f93d7b7f2614c0356310",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Your Guide To Adopting A Dog During The Coronavirus Pandemic",
+        "release_date": "2020-05-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4tR2hHET0hRG0edbKiDqFA"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/14c70ef49fd186154e637fb83800049b0b6f9136",
+        "description": "Hey kids! Sesame Street's Grover is here and he's got some great ideas for making your days brighter during coronavirus. Grover explains how to make virtual play dates more fun, how to daydream and how to be a helper. ",
+        "duration_ms": 768313,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3icb2BH2elfqOXWhOMe4ND"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3icb2BH2elfqOXWhOMe4ND",
+        "id": "3icb2BH2elfqOXWhOMe4ND",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/215e13a46edeae2dc69aa28b08114077d4fc7638",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/b509864901fd3ca69af212d6857ad9ca12b6146c",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/131662bb60731079e775683be8a39a4b39042234",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Sesame Street's Grover On Coping During Coronavirus: Just For Kids ",
+        "release_date": "2020-05-10",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3icb2BH2elfqOXWhOMe4ND"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/4edba098c2d7cd7fe0bbcaf8caf5cc222a001883",
+        "description": "Looking for a creative outlet? Sarah Urist Green, author of Your Are An Artist, shares ideas for art projects you can do while at home during the coronavirus outbreak. No creative inspiration required. ",
+        "duration_ms": 1049208,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0vv1z6hbDRnVekCOUVFIPk"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0vv1z6hbDRnVekCOUVFIPk",
+        "id": "0vv1z6hbDRnVekCOUVFIPk",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/d31fed4586565acc58a3196e66ca49be95d5f6ec",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/55083ae861075ec4b119d94257ab0436a49e3e3a",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/61c6c0bc53594ce9c3126a6e522a1ed10945c81d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Want To Get Creative? Easy Art Projects For Quarantine  ",
+        "release_date": "2020-05-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0vv1z6hbDRnVekCOUVFIPk"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d0e4611a5444bdc6aed3df5ad61fe5020179616a",
+        "description": "Lots of people want to find love, but the pandemic makes doing so more complicated. In this special episode, Sam Sanders of NPR's It's Been a Minute sheds some light on dating and relationships during the coronavirus pandemic.",
+        "duration_ms": 1780402,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2Jxv89XxHJx7gZITnpY02P"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2Jxv89XxHJx7gZITnpY02P",
+        "id": "2Jxv89XxHJx7gZITnpY02P",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/33f8595223123cec250a201e2453802d696ab6da",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/feb67325a67d5d7ef37374978e0904b24a3cbcb2",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/bc4bcbead9f3c683a91d58f2aa4446a397e859e9",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Love On Lockdown: Tips For Dating During The Coronavirus Crisis ",
+        "release_date": "2020-05-05",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2Jxv89XxHJx7gZITnpY02P"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/280e16558d3c6ea858559af6519250dd1c5bc26a",
+        "description": "The current pandemic makes it almost impossible to plan for the future. Uncertainty can be hard to live with day to day, so Life Kit talked to three people who have survived tough times and gained perspective. Here are seven tips to help you cope. ",
+        "duration_ms": 1129587,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2AIBq79Chm8DL2XTNsjxMJ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2AIBq79Chm8DL2XTNsjxMJ",
+        "id": "2AIBq79Chm8DL2XTNsjxMJ",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/857aa35708451e0dba9745a1f56f0467324b6239",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/f738c1e3a1345bae439d06528c3f701f0d1c8e29",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/09a1e062af214802a5850c0be2ce06e163ce901a",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Tips To Help You Cope With An Uncertain Future",
+        "release_date": "2020-05-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2AIBq79Chm8DL2XTNsjxMJ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/937b7a030cd89595213e7e0300215a2606812e23",
+        "description": "Screens keep us connected while we're socially distant, but phone fatigue is real. It's important to take breaks from your device to destress. In this episode, expert advice for balancing screen time during quarantine. ",
+        "duration_ms": 750367,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3Kt89dcYNhccpd9B3YjBUq"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3Kt89dcYNhccpd9B3YjBUq",
+        "id": "3Kt89dcYNhccpd9B3YjBUq",
+        "images": [
+          {
+            "height": 359,
+            "url": "https://i.scdn.co/image/e39ab3caccd9ff0336656a1c9c67fe85496f3dd4",
+            "width": 639
+          },
+          {
+            "height": 168,
+            "url": "https://i.scdn.co/image/3e9a67d0825894140b504770d094aa64a8360a46",
+            "width": 299
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/90c1d92340c53f7b5dff76f8bcd16200e5bd3790",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Screen Time Overload? Here's How To Find Balance",
+        "release_date": "2020-04-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3Kt89dcYNhccpd9B3YjBUq"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0ec4858dd4f9f77edc4205a1c41429a8e089faed",
+        "description": "Everyone has a book in them. Everyone also has a crummy inner voice telling them it's never going to happen. This episode will help shut down those distracting voices and get you started writing a book. After all, all it takes to be a \"real writer\" is to do some writing. ",
+        "duration_ms": 1358054,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7DEogyVDU7VYcOUFw0CXCv"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7DEogyVDU7VYcOUFw0CXCv",
+        "id": "7DEogyVDU7VYcOUFw0CXCv",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/5cf979dd9bdd567c94d30daa747e210426948f7c",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/c62702ae8be7c1af6720cfbe137fb0a528877bf6",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/d0e8ed8c4bd7941aef44287088615bd544f43df1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "If You've Always Wanted To Write A Book, Here's How",
+        "release_date": "2020-04-28",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7DEogyVDU7VYcOUFw0CXCv"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1f432c397ffb46ba17b07b7c827418c57811b969",
+        "description": "The CARES Act provides relief to many student loan borrowers during the coronavirus pandemic. But how do you know if you qualify? What if you're enrolled in Public Service Loan Forgiveness? What about private loans? This episode, a Life Kit collaboration with Death, Sex & Money from WNYC Studios, explains the fine print of how to handle student loans during the pandemic.",
+        "duration_ms": 1277753,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1u3GLfLGHjFw7XF24tOZuR"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1u3GLfLGHjFw7XF24tOZuR",
+        "id": "1u3GLfLGHjFw7XF24tOZuR",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/16d689535c2c813524aaf742c670ab5396833a93",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/4c0a4e232a211be054b2f3de23e7df849782800a",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/e21154c8a23e5bda78d931ee75cf1e3fd5810bb8",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Juggling Student Loans During A Pandemic",
+        "release_date": "2020-04-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1u3GLfLGHjFw7XF24tOZuR"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6f456aa15ce0db2b53fcad31bc48b9ed86b1718b",
+        "description": "Exercise is considered an essential activity during this pandemic. But what if it's the first time you'll be going for a jog? Avid runner and host of Wait Wait...Don't Tell Me!, Peter Sagal gives his pitch for why you should start running and three steps to get you there.",
+        "duration_ms": 906710,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/35ocLqwkluF69XI6mr7j45"
+        },
+        "href": "https://api.spotify.com/v1/episodes/35ocLqwkluF69XI6mr7j45",
+        "id": "35ocLqwkluF69XI6mr7j45",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/6669ec6541d39dd9ffced8cb875b01a981387ebb",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/f35a212d6d280b211526a0a47939a3ef4901bc24",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/172ccb70779fde53b25f3f9b6fef0bafd6de22d8",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Start Running, With Peter Sagal",
+        "release_date": "2020-04-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:35ocLqwkluF69XI6mr7j45"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0f569c758978d2bbd648cfb03db3d82c7eb826bf",
+        "description": "Whether you have big plans for a vegetable garden or a tiny pot of windowsill herbs, this episode will help you get your green thumb. We cover the basics of hardiness zones, understanding good soil and building raised beds so you can turn garden dreams into reality. ",
+        "duration_ms": 1160098,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/50eNf31DBSebHmHjrEhT0J"
+        },
+        "href": "https://api.spotify.com/v1/episodes/50eNf31DBSebHmHjrEhT0J",
+        "id": "50eNf31DBSebHmHjrEhT0J",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/a50897fe4152f367e378303f4062766f248ac68b",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/602e8a9b93203003f56e1d5513a6a1b995dff18b",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/06448fbd8a8182d2597035266353723b19b6473d",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "This Is A Good Time To Start A Garden. Here's How",
+        "release_date": "2020-04-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:50eNf31DBSebHmHjrEhT0J"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/578d1c2e4d4ccd0c66d63c5b62d13eba1a19a9f7",
+        "description": "Experts say the coronavirus outbreak may be the biggest source of Internet misinformation ever. Fake cures, unscientific tips, and conspiracy theories about COVID-19 are flooding the Internet — but there are ways to sniff out misinformation. ",
+        "duration_ms": 1704516,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1KKSNJckFD4vx9wkypYJIO"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1KKSNJckFD4vx9wkypYJIO",
+        "id": "1KKSNJckFD4vx9wkypYJIO",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/6f8a3a41ec1b9795e0a88994b4f5aa359b971ddb",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/39c2998c0d3ab3b741d2f5224ccbbf69233eb563",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/bf8835be73d1344213faa1e889a04e025eadd3aa",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Fake News Can Be Deadly. Here's How To Spot It.  ",
+        "release_date": "2020-04-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1KKSNJckFD4vx9wkypYJIO"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a9dea99712ea218ff3216fd088ad29f1a5e65f1e",
+        "description": "Shame spirals, toilet paper panic and bingeing on news — it's easy to worry, but harder to stop. Psychiatrist Judson Brewer explains why panic can be as contagious as a virus and shares simple ways to recenter yourself when you get carried away by anxious thoughts.",
+        "duration_ms": 896549,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6ExejFiqJVkSDUo8yL3uRg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6ExejFiqJVkSDUo8yL3uRg",
+        "id": "6ExejFiqJVkSDUo8yL3uRg",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/a151c05d29c6b4cd1c7bce63380047c42f0a2001",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/9e2b5f667b397e8e79776bc132e4f4765ef5c8c0",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/6097111ea9bcd513ff768504c8d1308b4b1bd720",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Coronavirus Panic: How To Get Your Thinking Brain Back Online",
+        "release_date": "2020-04-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6ExejFiqJVkSDUo8yL3uRg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/35cb204bf8edb2f2c9ee6da4766d02bf5394a03d",
+        "description": "Grocery shopping during coronavirus is fraught with confusion. Do you need to disinfect your groceries? When are the best times to go grocery shopping right now? This episode gives tips about safe grocery shopping — and what you can stop worrying about.",
+        "duration_ms": 501525,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3bnbxMv02qityc0T4nUQ9Q"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3bnbxMv02qityc0T4nUQ9Q",
+        "id": "3bnbxMv02qityc0T4nUQ9Q",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/309c37fec615e93fb478161fb2696063ed2466a6",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/9b80c15681d35cff9fe93d546622769c77b9f6b5",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/792fa2209a66b1a68d0920bf4bbe3e559ee7fda7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Shop For Groceries During Coronavirus ",
+        "release_date": "2020-04-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3bnbxMv02qityc0T4nUQ9Q"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/85c6ec24b6ea1930b6ae1bf65a63a5b8c229b6d7",
+        "description": "There are lots of ways to give back during the coronavirus pandemic, but where do you start? Ari Shapiro of All Things Considered talks with experts about some strategies to get you started if you're able to help out.",
+        "duration_ms": 908069,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0yrOZq9XLAKbNMB9kAbmQL"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0yrOZq9XLAKbNMB9kAbmQL",
+        "id": "0yrOZq9XLAKbNMB9kAbmQL",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/a87b2288df44f5545e9640b53ef08629d3e27989",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/0063eb196e652a9bbe42eadb29a5587f989e96c1",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/3eeb40df7a39d9df7cd1bd925ceaa3f2e82606ef",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "Don't Be Discouraged. Here's How To Help During Coronavirus",
+        "release_date": "2020-04-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0yrOZq9XLAKbNMB9kAbmQL"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ba978b93066b39ba74ebaab3722188f5d8560226",
+        "description": "Whether you've got a small apartment or a big backyard, there are ways to compost your kitchen scraps in any space. This episode is your starter for how to compost your organic waste into rich soil. Also, how to get the right mix of greens and browns and what you can and can't compost. ",
+        "duration_ms": 1078753,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1NGCqCzRVlkVGerbEHtOwg"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1NGCqCzRVlkVGerbEHtOwg",
+        "id": "1NGCqCzRVlkVGerbEHtOwg",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/b298ae01e4b16abf7e35d2869f26d422baaf690e",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/a1a58d5ba9f8b72845b31167098a362cfd53c8e1",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/69874a0a0ed17943daab8b2f5d20e8659dfa9d0b",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Compost At Home ",
+        "release_date": "2020-04-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1NGCqCzRVlkVGerbEHtOwg"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/944cdb415041fec603b1ca57247fbf344f650fd5",
+        "description": "If you'd like to read more, but you're finding it difficult — maybe you can't focus, you feel slow or like you're not enjoying the books you tried — don't give up! These four reading strategies will help make reading a little easier and more fun.",
+        "duration_ms": 714789,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/06IFGboutsWuUeEgQt2amt"
+        },
+        "href": "https://api.spotify.com/v1/episodes/06IFGboutsWuUeEgQt2amt",
+        "id": "06IFGboutsWuUeEgQt2amt",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/f3eda619235ec70dcf2677a5bd0b1344a8a077a6",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/3ed425ee5ea342219420a3f696f0c6870c10da33",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/a8e4df4e81d75a95780cbedca7f2708db773fbf4",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Focus While Reading",
+        "release_date": "2020-04-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:06IFGboutsWuUeEgQt2amt"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a53eb667e622f9cefae854ff5a96e50ac90350d1",
+        "description": "Taking care of your mental health during the coronavirus pandemic is important, and it's still possible to get therapy even when you're staying at home. This episode gives information on making online therapy a little easier, low-cost therapy and free mental health hotlines to get you the help you need.",
+        "duration_ms": 729913,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6spsieAb7mkGJo28diSLRk"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6spsieAb7mkGJo28diSLRk",
+        "id": "6spsieAb7mkGJo28diSLRk",
+        "images": [
+          {
+            "height": 360,
+            "url": "https://i.scdn.co/image/6866232c3ab2575ca923fed134685eb226a70f0f",
+            "width": 640
+          },
+          {
+            "height": 169,
+            "url": "https://i.scdn.co/image/70eb495837f1692c483b113ec081e93f8f9f284d",
+            "width": 300
+          },
+          {
+            "height": 36,
+            "url": "https://i.scdn.co/image/fc47c6afa6ff3dd96281983d87ecc3dd729f866c",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "name": "How To Get Therapy When You Can't Leave The House",
+        "release_date": "2020-04-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6spsieAb7mkGJo28diSLRk"
+      }
+    ],
+    "limit": 50,
+    "next": "https://api.spotify.com/v1/shows/5J0xAfsLX7bEYzGxOin4Sd/episodes?offset=50&limit=50",
+    "offset": 0,
+    "previous": null,
+    "total": 158
+  },
+  "explicit": false,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/5J0xAfsLX7bEYzGxOin4Sd"
+  },
+  "href": "https://api.spotify.com/v1/shows/5J0xAfsLX7bEYzGxOin4Sd",
+  "id": "5J0xAfsLX7bEYzGxOin4Sd",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/454e18007eb085465084769baba1a4251754e3ae",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/479da171b85366c9964285c1733c7c45517d2615",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/cb55a210f2861aac56e51299ee5d037667449132",
+      "width": 64
+    }
+  ],
+  "is_externally_hosted": false,
+  "languages": [
+    "en-US"
+  ],
+  "media_type": "audio",
+  "name": "Life Kit",
+  "publisher": "NPR",
+  "total_episodes": 158,
+  "type": "show",
+  "uri": "spotify:show:5J0xAfsLX7bEYzGxOin4Sd"
+}

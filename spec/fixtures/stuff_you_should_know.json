@@ -1,0 +1,2084 @@
+{
+  "available_markets": [
+    "AD",
+    "AE",
+    "AL",
+    "AR",
+    "AT",
+    "AU",
+    "BA",
+    "BE",
+    "BG",
+    "BH",
+    "BO",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CO",
+    "CR",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "DO",
+    "DZ",
+    "EC",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "GT",
+    "HK",
+    "HN",
+    "HR",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IN",
+    "IS",
+    "IT",
+    "JO",
+    "JP",
+    "KW",
+    "LB",
+    "LI",
+    "LT",
+    "LU",
+    "LV",
+    "MA",
+    "MC",
+    "ME",
+    "MK",
+    "MT",
+    "MX",
+    "MY",
+    "NI",
+    "NL",
+    "NO",
+    "NZ",
+    "OM",
+    "PA",
+    "PE",
+    "PH",
+    "PL",
+    "PS",
+    "PT",
+    "PY",
+    "QA",
+    "RO",
+    "RS",
+    "SE",
+    "SG",
+    "SI",
+    "SK",
+    "SV",
+    "TH",
+    "TN",
+    "TR",
+    "TW",
+    "US",
+    "UY",
+    "VN",
+    "XK",
+    "ZA"
+  ],
+  "copyrights": [],
+  "description": "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered.",
+  "episodes": {
+    "href": "https://api.spotify.com/v1/shows/0ofXAdFIQQRsCYj9754UFx/episodes?offset=0&limit=50",
+    "items": [
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/2f35024dc86cfe90c28b5e41ee0553a3f6a716bb",
+        "description": "Lobbying is an entrenched part of American politics and one that many people think is breaking government. But petitioning the government is protected in the Constitution. How can this system be fixed? join Josh and Chuck as they explore the topic in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3639536,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7HxQIwDKTmel3aexkIWPsM"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7HxQIwDKTmel3aexkIWPsM",
+        "id": "7HxQIwDKTmel3aexkIWPsM",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Lobbying Works",
+        "release_date": "2020-07-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7HxQIwDKTmel3aexkIWPsM"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/294ae7053b980c8b64b9a1792a369396f0bc3dcf",
+        "description": "Today we deep dive on mobile phones, wonders of the modern world!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3537162,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0AOdiqit9dmsfDrWm65hKC"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0AOdiqit9dmsfDrWm65hKC",
+        "id": "0AOdiqit9dmsfDrWm65hKC",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Everything You Ever Wanted to Know About Mobile Phones ",
+        "release_date": "2020-07-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0AOdiqit9dmsfDrWm65hKC"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e62e8cca3ac68df911938afdca48dc41eaf6370d",
+        "description": "Sure, together Young Guns and Young Guns II form an exhaustive biography of Billy the Kid’s life. But did you know they also contain misleading information? Billy the Kid may not have lived to 100 under an alias after all!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 1063784,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/42rT6lKJu555Mp6sE3rdzq"
+        },
+        "href": "https://api.spotify.com/v1/episodes/42rT6lKJu555Mp6sE3rdzq",
+        "id": "42rT6lKJu555Mp6sE3rdzq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: The Death of Billy the Kid",
+        "release_date": "2020-07-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:42rT6lKJu555Mp6sE3rdzq"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/57f4f04a6401977c4e78486e9811a839ca40cf4b",
+        "description": "For more than half of the 20th century parents in the industrialized world were freaked out by an unseen waster of youth, the poliovirus. It spread easily and could paralyze children for life or even kill them. Its effects were so horrible that humanity set about ridding if from the Earth.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2824020,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/27gKvZbAZxf5qKqZtq4yPG"
+        },
+        "href": "https://api.spotify.com/v1/episodes/27gKvZbAZxf5qKqZtq4yPG",
+        "id": "27gKvZbAZxf5qKqZtq4yPG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How We Almost Got Rid of Polio",
+        "release_date": "2020-07-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:27gKvZbAZxf5qKqZtq4yPG"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/90757c522678dbfb097a91aae0706c13aba85fc6",
+        "description": "If you've ever seen a flea circus, then count yourself among the few. It's a dying art, but back in the day they thrilled and delighted young and old alike. Learn all about the tiny big tops in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3035272,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4VYyXK4Wijrm3KnHXUol11"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4VYyXK4Wijrm3KnHXUol11",
+        "id": "4VYyXK4Wijrm3KnHXUol11",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How a Flea Circus Works",
+        "release_date": "2020-07-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4VYyXK4Wijrm3KnHXUol11"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/6994f32a9ca4f9e21c5ed7ddcee6786ea9b86bd2",
+        "description": "The robber barons were not a group of evil super villains. OR WERE THEY? Learn all about these titans of industry from the Gilded Age in today's episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 4254328,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4NntJe8eEbAS4dmnTW2qq6"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4NntJe8eEbAS4dmnTW2qq6",
+        "id": "4NntJe8eEbAS4dmnTW2qq6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Robber Barons!",
+        "release_date": "2020-07-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4NntJe8eEbAS4dmnTW2qq6"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c54b2f601c09fb8cf902fdd88063b9c1e2c3272b",
+        "description": "An old coal mine in Pennsylvania caught fire one day in the 60s and it’s been burning ever since. What’s crazy is this happens all the time.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 995004,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/74o3mKQL3ucUEOr0YYCEkG"
+        },
+        "href": "https://api.spotify.com/v1/episodes/74o3mKQL3ucUEOr0YYCEkG",
+        "id": "74o3mKQL3ucUEOr0YYCEkG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Centralia Coal Fire",
+        "release_date": "2020-07-15",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:74o3mKQL3ucUEOr0YYCEkG"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b14f77ddaf58b5de891c97250b41a8a7e28e14ea",
+        "description": "The 1920s were just absolutely nuts. People got into weird fads really intensely and one of the strangest of all was flagpole sitting. It’s just what it sounds like – sitting on top of a flagpole for as long as you can. One man sat above them all.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3032921,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/048aNbr3Os6abcFHnPrn84"
+        },
+        "href": "https://api.spotify.com/v1/episodes/048aNbr3Os6abcFHnPrn84",
+        "id": "048aNbr3Os6abcFHnPrn84",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Flagpole Sitting: A Real Fad",
+        "release_date": "2020-07-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:048aNbr3Os6abcFHnPrn84"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e47104733be660c0459a6ee82fd504216686fc19",
+        "description": "Well-planned landfills have only recently come into widespread use. Recently, waste managers have found that they work a little too well and now the landfill is being reinvented.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2776921,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6ThzY7GkSvhi7DQESVsA77"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6ThzY7GkSvhi7DQESVsA77",
+        "id": "6ThzY7GkSvhi7DQESVsA77",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Landfills Work",
+        "release_date": "2020-07-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6ThzY7GkSvhi7DQESVsA77"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9dea5576f6c68baf5b0cc17558495d52c6bb4e9a",
+        "description": "Essential oils are from plants and they can help the human body in a lot of ways. There are also many false medical claims. Learn all the ins and outs today.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3463053,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1wLVX6LIbCIprgODNW9sRi"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1wLVX6LIbCIprgODNW9sRi",
+        "id": "1wLVX6LIbCIprgODNW9sRi",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Essential Oils: Nature's Cure?",
+        "release_date": "2020-07-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1wLVX6LIbCIprgODNW9sRi"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/7c47a4d8f493b9841d256a5eefa3e7c010485987",
+        "description": "You know the at symbol? This thing: @? There’s a name for it, just not in English. We just call it the at symbol. But other countries – stand back!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 972069,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5ePfH3jm6v2wBIGatFywhe"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5ePfH3jm6v2wBIGatFywhe",
+        "id": "5ePfH3jm6v2wBIGatFywhe",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: The @ Symbol",
+        "release_date": "2020-07-08",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5ePfH3jm6v2wBIGatFywhe"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/7f2b7136bae941ca80b689f7fddd25dcc640a7ff",
+        "description": "The KGB was the notorious strong arm of the Kremlin. Run afoul and you died. Learn all about them today.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3389257,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2olXKCGzkoVLGX8c6WGCjs"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2olXKCGzkoVLGX8c6WGCjs",
+        "id": "2olXKCGzkoVLGX8c6WGCjs",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "What was the KGB?",
+        "release_date": "2020-07-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2olXKCGzkoVLGX8c6WGCjs"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/f5219d0b3b11b045cd76346d2db4bedf39f368c5",
+        "description": "Guessing is a weird thing. For millennia, it could have meant the difference between life and death. Now it's not as vital, but we still do it every day, whether behind the wheel of a car, or judging what another person might be feeling. In this classic episode, learn everything we know about the brain and how it manages this odd, very human act.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3515063,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6uUXqck4GMyzUAhbm9gINQ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6uUXqck4GMyzUAhbm9gINQ",
+        "id": "6uUXqck4GMyzUAhbm9gINQ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: All We Know About Guessing",
+        "release_date": "2020-07-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6uUXqck4GMyzUAhbm9gINQ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/af32905d8740625de09389807e26c264e31e4b5f",
+        "description": "There is maybe nothing that sounds more boring than hearing two people talk about soil, but friend, prepare to be amazed at the details of what makes this amazing substance the life blood of Earth itself!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3695909,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/75JrTtQqt5W8bOCsCSOzYI"
+        },
+        "href": "https://api.spotify.com/v1/episodes/75JrTtQqt5W8bOCsCSOzYI",
+        "id": "75JrTtQqt5W8bOCsCSOzYI",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Oh Yes, How Soil Works",
+        "release_date": "2020-07-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:75JrTtQqt5W8bOCsCSOzYI"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/3846a49eb934be08c9c2f039971aba8a70371d13",
+        "description": "Why are some words funnier than others? Well, one man has sought to figure that out. We'll tell you all about him and his project in today's episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 912118,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/69fGUJDofjQzxSbFttD8uF"
+        },
+        "href": "https://api.spotify.com/v1/episodes/69fGUJDofjQzxSbFttD8uF",
+        "id": "69fGUJDofjQzxSbFttD8uF",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: The Science of Funny Words",
+        "release_date": "2020-07-01",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:69fGUJDofjQzxSbFttD8uF"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1bfabff7ebe4a2781d18fd355429848af893423b",
+        "description": "Researchers have noticed that as incidence of anger increases so too has teeth grinding, known clinically as bruxism. That’s a problem because when people grind their teeth, especially when they’re sleeping, they can wear them down to nubs.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3116513,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6pRsGBUp7oKS3KpJukH1Z8"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6pRsGBUp7oKS3KpJukH1Z8",
+        "id": "6pRsGBUp7oKS3KpJukH1Z8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Bruxism: Grinding Your Teeth Is the Pits",
+        "release_date": "2020-06-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6pRsGBUp7oKS3KpJukH1Z8"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0bd4015ea7bc4033033bf68fa39da60adf9b395c",
+        "description": "There is a lot – A LOT – to juggling and Chuck and Josh go over the lion’s share of it in this classic episode. Delve into the deep history, physics, how-tos and different types of juggling in this surprisingly sweeping look at a putatively innocuous pastime.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3228317,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6POe3eOZXp05rSg54sW5My"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6POe3eOZXp05rSg54sW5My",
+        "id": "6POe3eOZXp05rSg54sW5My",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: Juggling: What the Heck",
+        "release_date": "2020-06-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6POe3eOZXp05rSg54sW5My"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/240e95cd35343e2d2738ce033a4dd38900e93b72",
+        "description": "Matcha is something else, healthy and delicious and all the rage. Learn all about this trendy beverage today.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3211860,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3XglervzimsgEq23k4chVC"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3XglervzimsgEq23k4chVC",
+        "id": "3XglervzimsgEq23k4chVC",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Matcha: That Ain't Just Tea",
+        "release_date": "2020-06-25",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3XglervzimsgEq23k4chVC"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/ad6c4abfff54caf8a0beb1012d7e3084e474736f",
+        "description": "A gaggle of geese. A murder of crows. Nouns of assemblage are awesome and we talk about them for about 12 minutes in today's Short Stuff installment.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 822073,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3kg4AlE5pyuId5y4px4mbA"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3kg4AlE5pyuId5y4px4mbA",
+        "id": "3kg4AlE5pyuId5y4px4mbA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Nouns of assemblage... assemble! ",
+        "release_date": "2020-06-24",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3kg4AlE5pyuId5y4px4mbA"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/76b0faa09a2895215cf4f1bb82b158f2f478df78",
+        "description": "Sure you know all about ultrasound. You can see pictures of little babies right there cozy in the womb just by waving a magic plastic stick over the mom’s tummy. And magic is basically right. Believe us.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3299527,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5r0MQHfUjZSWbNhypHNM92"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5r0MQHfUjZSWbNhypHNM92",
+        "id": "5r0MQHfUjZSWbNhypHNM92",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Ultrasound Works",
+        "release_date": "2020-06-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5r0MQHfUjZSWbNhypHNM92"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/997eb7527afc80217c80bd9af0bf45104030dd70",
+        "description": "People often ask us how we do our research. We're not going to disclose all of our secrets, but we'll give you some tips on how to root out the bad studies from the good ones. Learn all about shady studies and reporting in this classic episode!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2989270,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5dFtEu67sFiOvmBg1MilHs"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5dFtEu67sFiOvmBg1MilHs",
+        "id": "5dFtEu67sFiOvmBg1MilHs",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: Research tips from SYSK",
+        "release_date": "2020-06-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5dFtEu67sFiOvmBg1MilHs"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0ab930a40bdc89a5a991c43b4b1ec9d6fb950f2e",
+        "description": "  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2753933,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0TzfKwe44tJnbWlfn5daTI"
+        },
+        "href": "https://api.spotify.com/v1/episodes/0TzfKwe44tJnbWlfn5daTI",
+        "id": "0TzfKwe44tJnbWlfn5daTI",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "The Manhattan Grid",
+        "release_date": "2020-06-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:0TzfKwe44tJnbWlfn5daTI"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9aa2c2126b952d52094fbf91312be74cec037582",
+        "description": "Haint Blue is a kind of robin's egg color that you might commonly find on porches of the low country of the Southeastern United States. But what does it have to do with ghouls and ghosts? Listen and learn!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 724480,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/32T63K7sROKRJLnMoA0jwC"
+        },
+        "href": "https://api.spotify.com/v1/episodes/32T63K7sROKRJLnMoA0jwC",
+        "id": "32T63K7sROKRJLnMoA0jwC",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Haint Blue",
+        "release_date": "2020-06-17",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:32T63K7sROKRJLnMoA0jwC"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a80bf0acfdba7de363b04d9cef835e777db44ce4",
+        "description": "The Seven Countries Study was a fairly impressive, long-term study on the effects of fat in our diet, among other things. But it was very flawed and launched the misguided \"War on fat.\" Learn all about today, then make up your own mind.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3256503,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4yRHVCOXFlABKjMDCpqZrR"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4yRHVCOXFlABKjMDCpqZrR",
+        "id": "4yRHVCOXFlABKjMDCpqZrR",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "The War on Fat: The Seven Countries Study",
+        "release_date": "2020-06-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4yRHVCOXFlABKjMDCpqZrR"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/8cead08bbc2a1a9b6baaf0af3ad7717851a5402f",
+        "description": "Who first decided that it would be a great idea to shoot flame at other people from a distance? Josh and Chuck talk about the (very) early origins, history and technology of the flamethrower in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 1764728,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5QjOHCfibS0YkA1Y5OHadn"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5QjOHCfibS0YkA1Y5OHadn",
+        "id": "5QjOHCfibS0YkA1Y5OHadn",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Flamethrowers Work",
+        "release_date": "2020-06-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5QjOHCfibS0YkA1Y5OHadn"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/633989c1a3b4287066d927201760a14ad7cb2146",
+        "description": "There’s a persistent insistence that you can ingest a tapeworm and as the parasite hijacks a lot of the calories you eat, the pounds will fall right off. In theory this could be true, but it’s also extremely dangerous. And has anyone ever really done it?  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2588944,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7vEjsGNw5EcY69tVvjBgp5"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7vEjsGNw5EcY69tVvjBgp5",
+        "id": "7vEjsGNw5EcY69tVvjBgp5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Can You Eat A Tapeworm To Lose Weight?",
+        "release_date": "2020-06-11",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7vEjsGNw5EcY69tVvjBgp5"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/bd684b1ebc6a1d0fc792f2e09cb9ff57cbd3e17f",
+        "description": "Foie gras means “fatty liver” in French, which makes sense because it’s made from the overripe livers of force-fed ducks and geese.   Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 800836,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3NOAqdG8sT4cL017ezsaz7"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3NOAqdG8sT4cL017ezsaz7",
+        "id": "3NOAqdG8sT4cL017ezsaz7",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Foie Gras",
+        "release_date": "2020-06-10",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3NOAqdG8sT4cL017ezsaz7"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/80dd31e000289ec924e668403b338feea66b2055",
+        "description": "In yet another testament to how amazingly great the 70s were, in 1975 the US started a program that tried to harness the powers of clairvoyance to remotely spy on the Soviet Union. Since clairvoyance doesn’t seem to exist, it wasn’t super successful.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3392496,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7EwOAdpcr1tFNSayItf2OJ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7EwOAdpcr1tFNSayItf2OJ",
+        "id": "7EwOAdpcr1tFNSayItf2OJ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Project Star Gate Worked",
+        "release_date": "2020-06-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7EwOAdpcr1tFNSayItf2OJ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e0c7292ce4b4abc70b3e618eb32fd5a00bc46f7d",
+        "description": "The Black Panther Party was a complex political movement that was unfairly painted as a militant group who hated white people. Far from it, they were actually men and women trying to affect change in their community. Their history is one of the more interesting American stories, from the early stages of policing the police to their community service efforts to their inevitable fall. Learn all about the Black Panther Party in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 4426501,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2PDseuBmQ07dcX6cokfNis"
+        },
+        "href": "https://api.spotify.com/v1/episodes/2PDseuBmQ07dcX6cokfNis",
+        "id": "2PDseuBmQ07dcX6cokfNis",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How The Black Panther Party Worked",
+        "release_date": "2020-06-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:2PDseuBmQ07dcX6cokfNis"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/b1b005284c32c5a36987afdd0aaf45d1d8c4b71b",
+        "description": "Tank Man. An indelible image burned in our brains. But what led to this extraordinary event? Chuck and Josh walk you through the days and weeks leading up to the massacre at Tiananmen Square, which is more of a cautionary tale than we realized.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 4052271,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7pbpv1BwqGySTE5UDFDHeE"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7pbpv1BwqGySTE5UDFDHeE",
+        "id": "7pbpv1BwqGySTE5UDFDHeE",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "The Massacre at Tiananmen Square",
+        "release_date": "2020-06-04",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7pbpv1BwqGySTE5UDFDHeE"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/a1564816ef998072600873a706ed3f33ca992ede",
+        "description": "The lake from one of the all-time great movies (search your feelings, you’ll find that it’s true) is turning into a dried up mudhole. Turns out it has some unusual features.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 858462,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3FGYuD6KCs9IkZC4O8RP6T"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3FGYuD6KCs9IkZC4O8RP6T",
+        "id": "3FGYuD6KCs9IkZC4O8RP6T",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Disappearing Dirty Dancing Lake",
+        "release_date": "2020-06-03",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3FGYuD6KCs9IkZC4O8RP6T"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/e71ace97fd937109db28e1abebfb49407a474e02",
+        "description": "We've covered a lot of drugs in our history, and today we tackle heroin, one of the most dangerous of all.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3615739,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/566WCH7QigmnW18zWNzXM3"
+        },
+        "href": "https://api.spotify.com/v1/episodes/566WCH7QigmnW18zWNzXM3",
+        "id": "566WCH7QigmnW18zWNzXM3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Heroin: The Drug",
+        "release_date": "2020-06-02",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:566WCH7QigmnW18zWNzXM3"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/35ec6c91bfcb2730718d9444dae43c4f3e43c1b0",
+        "description": "It’s likely that without the invention of the pneumatic jackhammer, the Industrial Revolution wouldn’t have hummed along quite so smoothly. Certainly a lot more trains would go around mountains than through them. Learn about this essential tool in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 2171716,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6qRn7Ogk6q39wXg89CNNFl"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6qRn7Ogk6q39wXg89CNNFl",
+        "id": "6qRn7Ogk6q39wXg89CNNFl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Jackhammers Work",
+        "release_date": "2020-05-30",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6qRn7Ogk6q39wXg89CNNFl"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/72dddf8d81f91395edbdd79a3c811b2585d53d5c",
+        "description": "Narcolepsy is one of those amazing rare disorders that everyone thinks they understand – people just fall asleep at random times, even in the middle of doing something. But there’s a lot more to it and – even better – we actually may be able to explain it.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3619082,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/42BYAy3DoNBlCUyFhXru2D"
+        },
+        "href": "https://api.spotify.com/v1/episodes/42BYAy3DoNBlCUyFhXru2D",
+        "id": "42BYAy3DoNBlCUyFhXru2D",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Narcolepsy Works",
+        "release_date": "2020-05-28",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:42BYAy3DoNBlCUyFhXru2D"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/28d7143004b40426ea80c0b5918a4d162312652e",
+        "description": "There was a time when kids had to look out for flying darts that could pierce their skulls when they played in the backyard.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 728973,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6c1p2ZB1bOxoXat5k9ilwl"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6c1p2ZB1bOxoXat5k9ilwl",
+        "id": "6c1p2ZB1bOxoXat5k9ilwl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Lawn Darts",
+        "release_date": "2020-05-27",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6c1p2ZB1bOxoXat5k9ilwl"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/f24d6c3c412ad76e6df3ff05165ae6a996577000",
+        "description": "If you didn’t already know how amazing hummingbirds are, prepare to learn. Not only do they count among their numbers the smallest bird species, they are also lightning fast and have the endurance of a marathoner and a telethoner put together.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3353025,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3iCsEiI1UHzfVcl1teGx5e"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3iCsEiI1UHzfVcl1teGx5e",
+        "id": "3iCsEiI1UHzfVcl1teGx5e",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Hummingbirds: Ornery Helicopters of the Animal Kingdom",
+        "release_date": "2020-05-26",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3iCsEiI1UHzfVcl1teGx5e"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d548c33ca56bd88d8333232ee475570af9b66f99",
+        "description": "The Enlightenment stands as the moment the West withdrew from superstition and found its faith in reason. Did it shift too far? In this classic episode, learn about this massive shift in thinking which we are still sorting through and coming to understand today.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3003794,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1OcLcLl8jZvgJ7M2hKchuW"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1OcLcLl8jZvgJ7M2hKchuW",
+        "id": "1OcLcLl8jZvgJ7M2hKchuW",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How The Enlightenment Works",
+        "release_date": "2020-05-23",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1OcLcLl8jZvgJ7M2hKchuW"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/aa4f611e054bbcb98bb5f9a9bf3a0061ffc0dfdc",
+        "description": "Hi listeners, in case you haven't heard already, iHeartRadio just released a brand new podcast called Commencement: Speeches for the Class of 2020, where we collected speeches from notable folks all over and asked them to give their best advice, thoughts and words of wisdom to graduating seniors. In this episode of Commencement: Speeches for the Class of 2020, Josh Clark, co-host of the Stuff You Should Know podcast, divulges secrets to graduates that their parents and teachers may have neglected to tell them. If you'd like to hear the other speeches, including ones from John Legend, Bill & Melinda Gates, Tim Cook, Katie Couric, Ryan Seacrest, Abby Wambach, and more, just search \"Commencement: Speeches for the Class of 2020\" in your podcasting app of choice!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 589740,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3J8XlTjtJu03VuzT7amRYY"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3J8XlTjtJu03VuzT7amRYY",
+        "id": "3J8XlTjtJu03VuzT7amRYY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Josh Clark's Speech from Commencement: Speeches for the Class of 2020",
+        "release_date": "2020-05-22",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3J8XlTjtJu03VuzT7amRYY"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/631b689ea6b34a0e2f86be19a5b3b1211b501623",
+        "description": "Bras are loved and hated, sometimes at the same time. But as difficult and restrictive as they can be, they rescued women from a much cruel contraption: corsets. The question remains, though, do women need bras at all?  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3624150,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4lDusY4Q6CnxSuqOZXo6fz"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4lDusY4Q6CnxSuqOZXo6fz",
+        "id": "4lDusY4Q6CnxSuqOZXo6fz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Bras Work",
+        "release_date": "2020-05-21",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4lDusY4Q6CnxSuqOZXo6fz"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/0c2f9c2c0cf8dd88c27958ed557e2805322a6e77",
+        "description": "Did you know the little nursery rhyme is controversial? It’s true: Two towns in New England can barely stand to see one another on the map (kind of).  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 916663,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1jZTF8FiZRAoXu63xm8BR0"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1jZTF8FiZRAoXu63xm8BR0",
+        "id": "1jZTF8FiZRAoXu63xm8BR0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Mary Had A Little Lamb",
+        "release_date": "2020-05-20",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1jZTF8FiZRAoXu63xm8BR0"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/87b42baf2bb343df0452b57d716e5d725f89d829",
+        "description": "Something spooky was born on the American frontier in the mid-19th century: the idea that people’s personalities survive death and that some gifted individuals can communicate with them. It developed into a religion that some still practice today.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 4222824,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1bisJiCeQ9xaSn2CsVBMhN"
+        },
+        "href": "https://api.spotify.com/v1/episodes/1bisJiCeQ9xaSn2CsVBMhN",
+        "id": "1bisJiCeQ9xaSn2CsVBMhN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Spiritualism Works ",
+        "release_date": "2020-05-19",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:1bisJiCeQ9xaSn2CsVBMhN"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9d9b43d00a04774b65b15fe7dea998259bf05332",
+        "description": "Hi listeners, in case you haven't heard already, iHeartRadio just released a brand new podcast called Commencement: Speeches for the Class of 2020, where we collected speeches from notable folks all over and asked them to give their best advice, thoughts and words of wisdom to graduating seniors. In this episode, our very own Chuck Bryant reminds graduates to not let this season define them, reminding them the world believes in their ability to craft a better future for themselves. If you'd like to hear the other speeches, including ones from John Legend, Bill & Melinda Gates, Tim Cook, Katie Couric, Ryan Seacrest, Abby Wambach, and more, just search \"Commencement: Speeches for the Class of 2020\" in your podcasting app of choice!   Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 411063,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/14IksJidlcrGWs6SBtoaNQ"
+        },
+        "href": "https://api.spotify.com/v1/episodes/14IksJidlcrGWs6SBtoaNQ",
+        "id": "14IksJidlcrGWs6SBtoaNQ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/19b38500f2087b9fd2557d97a499fdf26dc2ef70",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/1dd3a91d55eb239b31918069b62d2047628c8146",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/251d6393df10a2259897e98958eaca2008d62cf2",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Chuck Bryant's Speech from Commencement: Speeches for the Class of 2020",
+        "release_date": "2020-05-18",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:14IksJidlcrGWs6SBtoaNQ"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9f8f009254b0bcf297643ab4fe260af5db44c941",
+        "description": "Creating fire was possibly the most important human discovery, but it's easy to take for granted. But. Josh and Chuck get to the bottom of the chemistry of fire in their quest to explain everything in the universe, in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 1754593,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7eMOEFLnvcrbdaSZRxqzsK"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7eMOEFLnvcrbdaSZRxqzsK",
+        "id": "7eMOEFLnvcrbdaSZRxqzsK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Fire Works",
+        "release_date": "2020-05-16",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7eMOEFLnvcrbdaSZRxqzsK"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/8a66fe3d3878ae72e211353a3cad592510218f45",
+        "description": "No food is more all-American than peanut butter – 80 percent of homes in the country have a jar of it in the pantry right now. And while the rest of the world might find peanut butter peculiar, maybe even gross, the rest of the world is wrong.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3402815,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/53kPrB50IvRSs6qQvvUItk"
+        },
+        "href": "https://api.spotify.com/v1/episodes/53kPrB50IvRSs6qQvvUItk",
+        "id": "53kPrB50IvRSs6qQvvUItk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Peanut Butter Works",
+        "release_date": "2020-05-14",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:53kPrB50IvRSs6qQvvUItk"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/9c72af274c50b5fdb26a618d562887f799009f94",
+        "description": "You know those terrible leg cramps that come out of nowhere? They may be named after a drunken baseball pitcher.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 812199,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6EMgehdHmlNZ2jJNhu2NE6"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6EMgehdHmlNZ2jJNhu2NE6",
+        "id": "6EMgehdHmlNZ2jJNhu2NE6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Charley Horse",
+        "release_date": "2020-05-13",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6EMgehdHmlNZ2jJNhu2NE6"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/d426499d999a065f79daca8c302218aeafbacdeb",
+        "description": "Herd immunity is an epidemiological concept that if enough people are inoculated against a disease the rest of us won’t get it. It’s been useful in holding back diseases like polio and measles, but we have vaccines for them. We don’t have one for Covid-19.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 4117734,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7gC7kWoyr5BY4K9HUBHh9Q"
+        },
+        "href": "https://api.spotify.com/v1/episodes/7gC7kWoyr5BY4K9HUBHh9Q",
+        "id": "7gC7kWoyr5BY4K9HUBHh9Q",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "How Herd Immunity Works",
+        "release_date": "2020-05-12",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:7gC7kWoyr5BY4K9HUBHh9Q"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/db515a9ddcff2ac00bc988d1eba493ebb7cfe289",
+        "description": "Entrances to the underworld have been places of wonder for eons, and humans have ventured into caves to sleep, hunt, create art and explore. Thanks to the hobby of caving, that tradition continues today. Get all this plus Chuck discussing his caving experience, in this classic episode.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3363605,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5kPi9QcC2IO8kpvx15SfvM"
+        },
+        "href": "https://api.spotify.com/v1/episodes/5kPi9QcC2IO8kpvx15SfvM",
+        "id": "5kPi9QcC2IO8kpvx15SfvM",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "SYSK Selects: How Caving Works",
+        "release_date": "2020-05-09",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:5kPi9QcC2IO8kpvx15SfvM"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/c3a0e5e94f9657ac80a9a835727838f869bde8c6",
+        "description": "The zipper may be the most unsung invention we humans have ever come up with. Prior to zippers, everyone walked around like idiots with nothing but buttons to hold their clothes together. The zipper changed all that. The zipper changed everything.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3766152,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4KeXL8WGjNPbgzTPYg1swy"
+        },
+        "href": "https://api.spotify.com/v1/episodes/4KeXL8WGjNPbgzTPYg1swy",
+        "id": "4KeXL8WGjNPbgzTPYg1swy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Zippers: Humans’ Greatest Invention? No, But Still Good",
+        "release_date": "2020-05-07",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:4KeXL8WGjNPbgzTPYg1swy"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/943bdc163a9e982731a3ae7ba17f64dad5ce748a",
+        "description": "There was a glorious time in American history when circus sideshow performers lived together in a small town in Florida. Learn about the fascinating history of Gibtown today!  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 993750,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6rmRq9ivwQprda1wfFOd2o"
+        },
+        "href": "https://api.spotify.com/v1/episodes/6rmRq9ivwQprda1wfFOd2o",
+        "id": "6rmRq9ivwQprda1wfFOd2o",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/883c24ddeb1e8f393226a7b5be5b0084ad0b0205",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/c1d7aae424cc88eb7a2105e6eab3db957027b023",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/e640ac2a8b8432e2bab4b1e94cf4c96dec65dac1",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "Short Stuff: Gibtown: Sideshow Central",
+        "release_date": "2020-05-06",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:6rmRq9ivwQprda1wfFOd2o"
+      },
+      {
+        "audio_preview_url": "https://p.scdn.co/mp3-preview/1b9f1bfcf688ff4b08eb696d766ab6c4426fc063",
+        "description": "Spartacus was a real dude. He led a slave revolt, and was pretty successful to boot. I'm Spartacus. You're Spartacus. We are all Spartacus.  Learn more about your ad-choices at https://news.iheart.com/podcast-advertisers",
+        "duration_ms": 3627624,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3yBEprfLmd6j47xEzPNdNy"
+        },
+        "href": "https://api.spotify.com/v1/episodes/3yBEprfLmd6j47xEzPNdNy",
+        "id": "3yBEprfLmd6j47xEzPNdNy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+            "width": 64
+          }
+        ],
+        "is_externally_hosted": false,
+        "is_playable": true,
+        "language": "en",
+        "languages": [
+          "en"
+        ],
+        "name": "I'm Spartacus!",
+        "release_date": "2020-05-05",
+        "release_date_precision": "day",
+        "type": "episode",
+        "uri": "spotify:episode:3yBEprfLmd6j47xEzPNdNy"
+      }
+    ],
+    "limit": 50,
+    "next": "https://api.spotify.com/v1/shows/0ofXAdFIQQRsCYj9754UFx/episodes?offset=50&limit=50",
+    "offset": 0,
+    "previous": null,
+    "total": 1540
+  },
+  "explicit": false,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/0ofXAdFIQQRsCYj9754UFx"
+  },
+  "href": "https://api.spotify.com/v1/shows/0ofXAdFIQQRsCYj9754UFx",
+  "id": "0ofXAdFIQQRsCYj9754UFx",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/69610f7b5a459d74d1bd94d8b0189e37a6373162",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/a32d33f7763c9c5e40f0730b85b7158c67f413f5",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/0cd1ffe3e99ef04620c00a10be88a1676f14c2c7",
+      "width": 64
+    }
+  ],
+  "is_externally_hosted": false,
+  "languages": [
+    "en"
+  ],
+  "media_type": "audio",
+  "name": "Stuff You Should Know",
+  "publisher": "iHeartRadio",
+  "total_episodes": 1540,
+  "type": "show",
+  "uri": "spotify:show:0ofXAdFIQQRsCYj9754UFx"
+}
