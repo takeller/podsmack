@@ -6,7 +6,7 @@ describe 'As a visitor' do
       user = create(:user)
       podcast = create(:podcast)
       tags = create_list(:tag, 10).uniq
-      bad_tags = tags[5..9]
+      bad_tags = tags[5..-1]
       tags = tags[0..4]
       tags.each do |tag|
         create(:podcast_tag, podcast_id: podcast.id, tag_id: tag.id)
@@ -14,7 +14,7 @@ describe 'As a visitor' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
       visit "/podcasts/#{podcast.id}"
-
+      save_and_open_page
       expect(podcast.tags.count).to eq(5)
       expect(page).to have_content(podcast.name)
       expect(page).to have_content(podcast.location)

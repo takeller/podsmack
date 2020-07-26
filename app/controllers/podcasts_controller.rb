@@ -5,7 +5,8 @@ class PodcastsController < ApplicationController
   end
 
   def show
-    @podcast = Podcast.find(params[:id])
+    podcast = Podcast.find(params[:id])
+    @podcast_facade = PodcastFacade.new(podcast)
   end
 
   def create
