@@ -117,7 +117,6 @@ describe 'As a User' do
   it 'I find podcasts by name' do
     expect(current_path).to eq('/podcasts')
     expect(page).to have_css("#podcast_results", count: 4)
-    save_and_open_page
 
     fill_in "Name", with: 'Podcast1'
     
@@ -135,6 +134,78 @@ describe 'As a User' do
       expect(page).to_not have_content(@podcast2.description)
       expect(page).to_not have_content(@podcast3.name)
       expect(page).to_not have_content(@podcast3.description)
+    end
+  end
+
+  it 'I find podcasts by name and location' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 4)
+
+    fill_in "Name", with: 'Podcast1'
+    page.select 'Denver'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 1)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to_not have_content(@podcast4.name)
+      expect(page).to_not have_content(@podcast4.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+      expect(page).to_not have_content(@podcast3.name)
+      expect(page).to_not have_content(@podcast3.description)
+    end
+  end
+
+  it 'I find podcasts by name and adult_content' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 4)
+
+    fill_in "Name", with: 'Podcast1'
+    check 'adult_content'
+    
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 1)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast.name)
+      expect(page).to have_content(@podcast.description)
+      expect(page).to_not have_content(@podcast4.name)
+      expect(page).to_not have_content(@podcast4.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+      expect(page).to_not have_content(@podcast3.name)
+      expect(page).to_not have_content(@podcast3.description)
+    end
+  end
+
+  it 'I find podcasts by tag and location' do
+    expect(current_path).to eq('/podcasts')
+    expect(page).to have_css("#podcast_results", count: 4)
+
+    check 'Mystery'
+    page.select 'Denver'
+
+    click_on('Search')
+
+    expect(page).to have_css('.podcast-browse')
+    expect(page).to have_css("#podcast_results", count: 1)
+
+    within('.podcast-browse') do
+      expect(page).to have_content(@podcast3.name)
+      expect(page).to have_content(@podcast3.description)
+      expect(page).to_not have_content(@podcast4.name)
+      expect(page).to_not have_content(@podcast4.description)
+      expect(page).to_not have_content(@podcast2.name)
+      expect(page).to_not have_content(@podcast2.description)
+      expect(page).to_not have_content(@podcast.name)
+      expect(page).to_not have_content(@podcast.description)
     end
   end
 end
