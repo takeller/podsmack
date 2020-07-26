@@ -17,7 +17,7 @@ describe 'User logged in viewing dashboard' do
     expect(page).to have_css("#follow", count: 2)
     expect(page).to have_content("Following")
     expect(page).to have_content("Edit Profile")
-    expect(page).to have_content("Upload your own podcast")
+    expect(page).to have_button("Upload your own podcast")
   end
 end
 
