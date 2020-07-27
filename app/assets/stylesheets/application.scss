@@ -163,6 +163,19 @@ section h2 {
   }
 }
 
+.jumbotron-jumbotron-fluid{
+  align: center;
+}
+
+.podcast-list {
+    background: rgba(19,66,52,0.6);
+    color: #DFF2E5;
+    border-right: solid 3px yellow;
+    border-bottom: solid 3px yellow;
+    box-shadow: 10px 10px black;
+    padding-left: 10px;
+}
+
 .background-image {
   position: relative;
   // width: 100%;
@@ -415,6 +428,18 @@ footer ul li a {
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
+}
+
+.checkbox-space{
+  margin: 0px 1px 0px 1px;;
+}
+
+.center-search{
+  text-align: center;
+}
+
+.container-search{
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end;
 }
 
 .bg-primary {
