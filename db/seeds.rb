@@ -1,3 +1,4 @@
+require 'faker'
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
@@ -5,51 +6,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-
-
-
-
-# Podcasts (Locations may be incorrect, but are for example purposes)
-
-armchar_expert = create(:podcast, name: 'Armchar Expert', description: armchar_description, location: 'Denver', active: true)
-
-conan_needs_a_friend = create(:podcast, name: 'Conan Needs a Friend', description: conan_description, location: 'NYC', active: true)
-
-denver_pizza = create(:podcast, name: 'Denver Pizza', description: denver_pizza_description, location: 'Denver', active: true)
-
-life_kit = create(:podcast, name: 'Life Kit', description: life_kit_description, location: 'Dallas', active: true)
-
-stuff_you_should_know = create(:podcast, name: 'Stuff You Should Know', description: stuff_you_should_know_description, location: 'NYC', active: true)
-
-
-# Admin user
-
-create(:user, user_name: "Taylor Keller", uid: ENV['TAYLOR_UID'], admin: true)
-# Tags
-
-software_tag = create(:tag, name: 'Software')
-music_tag = create(:tag, name: 'Music')
-travel_tag = create(:tag, name: 'Travel')
-educational_tag = create(:tag, name: 'Educational')
-interview_tag = create(:tag, name: 'Interview')
-food_tag = create(:tag, name: 'Food')
-
-# Podcast Tags
-
-create(:podcast_tag, podcast: armchar_expert.id, tag: interview_tag.id)
-create(:podcast_tag, podcast: armchar_expert.id, tag: educational_tag.id)
-
-create(:podcast_tag, podcast: conan_needs_a_friend.id, tag: interview_tag.id)
-
-create(:podcast_tag, podcast: denver_pizza.id, tag: food_tag.id)
-create(:podcast_tag, podcast: denver_pizza.id, tag: travel_tag.id)
-
-create(:podcast_tag, podcast: life_kit.id, tag: educational_tag.id)
-create(:podcast_tag, podcast: life_kit.id, tag: interview_tag.id)
-
-create(:podcast_tag, podcast: stuff_you_should_know.id, tag: educational_tag.id)
-
 
 
 # Descriptions
@@ -62,3 +18,49 @@ denver_pizza_description = "From deep dish downtown to pepperoni in Park Hill, M
 life_kit_description = "Everyone needs a little help being a human. From sleep to saving money to parenting and more, we talk to the experts to get the best advice out there. Life Kit is here to help you get it together."
 
 stuff_you_should_know_description = "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered."
+
+#  users
+users = Array.new(5, nil)
+users = users.map do |user|
+  User.create(user_name: Faker::Artist.name, uid: rand(100000).to_s)
+end
+
+# Podcasts (Locations/adult_content may be incorrect, but are for example purposes)
+
+armchar_expert = Podcast.create(name: 'Armchar Expert', description: armchar_description, location: 'Denver', active: true, twitter: '@armchar_expert', photo: "https://picsum.photos/200/300", user_id: users[0].id, adult_content: true)
+
+conan_needs_a_friend = Podcast.create(name: 'Conan Needs a Friend', description: conan_description, location: 'NYC', active: true, twitter: '@conan_needs_a_friend', photo: "https://picsum.photos/200/300", user_id: users[1].id, adult_content: true)
+
+denver_pizza = Podcast.create(name: 'Denver Pizza', description: denver_pizza_description, location: 'Denver', active: true, twitter: '@denver_pizza', photo: "https://picsum.photos/200/300", user_id: users[2].id, adult_content: true)
+
+life_kit = Podcast.create(name: 'Life Kit', description: life_kit_description, location: 'Dallas', active: true, twitter: '@life_kit', photo: "https://picsum.photos/200/300", user_id: users[3].id, adult_content: false)
+
+stuff_you_should_know = Podcast.create(name: 'Stuff You Should Know', description: stuff_you_should_know_description, location: 'NYC', active: true, twitter: '@stuff_you_should_know', photo: "https://picsum.photos/200/300", user_id: users[4].id, adult_content: false)
+
+
+# Admin user
+
+User.create(user_name: "Taylor Keller", uid: ENV['TAYLOR_UID'], admin: true)
+# Tags
+
+software_tag = Tag.create(name: 'Software')
+music_tag = Tag.create(name: 'Music')
+travel_tag = Tag.create(name: 'Travel')
+educational_tag = Tag.create(name: 'Educational')
+interview_tag = Tag.create(name: 'Interview')
+food_tag = Tag.create(name: 'Food')
+
+# Podcast Tags
+
+PodcastTag.create(podcast_id: armchar_expert.id, tag_id: interview_tag.id)
+PodcastTag.create(podcast_id: armchar_expert.id, tag_id: educational_tag.id)
+
+PodcastTag.create(podcast_id: conan_needs_a_friend.id, tag_id: interview_tag.id)
+
+PodcastTag.create(podcast_id: denver_pizza.id, tag_id: food_tag.id)
+PodcastTag.create(podcast_id: denver_pizza.id, tag_id: travel_tag.id)
+
+PodcastTag.create(podcast_id: life_kit.id, tag_id: educational_tag.id)
+PodcastTag.create(podcast_id: life_kit.id, tag_id: interview_tag.id)
+
+PodcastTag.create(podcast_id: stuff_you_should_know.id, tag_id: educational_tag.id)
