@@ -15,5 +15,14 @@ RSpec.describe "Podsmack Home Page" do
       expect(page).to have_link("Register")
     end
 
+    it "Podsmack button takes you to home page" do 
+      visit "/"
+
+      click_on('Find your next favorite podcast')
+      expect(current_path).to eq('/podcasts')
+      click_on('Podsmack')
+      expect(current_path).to eq('/')
+    end
+
   end
 end
