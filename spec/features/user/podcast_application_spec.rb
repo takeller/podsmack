@@ -4,9 +4,9 @@ describe 'As a registered user' do
   describe 'When I visit my dashboard' do
     it 'I can apply to submit a podcast' do
       user = create(:user)
-      create(:tag, name: 'Interviews')
-      create(:tag, name: 'Music')
-      create(:tag, name: 'Software')
+      # create(:tag, name: 'Interviews')
+      # create(:tag, name: 'Music')
+      # create(:tag, name: 'Software')
 
       # This needs to be restored once we have the user dashboard/session controller set up.
       #
