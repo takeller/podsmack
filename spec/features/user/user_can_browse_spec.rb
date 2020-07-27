@@ -3,10 +3,10 @@ require 'rails_helper'
 describe 'As a User' do
   before :each do
     @user = create(:user)
-    @podcast = create(:podcast, user: @user, location: "Denver", name: 'podcast1', description: 'description1')
-    @podcast2 = create(:podcast, user: @user, location: "NYC", name: 'podcast2', description: 'description2')
-    @podcast3 = create(:podcast, user: @user, location: "Denver", name: 'podcast3', description: 'description3')
-    @podcast4 = create(:podcast, user: @user, location: "Dallas", name: 'podcast11', description: 'description4', adult_content: true)
+    @podcast = create(:podcast, user: @user, location: "Denver", name: 'podcast1', description: 'description1', active: true)
+    @podcast2 = create(:podcast, user: @user, location: "NYC", name: 'podcast2', description: 'description2', active: true)
+    @podcast3 = create(:podcast, user: @user, location: "Denver", name: 'podcast3', description: 'description3', active: true)
+    @podcast4 = create(:podcast, user: @user, location: "Dallas", name: 'podcast11', description: 'description4', active: true, adult_content: true)
 
     @tag1 = create(:tag, name: 'Interviews')
     @tag2 = create(:tag, name: 'Music')
@@ -25,7 +25,7 @@ describe 'As a User' do
 
     visit '/'
     click_on 'Find your next favorite podcast'
-
+    
   end
   it 'I find podcasts by location' do
 
