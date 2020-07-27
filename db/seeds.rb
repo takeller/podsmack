@@ -47,7 +47,7 @@ software_tag = Tag.create(name: 'Software')
 music_tag = Tag.create(name: 'Music')
 travel_tag = Tag.create(name: 'Travel')
 educational_tag = Tag.create(name: 'Educational')
-interview_tag = Tag.create(name: 'Interview')
+interview_tag = Tag.create(name: 'Interviews')
 food_tag = Tag.create(name: 'Food')
 
 # Podcast Tags
