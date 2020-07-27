@@ -23,7 +23,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <% if current_user %>
               <a class="nav-link js-scroll-trigger" href="#features">Dashboard</a>
+              <% end %>
             </li>
             <li class="nav-item">
               <%= link_to 'Browse', podcasts_path, class: "nav-link js-scroll-trigger" %>
