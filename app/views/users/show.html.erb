@@ -15,7 +15,7 @@
 
 <h4> Podcast Application </h4>
 
-<%= button_to 'Upload your own podcast', new_user_podcast_path(@user), class: "btn btn-outline btn-xl js-scroll-trigger" %>
+<%= button_to 'Upload your own podcast', new_user_podcast_path(@user), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
 
 <% if current_user.admin %>
   <section class = "admin-dashboard">
