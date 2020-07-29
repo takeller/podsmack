@@ -4,9 +4,9 @@ describe 'As a registered user' do
   describe 'When I visit my dashboard' do
     it 'I can apply to submit a podcast' do
       user = create(:user)
-      # create(:tag, name: 'Interviews')
-      # create(:tag, name: 'Music')
-      # create(:tag, name: 'Software')
+      create(:tag, name: 'News')
+      create(:tag, name: 'True Crime')
+      create(:tag, name: 'Politics')
 
       # This needs to be restored once we have the user dashboard/session controller set up.
       #
@@ -23,9 +23,9 @@ describe 'As a registered user' do
 
       fill_in 'podcast[name]', with: 'Dissect'
       page.select 'Denver', from: 'podcast[location]'
-      check 'Interviews'
-      check 'Music'
-      check 'Software'
+      check 'News'
+      check 'True Crime'
+      check 'Politics'
       fill_in 'podcast[twitter]', with: 'www.twitter.com/test'
       fill_in 'podcast[patreon]', with: 'www.patreon.com/test'
       fill_in 'podcast[instagram]', with: 'www.instagram.com/test'
