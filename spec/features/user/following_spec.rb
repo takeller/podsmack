@@ -14,6 +14,7 @@ describe 'As a registered user' do
       visit '/dashboard'
       expect(page).to have_content(podcast.name)
       visit "/podcasts/#{podcast.id}"
+      save_and_open_page
       expect(page).to_not have_button("Follow")
     end
   end
