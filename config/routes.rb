@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   post '/approve_podcast/:id', to: 'approvals#update'
 
   get '/dashboard', to: 'users#show'
-
+  get '/about', to: 'developers#index'
 
   resources :producers, only: [:show]
 
