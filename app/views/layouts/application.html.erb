@@ -24,7 +24,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <% if current_user %>
-              <a class="nav-link js-scroll-trigger" href="/dashboard" >Dashboard</a>
+              <a class="nav-link js-scroll-trigger" href="/dashboard">Dashboard</a>
               <% end %>
             </li>
             <li class="nav-item">
@@ -34,6 +34,9 @@
               <% if current_user.nil? %>
                 <a class="nav-link js-scroll-trigger" href="/login">Login/Register</a>
               <% end %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'About', '/about', class: "nav-link js-scroll-trigger" %>
             </li>
             <li class="nav-item">
               <% if current_user %>

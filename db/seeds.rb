@@ -19,11 +19,33 @@
 #
 # stuff_you_should_know_description = "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered."
 #
+
 # #  users
 # users = Array.new(5, nil)
 # users = users.map do |user|
 #   User.create(user_name: Faker::Artist.name, uid: rand(100000).to_s)
 # end
+
+
+# # Podcasts (Locations/adult_content may be incorrect, but are for example purposes)
+
+# armchar_expert = Podcast.create(name: 'Armchar Expert', description: armchar_description, location: 'Denver', active: true, twitter: '@armchar_expert', photo: "https://picsum.photos/200/300", user_id: users[0].id, adult_content: true)
+
+# conan_needs_a_friend = Podcast.create(name: 'Conan Needs a Friend', description: conan_description, location: 'NYC', active: true, twitter: '@conan_needs_a_friend', photo: "https://picsum.photos/200/300", user_id: users[1].id, adult_content: true)
+
+# denver_pizza = Podcast.create(name: 'Denver Pizza', description: denver_pizza_description, location: 'Denver', active: true, twitter: '@denver_pizza', photo: "https://picsum.photos/200/300", user_id: users[2].id, adult_content: true)
+
+# life_kit = Podcast.create(name: 'Life Kit', description: life_kit_description, location: 'Dallas', active: true, twitter: '@life_kit', photo: "https://picsum.photos/200/300", user_id: users[3].id, adult_content: false)
+
+# stuff_you_should_know = Podcast.create(name: 'Stuff You Should Know', description: stuff_you_should_know_description, location: 'NYC', active: true, twitter: '@stuff_you_should_know', photo: "https://picsum.photos/200/300", user_id: users[4].id, adult_content: false)
+
+
+# # Admin user
+
+# User.create(user_name: "Taylor Keller", uid: ENV['TAYLOR_UID'], admin: true)
+# # Tags
+
+
 #
 # # Podcasts (Locations/adult_content may be incorrect, but are for example purposes)
 #
@@ -43,12 +65,29 @@
 # User.create(user_name: "Taylor Keller", uid: ENV['TAYLOR_UID'], admin: true)
 # # Tags
 #
+
 # software_tag = Tag.create(name: 'Software')
 # music_tag = Tag.create(name: 'Music')
 # travel_tag = Tag.create(name: 'Travel')
 # educational_tag = Tag.create(name: 'Educational')
 # interview_tag = Tag.create(name: 'Interviews')
 # food_tag = Tag.create(name: 'Food')
+
+
+# # Podcast Tags
+
+# PodcastTag.create(podcast_id: armchar_expert.id, tag_id: interview_tag.id)
+# PodcastTag.create(podcast_id: armchar_expert.id, tag_id: educational_tag.id)
+
+# PodcastTag.create(podcast_id: conan_needs_a_friend.id, tag_id: interview_tag.id)
+
+# PodcastTag.create(podcast_id: denver_pizza.id, tag_id: food_tag.id)
+# PodcastTag.create(podcast_id: denver_pizza.id, tag_id: travel_tag.id)
+
+# PodcastTag.create(podcast_id: life_kit.id, tag_id: educational_tag.id)
+# PodcastTag.create(podcast_id: life_kit.id, tag_id: interview_tag.id)
+
+
 #
 # # Podcast Tags
 #
@@ -63,4 +102,5 @@
 # PodcastTag.create(podcast_id: life_kit.id, tag_id: educational_tag.id)
 # PodcastTag.create(podcast_id: life_kit.id, tag_id: interview_tag.id)
 #
+
 # PodcastTag.create(podcast_id: stuff_you_should_know.id, tag_id: educational_tag.id)
