@@ -37,7 +37,7 @@ describe 'As a visitor' do
       end
     end
 
-    it 'I dont see a button to follow the podcast' do
+    it 'I dont see a button to follow the podcast if not logged in' do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
       expect(page).to_not have_button('Follow')
@@ -54,7 +54,11 @@ describe 'As a user' do
 
       visit "/podcasts/#{podcast.id}"
 
-      expect(page).to have_button('Follow')
+      click_on 'Follow'
+
+      visit '/dashboard'
+      expect(page).to have_content(podcast.name)
+  
     end
   end
 end

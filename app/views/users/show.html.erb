@@ -1,8 +1,7 @@
 <h2> Welcome, <%= @user.user_name %> </h2>
 
-<h3> Following </h3>
 <section class="podcast_following">
-  <h1><%= @user.following_podcasts.length %> Favorites</h1>
+  <h1><%= @user.following_podcasts.length %> Following</h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
       <%= podcast.name %>
@@ -15,7 +14,7 @@
 
 <h4> Podcast Application </h4>
 
-<%= button_to 'Upload your own podcast', new_user_podcast_path(@user), class: "btn btn-outline btn-xl js-scroll-trigger" %>
+<%= button_to 'Upload your own podcast', new_user_podcast_path(@user), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
 
 <% if current_user.admin %>
   <section class = "admin-dashboard">
