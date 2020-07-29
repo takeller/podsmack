@@ -7,7 +7,7 @@ class User < ApplicationRecord
   has_many :applications
   
   def pending_podcasts
-    podcasts.where(active: false)
+    Podcast.where(active: false)
   end
 
   def self.from_omniauth(params)
