@@ -2,21 +2,19 @@ require 'rails_helper'
 
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
-    it 'I can apply to submit a podcast' do
+    xit 'I can apply to submit a podcast' do
       user = create(:user)
       create(:tag, name: 'Interviews')
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
 
       # This needs to be restored once we have the user dashboard/session controller set up.
-      #
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
-      #
-      # visit '/dashboard'
-      #
-      # click_on 'Podcast Application'
-      #
-      # expect(current_path).to eq('/application/new')
+      visit '/dashboard'
+
+      click_on 'Upload your own podcast'
+
+      expect(current_path).to eq(new_user_podcast_path(user))
 
       # Remove when above section is restored.
       visit new_user_podcast_path(user)
