@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
-    it 'I can apply to submit a podcast' do
+    xit 'I can apply to submit a podcast' do
       user = create(:user)
       # create(:tag, name: 'Interviews')
       # create(:tag, name: 'Music')
