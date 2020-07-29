@@ -30,6 +30,7 @@ This is a Ruby on Rails application used to organize Podcast content by location
 * [selenium-webdriver](https://www.seleniumhq.org/docs/03_webdriver.jsp)
 * [PostgreSQL](https://www.postgresql.org/)
 * [TravisCI](https://travis-ci.org/)
+<img src="https://uc4470f06b932b074e32be4e1380.previews.dropboxusercontent.com/p/thumb/AA3VOeDtwzOjViyTR-4Mr3jB2VSl4lenKxrNNo7wx-8Ljg3h-7gYUVy6Htx1HTv5OEFRPPWHh0i2kmodIA-otNfgukJ3T-xElIJfmOrTsXVbvI1MesM_LdD1xYKiv0Jaf-pPxtAowgFAVUIM67TxV6KnAu1mRAO5tfyC8YU9Bi4A8Y2ynNb91b09XDVpKNEuiuOToEPrNvjgPT_plMdFS2MTqGKzgQNbUJ8DfpRpgXexV4Xtbm8nNvmEDx2x7g8MZ6AUtrD3UeNlwdgIhBA-XauG7YlhnRdbKh8H0RVi4StAQIaFKMUVathZje-YvsVzHvmAeTH0M1mMS3Ew4PbahTmRIRpDa-a9lcuLbX_oBoPQtQ/p.png?size=178x178&size_mode=1" alt="Listen Notes" width="20" height="20"/> 
 
 ### Ruby Version & Gems
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/200px-Ruby_logo.svg.png" alt="Ruby Logo" width="20" height="20"/> v2.5.3
