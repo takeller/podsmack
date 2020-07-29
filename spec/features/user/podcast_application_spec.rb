@@ -4,9 +4,9 @@ describe 'As a registered user' do
   describe 'When I visit my dashboard' do
     it 'I can apply to submit a podcast' do
       user = create(:user)
-      # create(:tag, name: 'Interviews')
-      # create(:tag, name: 'Music')
-      # create(:tag, name: 'Software')
+      create(:tag, name: 'Interviews')
+      create(:tag, name: 'Music')
+      create(:tag, name: 'Software')
 
       # This needs to be restored once we have the user dashboard/session controller set up.
       #
@@ -89,6 +89,9 @@ describe 'As a registered user' do
     end
     xit 'I can apply to submit a podcast then admin can approve' do
       user = create(:user)
+      create(:tag, name: 'Interviews')
+      create(:tag, name: 'Music')
+      create(:tag, name: 'Software')
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
     
       visit new_user_podcast_path(user)
@@ -111,20 +114,24 @@ describe 'As a registered user' do
 
       expect(current_path).to eq('/dashboard')
 
-      podcast = Podcast.last
+      @podcast = Podcast.last
 
-      expect(podcast.user.user_name).to eq(user.user_name)
-      expect(podcast.location).to eq('Denver')
-      expect(podcast.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+      expect(@podcast.user.user_name).to eq(user.user_name)
+      expect(@podcast.location).to eq('Denver')
+      expect(@podcast.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
 
       click_on 'Logout'
       expect(current_path).to eq('/')
-     
+      
       @admin = create(:admin)
+      
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+      login_user(@admin)
       click_on 'Dashboard'
 
       expect(current_path).to eq('/dashboard')
       expect(page).to have_css('.admin-dashboard')
+      
       expect(page).to have_css("#podcast_pending_approval", count: 1)
       expect(page).to have_content(podcast.name)
     end
