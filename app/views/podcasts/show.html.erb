@@ -17,8 +17,10 @@
 </section>
 <% @podcast_facade.episodes.each do |episode| %>
   <section class ="episodes">
-    <p class="name"><%= episode.name %></p>
+    <p class="title"><%= episode.title %></p>
     <p class="description"><%= episode.description %></p>
     <audio src= <%= episode.audio %> controls> </audio>
+    <%= episode.audio_length_sec %>
+    <p>Released On: <%= episode.pub_date %></p>
   </section>
 <% end %>
