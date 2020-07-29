@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
   get '/dashboard', to: 'users#show'
   get '/about', to: 'developers#index'
+  get '/search', to: 'search#index'
 
   resources :producers, only: [:show]
 
