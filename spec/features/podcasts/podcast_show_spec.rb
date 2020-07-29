@@ -58,7 +58,9 @@ describe 'As a user' do
 
       visit '/dashboard'
       expect(page).to have_content(podcast.name)
-  
+
     end
   end
 end
+#rails g migration RemoveSpotifyUriFromPodcasts podcast_uri:string
+#rails g migration AddPodcastUriToPodcasts podcast_uri:string
