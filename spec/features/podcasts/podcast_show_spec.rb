@@ -62,5 +62,3 @@ describe 'As a user' do
     end
   end
 end
-#rails g migration RemoveSpotifyUriFromPodcasts podcast_uri:string
-#rails g migration AddPodcastUriToPodcasts podcast_uri:string
