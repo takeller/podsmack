@@ -20,8 +20,6 @@ describe 'As an Admin' do
     expect(page).to have_css('.admin-dashboard')
     expect(page).to have_css("#podcast_pending_approval", count: 3)
   end
-
-  #TODO make sure the count goes down
   
 
   it "An admin can approve pending podcasts" do 
@@ -38,7 +36,5 @@ describe 'As an Admin' do
     expect(current_path).to eq('/dashboard')
     expect(page).to have_css("#podcast_pending_approval", count: 2)
   end
-
-  #TODO make a sad path spec for a podcast that cant be approved. Later for EXTNS
 
 end
