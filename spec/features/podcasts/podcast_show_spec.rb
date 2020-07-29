@@ -54,11 +54,11 @@ describe 'As a user' do
 
       visit "/podcasts/#{podcast.id}"
 
-      # expect(page).to have_button('Follow')
       click_on 'Follow'
 
       visit '/dashboard'
       expect(page).to have_content(podcast.name)
+  
     end
   end
 end
