@@ -1,12 +1,16 @@
 class PodcastService
-  def episodes(spotify_uri)
-    get_json("spec/fixtures/armchair.json")
+  def podcast(podcast_id)
+    get_json("/podcast/#{podcast_id}")
   end
 
 private
 
-  def get_json(filename)
-    file_content = File.read(filename)
-    JSON.parse(file_content, symbolize_names: true)
+  def conn
+    Faraday.new(url: 'https://podsmack-microservice.herokuapp.com')
+  end
+
+  def get_json(uri)
+    response = conn.get(uri)
+    JSON.parse(response.body, symbolize_names: true)
   end
 end

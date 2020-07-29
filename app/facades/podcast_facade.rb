@@ -16,7 +16,7 @@ class PodcastFacade
   end
 
   def episodes
-    formatted_episodes = Episode.make_episodes(@podcast.spotify_uri) 
+    formatted_episodes = Episode.make_episodes(@podcast.spotify_uri)
     formatted_episodes.map do |episode_hash|
       Episode.new(episode_hash)
     end
