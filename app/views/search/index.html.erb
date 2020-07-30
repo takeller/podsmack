@@ -1,4 +1,6 @@
-<h2>Search our network for a podcast to add to Podsmack</h2>
+<div class="container">
+  <h2>Search the Listen Notes network for a podcast to add to Podsmack</h2>
+</div>
 
 <%= form_tag(search_path, method: "get") do %>
   <div class="container">
@@ -9,3 +11,58 @@
     </div>
   </div>
 <% end %>
+<br>
+
+<div  class="container" id="accordion">
+  <% @search_results.each do |result| %>
+    <div class="card search-result">
+      <div class="card-header" id=<%= "heading-#{result.podcast_id}" %>>
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target=<%= "#collapse-#{result.podcast_id}" %> aria-expanded="false" aria-controls=<%= "collapse-#{result.podcast_id}" %>>
+            <%= result.title %>
+          </button>
+        </h5>
+      </div>
+
+      <div id=<%= "collapse-#{result.podcast_id}" %> class="collapse" aria-labelledby=<%= "heading-#{result.podcast_id}" %> data-parent="#accordion">
+        <div class="card-body">
+          <%= form_tag(user_podcasts_path(current_user.id), method: 'post') do %>
+            <%= hidden_field_tag(:name, result.title) %> <br>
+            <%= hidden_field_tag(:description, result.description) %> <br>
+            <%= hidden_field_tag(:podcast_uri, result.podcast_id) %> <br>
+
+            <%= label_tag :location %>
+            <%= select_tag :location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']) %> <br>
+
+            <%= label_tag :tags %>
+            <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
+              <%= box.label {box.check_box + box.text} %> 
+            <% end %> <br>
+
+            <%= label_tag :patreon %>
+            <%= text_field_tag :patreon %> <br>
+
+            <%= label_tag :instagram %>
+            <%= text_field_tag :instagram %> <br>
+
+            <%= label_tag :facebook %>
+            <%= text_field_tag :facebook %> <br>
+
+            <%= label_tag :twitter %>
+            <%= text_field_tag :twitter %> <br>
+
+            <%= label_tag :photo %>
+            <%= text_field_tag :photo, result.thumbnail  %> <br>
+
+            <%= label_tag :adult_content %>
+            <%= check_box_tag :adult_content %> <br>
+
+            <%= submit_tag 'Submit' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <br>
+  <% end %>
+  </div>
+</div>
