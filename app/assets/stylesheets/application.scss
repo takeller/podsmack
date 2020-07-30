@@ -182,7 +182,7 @@ section h2 {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url(asset_path('bg-pattern.png')), #7b4397; 
+  background: url(asset_path('bg-pattern.png')), #7b4397;
   background: url(asset_path('bg-pattern.png')), linear-gradient(to left, #7b4397, #dc2430);
 }
 
@@ -478,4 +478,41 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+}
+
+.podcast-description {
+  margin-right: 20%;
+}
+
+.podcast-info-header {
+  padding: 0;
+}
+
+.column-left {
+  margin-left: 20%;
+  padding-top: 0;
+}
+
+.column-right {
+  flex: 30%;
+  padding-top: 0;
+  padding-left: 25px;
+  margin-right: 20%;
+}
+
+.row {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.tags {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: blue;
 }
