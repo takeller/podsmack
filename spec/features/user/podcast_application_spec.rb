@@ -13,18 +13,40 @@ describe 'As a registered user' do
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
 
-
-      # This needs to be restored once we have the user dashboard/session controller set up.
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       visit '/dashboard'
 
       click_on 'Upload your own podcast'
-
+      
       expect(current_path).to eq(search_path)
       fill_in :podcast_name, with: "Conan"
       click_on 'Search'
       expect(current_path).to eq(search_path)
-      expect(page).to have_css('#search_result', count: 10)
+      expect(page).to have_css('.search-result', count: 10)
+      within first('.search-result') do
+        page.select 'Denver', from: 'Location'
+        check 'Interviews'
+        check 'True Crime'
+        check 'Politics'
+        fill_in :twitter, with: 'www.twitter.com/test'
+        fill_in :patreon, with: 'www.patreon.com/test'
+        fill_in :instagram, with: 'www.instagram.com/test'
+        fill_in :facebook, with: 'www.facebook.com/test'
+        check :adult_content
+
+        click_on 'Submit'
+      end
+      expect(current_path).to eq('/dashboard')
+      expect(page).to have_content('Podcast submitted and waiting approval')
+
+      podcast = Podcast.last
+      expect(podcast.name).to eq ("Conan O’Brien Needs A Friend")
+      expect(podcast.user).to eq(user)
+      expect(podcast.location).to eq('Denver')
+      expect(podcast.twitter).to eq('www.twitter.com/test')
+      expect(podcast.patreon).to eq('www.patreon.com/test')
+      expect(podcast.instagram).to eq('www.instagram.com/test')
+      expect(podcast.facebook).to eq('www.facebook.com/test')
     end
   end
 end
