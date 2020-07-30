@@ -10,7 +10,7 @@ class PodcastService
 private
 
   def conn
-    Faraday.new(url: 'http://localhost:9292')
+    Faraday.new(url: 'https://podsmack-microservice.herokuapp.com')
   end
 
   def get_json(uri)
