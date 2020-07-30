@@ -19,7 +19,7 @@ describe 'As a visitor' do
 
       visit '/login'
 
-      click_on 'Login With Google'
+      click_link 'Login With Google'
 
       user = User.last
 
@@ -39,7 +39,7 @@ describe 'As a visitor' do
 
       visit '/login'
 
-      click_on 'Login With Google'
+      click_link 'Login With Google'
 
       expect(current_path).to eq('/dashboard')
       expect(page).to have_content('Welcome Taylor Keller')

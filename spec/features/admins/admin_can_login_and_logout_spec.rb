@@ -14,9 +14,9 @@ describe 'As an Admin' do
 
     visit '/'
     click_on 'Login/Register'
-
-    click_on 'Login With Google'
-
+  
+    click_link 'Login With Google'
+    
     expect(current_path).to eq('/dashboard')
     expect(page).to have_css('.admin-dashboard')
   end
@@ -33,7 +33,7 @@ describe 'As an Admin' do
 
     visit '/'
     click_on 'Login/Register'
-    click_on 'Login With Google'
+    click_link 'Login With Google'
 
     expect(current_path).to eq('/dashboard')
 
