@@ -36,7 +36,7 @@ install:
 script:
   - bundle exec rails webpacker:compile
   - yarn
-  - bundle exec rails db:reset RAILS_ENV=test
+  - bundle exec rails db:{drop,create,migrate} RAILS_ENV=test
   - bundle exec rspec
 deploy:
   provider: heroku
