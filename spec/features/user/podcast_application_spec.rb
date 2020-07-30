@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
-    xit 'I can apply to submit a podcast' do
+    it 'I can apply to submit a podcast' do
       user = create(:user)
 
       create(:tag, name: 'News')
@@ -91,7 +91,7 @@ describe 'As a registered user' do
       expect(current_path).to eq(new_user_podcast_path(user))
       expect(page).to have_content("Description can't be blank")
     end
-    xit 'I can apply to submit a podcast then admin can approve' do
+    it 'I can apply to submit a podcast then admin can approve' do
       user = create(:user)
       create(:tag, name: 'Interviews')
       create(:tag, name: 'Music')
@@ -118,6 +118,19 @@ describe 'As a registered user' do
 
       expect(current_path).to eq('/dashboard')
 
+      podcast = Podcast.last
+     
+      expect(podcast.user.user_name).to eq(user.user_name)
+      expect(podcast.location).to eq('Denver')
+      expect(podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+
+      click_on 'Logout'
+      expect(current_path).to eq('/')
+      
+      admin = create(:admin)
+      login_user(admin)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
+
       @podcast = Podcast.last
 
       expect(@podcast.user.user_name).to eq(user.user_name)
@@ -131,8 +144,9 @@ describe 'As a registered user' do
 
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
       login_user(@admin)
-      click_on 'Dashboard'
 
+      click_on 'Dashboard'
+     
       expect(current_path).to eq('/dashboard')
       expect(page).to have_css('.admin-dashboard')
 
