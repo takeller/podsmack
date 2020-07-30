@@ -183,11 +183,10 @@ section h2 {
   padding-bottom: 100px;
   color: white;
   background: url(asset_path('bg-pattern.png')), #7b4397; 
-  background: url(asset_path('bg-pattern.png')), linear-gradient(to left, #7b4397, #dc2430);
+  background: url(asset_path('bg-pattern.png')), linear-gradient(to left, #171717, #5e5e5e);
 }
 
 .masthead .masthead-text {
-  padding-top: 20em;
   padding-left: 14em;
 }
 
@@ -410,6 +409,7 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
+  
 }
 
 footer p {
