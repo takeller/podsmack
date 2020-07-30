@@ -21,6 +21,4 @@ class PodcastFacade
       Episode.new(episode_hash)
     end
   end
-
-
 end
