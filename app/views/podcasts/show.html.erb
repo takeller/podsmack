@@ -23,13 +23,24 @@
   </section>
 </section>
 
-<% @podcast_facade.episodes.each do |episode| %>
-  <div class="card text-white bg-info mb-3 w-75">
-    <div class="card-body">
-      <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
-      <p class="card-text"><%= raw(episode.description).html_safe %></p>
-      <audio src= <%= episode.audio %> controls> </audio>
-      <div class="card-footer text-muted"><%= episode.pub_date %></div>
-    </div>
-  </div>
-<% end %>
+<section class='episodes'>
+  <% @podcast_facade.episodes.each do |episode| %>
+      <p class="card-text">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=<%= "#episode#{episode.title}" %> aria-expanded="false" aria-controls=<%= "episode#{episode.title}" %>>
+          <%= raw(episode.title).html_safe %>
+        </button>
+      </p>
+      <div class="collapse" id=<%= "episode#{episode.title}" %>>
+        <div class="card card-body">
+          <div class="card text-white bg-info mb-3 w-75">
+            <div class="card-body">
+              <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
+              <p class='card-text'><%= raw(episode.description).html_safe %></p>
+              <audio src= <%= episode.audio %> controls> </audio>
+              <div class="card-footer text-muted"><%= episode.pub_date %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <% end %>
+</section>
