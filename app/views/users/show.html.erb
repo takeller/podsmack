@@ -1,7 +1,6 @@
 <% if current_user %>
-<h2> Welcome, <%= @user.user_name %> </h2>
 
-<section class="podcast_following">
+<section class="podcast_following center-search">
   <h1><%= @user.following_podcasts.length %> Following</h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
@@ -10,12 +9,10 @@
   <% end %>
 </section>
 
-
-<h3> Edit Profile </h3>
-
-<h4> Podcast Application </h4>
-
-<%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
+<h4 class="center-search"> Podcast Application </h4>
+<div class="center-search">
+  <%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
+</div>
 
 <% if current_user.admin %>
   <section class = "admin-dashboard">

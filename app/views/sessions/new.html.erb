@@ -1,3 +1,18 @@
-<h1> Login With Google </h1>
-
-<%= link_to 'Login With Google', '/auth/google_oauth2' %>
+<div class='center-search'>
+  <p>Please, login using Google.</p>
+</div>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <form class="form-signin">
+                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i><%= link_to 'Login With Google', '/auth/google_oauth2' %></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
