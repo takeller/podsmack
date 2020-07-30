@@ -553,6 +553,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 
+.podcast-form {
+  color: black;
+}
+
+.submit-right {
+  margin-left: 1rem;
+}
+
+
 :root {
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
@@ -609,6 +618,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     color: #777;
   }
 }
+
 
 .card {
         margin: 0 auto;

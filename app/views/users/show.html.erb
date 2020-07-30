@@ -9,10 +9,9 @@
   <% end %>
 </section>
 
-
 <h4 class="center-search"> Podcast Application </h4>
 <div class="center-search">
-  <%= button_to 'Upload your own podcast', new_user_podcast_path(@user), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
+  <%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
 </div>
 
 <% if current_user.admin %>

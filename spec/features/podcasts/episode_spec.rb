@@ -3,7 +3,7 @@ require 'rails_helper'
 describe "When I visit the podcast show page" do
   describe "I see a list of podcast episodes " do
 
-    it "see episodes name" do
+    it "see episodes name", :vcr do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
 
@@ -13,7 +13,7 @@ describe "When I visit the podcast show page" do
       end
     end
 
-    it "see episodes description" do
+    it "see episodes description", :vcr do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
 

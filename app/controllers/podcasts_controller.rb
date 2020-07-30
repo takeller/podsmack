@@ -22,22 +22,20 @@ class PodcastsController < ApplicationController
   end
 
   def create
-    user = User.find(params[:user_id])
-
-    podcast = user.podcasts.new(podcast_params)
+    podcast = current_user.podcasts.new(podcast_params)
     if podcast.save
-      params[:podcast][:tags].each {|tag| PodcastTag.create({podcast_id: podcast.id, tag_id: tag})}
+      params[:tags].each {|tag| PodcastTag.create({podcast_id: podcast.id, tag_id: tag})} if params[:tags]
       flash[:notice] = 'Podcast submitted and waiting approval'
       redirect_to '/dashboard'
     else
       flash[:error] = podcast.errors.full_messages.to_sentence
-      redirect_to new_user_podcast_path(user)
+      redirect_to request.referrer
     end
   end
 
   private
 
   def podcast_params
-    params.require(:podcast).permit(:name, :location, :description, :patreon, :instagram, :facebook, :twitter, :podcast_uri, :photo, :adult_content)
+    params.permit(:name, :location, :description, :patreon, :instagram, :facebook, :twitter, :podcast_uri, :photo, :adult_content)
   end
 end
