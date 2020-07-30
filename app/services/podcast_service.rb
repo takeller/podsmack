@@ -13,6 +13,6 @@ private
     Rails.cache.fetch(uri) do
       response = conn.get(uri)
       JSON.parse(response.body, symbolize_names: true)
-    end 
+    end
   end
 end
