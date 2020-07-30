@@ -10,21 +10,6 @@ users = users.map do |user|
   User.create(user_name: Faker::Artist.name, uid: rand(100000).to_s)
 end
 
-# t.string "name"
-# t.string "location"
-# t.string "twitter"
-# t.string "patreon"
-# t.string "instagram"
-# t.string "facebook"
-# t.string "description"
-# t.boolean "adult_content"
-# t.string "photo"
-# t.bigint "user_id"
-# t.boolean "active", default: false
-# t.datetime "created_at", precision: 6, null: false
-# t.datetime "updated_at", precision: 6, null: false
-# t.string "podcast_uri"
-# t.index ["user_id"], name: "index_podcasts_on_user_id"
 
 real_estate_rookie_description = " <p>Ready to build your real estate empire… but not sure where to begin?</p><p>Think of us as your personal trainer.</p><p>From detailed breakdowns of real-world deals… to one-on-one coaching sessions and a warm, welcoming community… hosts Ashley Kehr and Felipe Mejia bring on a wide range of guests to tackle the “newbie” questions you've wondered about but might be afraid to ask.</p><p>Looking to 10X your real estate investing business this year? This show isn’t for you.</p><p>Looking for your first, second, or third deal -- or envisioning a more modest portfolio? Step right up.&nbsp;</p><p>Every Wednesday, we’ll arm you with the tips, tools, and roadmaps you'll need as you embark on your journey toward financial freedom.</p> "
 so_you_want_description = " <p>*NEW EPISODES COMING IN JUNE* This is a show for anyone who’s ever considered, or even just daydreamed about, working in another country. Host Dylan Thuras, founder of Atlas Obscura, walks you through everything you’ll need to know to make the leap. Throughout, he’ll be joined by a range of guests with international experience, including Harvard Professor Tsedal Neeley; Duolingo’s Bozena Pajak; the head of Instagram Japan, Ian Spalter; acclaimed chef Rosio Sanchez and more. Presented by Cole Haan and T Brand Studio at The New York Times.</p> "
@@ -35,27 +20,15 @@ biz_description = "The podcast for people who are addicted to business"
 dear_hbr_description = "Work can be frustrating. How can you get along with that maddening coworker? Figure out what your unapproachable boss really wants? Motivate your demoralized team? Dear HBR: is here to help. With empathy, experience, and humor, veteran Harvard Business Review editors and co-hosts Alison Beard and Dan McGinn explore solutions to your workplace dilemmas. Bolstered by insights from guests and academic research, they help you navigate thorny situations to find a better way forward."
 
 
-
-# # Podcasts (Locations/adult_content may be incorrect, but are for example purposes)
-
-# armchar_expert = Podcast.create(name: 'Armchar Expert', description: armchar_description, location: 'Denver', active: true, twitter: '@armchar_expert', photo: "https://picsum.photos/200/300", user_id: users[0].id, adult_content: true)
-
-# conan_needs_a_friend = Podcast.create(name: 'Conan Needs a Friend', description: conan_description, location: 'NYC', active: true, twitter: '@conan_needs_a_friend', photo: "https://picsum.photos/200/300", user_id: users[1].id, adult_content: true)
-
-# denver_pizza = Podcast.create(name: 'Denver Pizza', description: denver_pizza_description, location: 'Denver', active: true, twitter: '@denver_pizza', photo: "https://picsum.photos/200/300", user_id: users[2].id, adult_content: true)
-
-# life_kit = Podcast.create(name: 'Life Kit', description: life_kit_description, location: 'Dallas', active: true, twitter: '@life_kit', photo: "https://picsum.photos/200/300", user_id: users[3].id, adult_content: false)
-
-# stuff_you_should_know = Podcast.create(name: 'Stuff You Should Know', description: stuff_you_should_know_description, location: 'NYC', active: true, twitter: '@stuff_you_should_know', photo: "https://picsum.photos/200/300", user_id: users[4].id, adult_content: false)
 real_estate_rookie = Podcast.create(name: "Real Estate Rookie", description: real_estate_rookie_description , location: 'Denver', active: true, twitter: '@biggerpockets', facebook: '@biggerpockets', photo: "https://cdn-images-1.listennotes.com/podcasts/real-estate-rookie-E4j0gpsibCX-jznLViO3QI6.300x300.jpg", user_id: users[4].id, adult_content: false, podcast_uri: '24a970fdda68488abe659cfe15ae974c')
 
 so_you_want = Podcast.create(name: "So You Want to Work Abroad", description: so_you_want_description , location: 'NYC', active: true, twitter: '@workAbroad', instagram: '@workAbroad', facebook: '@workAbroad', photo: "https://cdn-images-1.listennotes.com/podcasts/so-you-want-to-work-abroad-lMa-vPUDwrd-OnwYF5ZQzrP.300x300.jpg", user_id: users[4].id, adult_content: false, podcast_uri: '4bfec4f9214d42d08831d6ee67168a32' )
 
-mad_money = Podcast.create(name: "Mad Money w/ Jim Cramer", description: mad_money_description , location: 'Dallas', active: true, twitter: '@madmoney', instagram: '@madmoney', facebook: '@madmoney', photo: "https://cdn-images-1.listennotes.com/podcasts/mad-money-w-jim-cramer-cnbc-qzcgTHGP63V-a8p6YXsZcxV.300x300.jpg", user_id: users[3].id, adult_content: true, podcast_uri: 'e3bb1e6c39d245f081a4a4db8ce9b661' )
+mad_money = Podcast.create(name: "Mad Money w/ Jim Cramer", description: mad_money_description , location: 'Dallas', active: false, twitter: '@madmoney', instagram: '@madmoney', facebook: '@madmoney', photo: "https://cdn-images-1.listennotes.com/podcasts/mad-money-w-jim-cramer-cnbc-qzcgTHGP63V-a8p6YXsZcxV.300x300.jpg", user_id: users[3].id, adult_content: true, podcast_uri: 'e3bb1e6c39d245f081a4a4db8ce9b661' )
 
 rnz = Podcast.create(name: "RNZ: Flying Solo", description: rnz_description , location: 'San Fransisco', active: true, twitter: '@RNZ', instagram: '@RNZ', facebook: '@RNZ', photo: "https://cdn-images-1.listennotes.com/podcasts/rnz-flying-solo-radio-new-zealand-jCrRmkPl6Gn.300x300.jpg", user_id: users[1].id, adult_content: false, podcast_uri: '550e80e1c4a64bd290493b7bdbb4458c' )
 
-economists = Podcast.create(name: "The Economists", description: economists_description , location: 'NYC', active: true, twitter: '@theEconomists', instagram: '@theEconomists', patreon: '@theEconomists', photo: "https://cdn-images-1.listennotes.com/podcasts/the-economists-abc-radio-WmTPLCdOARV-1QEvsFy3b7R.300x300.jpg", user_id: users[4].id, adult_content: false, podcast_uri: '94d63164b0434261aaff5f9573921c7b' )
+economists = Podcast.create(name: "The Economists", description: economists_description , location: 'NYC', active: false, twitter: '@theEconomists', instagram: '@theEconomists', patreon: '@theEconomists', photo: "https://cdn-images-1.listennotes.com/podcasts/the-economists-abc-radio-WmTPLCdOARV-1QEvsFy3b7R.300x300.jpg", user_id: users[4].id, adult_content: false, podcast_uri: '94d63164b0434261aaff5f9573921c7b' )
 
 biz = Podcast.create(name: "Business Addicts - The Podcast for people who are addicted to business", description: biz_description , location: 'Dallas', active: true, twitter: '@bizAddicts', instagram: '@bizAddicts', patreon: '@bizAddicts', facebook: '@bizAddicts', photo: "https://cdn-images-1.listennotes.com/podcasts/business-addicts-the-podcast-for-people-who-rNYAlydMn3K.300x300.jpg", user_id: users[2].id, adult_content: true, podcast_uri: 'e05b7fea53d549b0b23f38b5fc20c461' )
 
@@ -111,6 +84,3 @@ PodcastTag.create(podcast_id: dear_hbr.id, tag_id: music_tag.id)
 PodcastTag.create(podcast_id: dear_hbr.id, tag_id: travel_tag.id)
 PodcastTag.create(podcast_id: dear_hbr.id, tag_id: business_tag.id)
 PodcastTag.create(podcast_id: dear_hbr.id, tag_id: lifestyle_tag.id)
-
-
-# PodcastTag.create(podcast_id: stuff_you_should_know.id, tag_id: educational_tag.id)
