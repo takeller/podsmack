@@ -16,7 +16,6 @@
 
 <% if current_user.admin %>
   <section class = "admin-dashboard">
-    <h1><%= @user.podcasts.length %> </h1>
   <% @user.pending_podcasts.each do |podcast| %>
     <section id="podcast_pending_approval">
     <h5>Name</h5>
