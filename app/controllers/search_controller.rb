@@ -1,8 +1,9 @@
 class SearchController < ApplicationController
   def index
     if search_params.present?
-      search_results = SearchResults.new.podcasts(params[:podcast_name])
-      binding.pry
+      @search_results = SearchResult.from_api(search_params[:podcast_name])
+    else
+      @search_results = []
     end
   end
 
