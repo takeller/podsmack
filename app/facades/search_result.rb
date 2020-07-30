@@ -14,4 +14,8 @@ class SearchResult
       SearchResult.new(result)
     end
   end
+
+  def in_database?
+    Podcast.exists?(podcast_uri: podcast_id)
+  end
 end
