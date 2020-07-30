@@ -30,32 +30,47 @@
             <%= hidden_field_tag(:name, result.title) %> <br>
             <%= hidden_field_tag(:description, result.description) %> <br>
             <%= hidden_field_tag(:podcast_uri, result.podcast_id) %> <br>
-
-            <%= label_tag :location %>
-            <%= select_tag :location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']) %> <br>
+            <div class='form-group row'>
+              <%= label_tag :location, nil, class: 'col-sm-2 col-form-label' %>
+              <div class='col-sm-4'>
+                <%= select_tag :location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']) %> <br>
+              </div>
+            </div>
 
             <%= label_tag :tags %>
             <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
               <%= box.label {box.check_box + box.text} %> 
             <% end %> <br>
+            <div class='form-group row'>
+              <%= label_tag :patreon, nil, class: 'col-sm-2 col-form-label' %>
+              <div class='col-sm-3'>
+                <%= text_field_tag :patreon, nil, class: 'form-control' %> <br>
+              </div>
 
-            <%= label_tag :patreon %>
-            <%= text_field_tag :patreon %> <br>
+              <%= label_tag :instagram, nil, class: 'col-sm-2 col-form-label' %>
+              <div class='col-sm-3'>
+                <%= text_field_tag :instagram, nil, class: 'form-control' %> <br>
+              </div>
+            </div>
 
-            <%= label_tag :instagram %>
-            <%= text_field_tag :instagram %> <br>
+            <div class='form-group row'>
+              <%= label_tag :facebook, nil, class: 'col-sm-2 col-form-label' %>
+              <div class='col-sm-3'>
+                <%= text_field_tag :facebook, nil, class: 'form-control' %> <br>
+              </div>
 
-            <%= label_tag :facebook %>
-            <%= text_field_tag :facebook %> <br>
+              <%= label_tag :twitter, nil, class: 'col-sm-2 col-form-label' %>
+              <div class='col-sm-3'>
+                <%= text_field_tag :twitter, nil, class: 'form-control' %> <br>
+              </div>
+            </div>
 
-            <%= label_tag :twitter %>
-            <%= text_field_tag :twitter %> <br>
-
-            <%= label_tag :photo %>
-            <%= text_field_tag :photo, result.thumbnail  %> <br>
-
+            <%= label_tag :photo, nil, class: 'col-sm-2 col-form-label' %>
+            <div class='col-sm-10'>
+              <%= text_field_tag :photo, result.thumbnail, class: 'form-control'  %> <br>
+            </div>
             <%= label_tag :adult_content %>
-            <%= check_box_tag :adult_content %> <br>
+            <%= check_box_tag :adult_content, nil, class: 'form-check-input' %> <br>
 
             <%= submit_tag 'Submit' %>
           <% end %>

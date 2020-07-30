@@ -17,12 +17,13 @@ describe 'As a registered user' do
       visit '/dashboard'
 
       click_on 'Upload your own podcast'
-      
+
       expect(current_path).to eq(search_path)
       fill_in :podcast_name, with: "Conan"
       click_on 'Search'
       expect(current_path).to eq(search_path)
       expect(page).to have_css('.search-result', count: 10)
+      
       within first('.search-result') do
         page.select 'Denver', from: 'Location'
         check 'Interviews'
