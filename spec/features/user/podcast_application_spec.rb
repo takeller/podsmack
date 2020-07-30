@@ -80,9 +80,7 @@ describe 'As a registered user' do
       expect(current_path).to eq(search_path)
       
       within first('.search-result') do
-        expect(page).to have_content('This podcast has already been submitted by a user')
-        expect(page).to_not have_css('form')
-        
+        expect(page).to have_content('This podcast has already been submitted by a user')        
       end
     end
   end
