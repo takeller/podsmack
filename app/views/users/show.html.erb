@@ -4,7 +4,7 @@
   <h1><%= @user.following_podcasts.length %> Following</h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
-      <%= podcast.name %>
+      <%= link_to podcast.name, "/podcasts/#{podcast.id}" %>
     </section>
   <% end %>
 </section>
@@ -18,10 +18,9 @@
   <section class = "admin-dashboard">
   <% @user.pending_podcasts.each do |podcast| %>
     <section id="podcast_pending_approval">
-    <h5>Name</h5>
-      <%= podcast.name %>
-    <h5>Description</h5>
-      <%= podcast.description %>
+    <h5>Name - </h5><%= podcast.name %>
+    <h6>Description:</h6>
+    <%= podcast.description %>
     <%= button_to "Approve", "/approve_podcast/#{podcast.id}" %>
     </section>
   <% end %>
