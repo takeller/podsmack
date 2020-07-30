@@ -10,7 +10,7 @@
       <h1 class="podcast-title"> <%= @podcast_facade.podcast.name %> </h1>
       Location: <%= @podcast_facade.podcast.location %>
     </section>
-    <p class='podcast-description'><%= @podcast_facade.podcast.description %> </p>
+    <p class='podcast-description'><%= raw(@podcast_facade.podcast.description).html_safe %> </p>
     <% if current_user && !current_user.following_podcasts.include?(@podcast_facade.podcast) %>
       <%= button_to 'Follow', followings_path(podcast_id: @podcast_facade.podcast.id, user_id: current_user.id), method: :post, class: "btn btn-outline js-scroll-trigger" %>
     <% end %>
