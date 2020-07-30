@@ -19,7 +19,7 @@ RSpec.describe Podcast, type: :model do
     it 'locates podcasts with active: false ' do 
       @user = create(:user)
       @podcast = create(:podcast, user: @user)
-      @podcast2 = create(:podcast, user: @user, active: true)
+      @podcast2 = create(:podcast, user: @user, podcast_uri: '123', active: true)
       
       expect(@user.pending_podcasts.length).to eq(1)
     end

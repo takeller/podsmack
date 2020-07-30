@@ -5,6 +5,8 @@ class Podcast < ApplicationRecord
   validates_presence_of :name
   validates_presence_of :location
   validates_presence_of :description
+  validates_presence_of :podcast_uri
+  validates_uniqueness_of :podcast_uri
 
   scope :filter_by_active, -> {where active: true}
   scope :filter_by_location, -> (location) {where location: location}

@@ -3,9 +3,9 @@ require 'rails_helper'
 describe 'As an Admin' do
   before :each do
     @admin = create(:admin)
-    @podcast = create(:podcast, user: @admin)
-    @podcast2 = create(:podcast, user: @admin)
-    @podcast3 = create(:podcast, user: @admin)
+    @podcast = create(:podcast, user: @admin, podcast_uri: '123')
+    @podcast2 = create(:podcast, user: @admin, podcast_uri: '1234')
+    @podcast3 = create(:podcast, user: @admin, podcast_uri: '1235')
     login_user(@admin)
 
     visit '/'
