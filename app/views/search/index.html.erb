@@ -23,17 +23,16 @@
       </div>
 
       <div id=<%= "collapse-#{result.podcast_id}" %> class="collapse" aria-labelledby=<%= "heading-#{result.podcast_id}" %> data-parent="#accordion">
-      <div class="container card-body, podcast-form">
-      <% if result.in_database? %>
-        <p>This podcast has already been submitted by a user.</p>
-      <% else %>
-        <p>Fill in the below information to submit <%= result.title %> for inclusion in Podsmack. Location is required, the remaining fields are optional but highly encouraged</p>
-        <%= form_tag(user_podcasts_path(current_user.id), method: 'post') do %>
-          <%= hidden_field_tag(:name, result.title) %>
-          <%= hidden_field_tag(:description, result.description) %>
-          <%= hidden_field_tag(:podcast_uri, result.podcast_id) %>
-          <%= hidden_field_tag(:photo, result.thumbnail)  %>
-          
+        <div class="container card-body, podcast-form">
+          <% if result.in_database? %>
+            <p>This podcast has already been submitted by a user</p>
+          <% else %>
+            <p>Fill in the below information to submit <%= result.title %> for inclusion in Podsmack. Location is required, the remaining fields are optional but highly encouraged</p>
+            <%= form_tag(user_podcasts_path(current_user.id), method: 'post') do %>
+              <%= hidden_field_tag(:name, result.title) %>
+              <%= hidden_field_tag(:description, result.description) %>
+              <%= hidden_field_tag(:podcast_uri, result.podcast_id) %>
+              <%= hidden_field_tag(:photo, result.thumbnail)  %>
               <div class='form-group row'>
                 <%= label_tag :location, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-4'>
@@ -77,13 +76,9 @@
                 <%= submit_tag 'Submit', class: 'col-sm-2' %>
               </div>
             <% end %>
-          </div>
+          <% end %>
         </div>
-      <% end %>
-
-
-    </div>
-    <br>
+      </div>
+    </div><br>
   <% end %>
-  </div>
 </div>
