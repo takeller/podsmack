@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
   def index
-    if search_params.present?
+    if search_params[:podcast_name].present?
       @search_results = SearchResult.from_api(search_params[:podcast_name])
     else
       @search_results = []
