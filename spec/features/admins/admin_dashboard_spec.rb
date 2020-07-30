@@ -11,7 +11,7 @@ describe 'As an Admin' do
     visit '/'
     click_on 'Login/Register'
 
-    click_on 'Login With Google'
+    click_link 'Login With Google'
 
   end
   it 'I visit the admin dashboard and see admin dashboard attributes' do

@@ -13,7 +13,7 @@ describe 'As a registered user' do
 
     visit '/'
     click_on 'Login/Register'
-    click_on 'Login With Google'
+    click_link 'Login With Google'
 
     expect(current_path).to eq('/dashboard')
     visit '/dashboard'
