@@ -8,7 +8,7 @@ FactoryBot.define do
     facebook { Faker::Hacker.noun  }
     description {Faker::Movies::HitchhikersGuideToTheGalaxy.marvin_quote }
     adult_content { false }
-    spotify_uri { "24a970fdda68488abe659cfe15ae974c" }
+    podcast_uri { "24a970fdda68488abe659cfe15ae974c" }
     photo { Faker::Placeholdit.image }
     active { false }
     user

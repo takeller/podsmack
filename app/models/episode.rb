@@ -9,9 +9,9 @@ class Episode
     @pub_date = formatted_episodes[:pub_date]
   end
 
-  def self.make_episodes(spotify_uri)
+  def self.make_episodes(podcast_uri)
       podcast_service = PodcastService.new
-      podcast_details = podcast_service.podcast(spotify_uri)
+      podcast_details = podcast_service.podcast(podcast_uri)
       format_episode_details(podcast_details[:data][:episodes])
   end
 
