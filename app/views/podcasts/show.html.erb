@@ -2,7 +2,7 @@
   <section class="column-left">
     <%= image_tag(@podcast_facade.podcast.photo, class: 'podcast-image') %>
     <% @podcast_facade.social_media.each do |platform, handle|%>
-    <p> <%= platform + ": " + handle  %> </p>
+    <p class="social-media-handles"> <%= platform.capitalize + ": " + handle  %> </p>
     <% end %>
   </section>
   <section class="column-right">
@@ -32,12 +32,12 @@
       </p>
       <div class="collapse" id=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
         <div class="card card-body episode-card">
-          <div class="card text-white bg-info mb-3 w-75">
+          <div class="card text-white episode-card mb-3 w-75">
             <div class="card-body">
               <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
               <p class='card-text'><%= raw(episode.description).html_safe %></p>
               <audio src= <%= episode.audio %> controls> </audio>
-              <div class="card-footer text-muted"><%= episode.pub_date %></div>
+              <div class="card-footer text-muted episode-footer"><%= episode.pub_date %></div>
             </div>
           </div>
         </div>
