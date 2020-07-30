@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'As a visitor' do
   describe 'When I visit a podcasts show page' do
-    it 'I can see details about the podcast' do
+    it 'I can see details about the podcast', :vcr do
       user = create(:user)
       podcast = create(:podcast)
       tags = [create(:tag, name: "dog"),create(:tag, name: "cat"),
@@ -37,7 +37,7 @@ describe 'As a visitor' do
       end
     end
 
-    it 'I dont see a button to follow the podcast if not logged in' do
+    it 'I dont see a button to follow the podcast if not logged in', :vcr do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
       expect(page).to_not have_button('Follow')
@@ -47,7 +47,7 @@ end
 
 describe 'As a user' do
   describe 'When I visit a podcasts show page' do
-    it 'I see a button to follow the podcast' do
+    it 'I see a button to follow the podcast', :vcr do
       user = create(:user)
       podcast = create(:podcast)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
