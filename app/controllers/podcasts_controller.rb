@@ -38,6 +38,6 @@ class PodcastsController < ApplicationController
   private
 
   def podcast_params
-    params.require(:podcast).permit(:name, :location, :description, :patreon, :instagram, :facebook, :twitter, :spotify_uri, :photo, :adult_content)
+    params.require(:podcast).permit(:name, :location, :description, :patreon, :instagram, :facebook, :twitter, :podcast_uri, :photo, :adult_content)
   end
 end

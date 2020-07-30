@@ -52,7 +52,7 @@ This is a Ruby on Rails application used to organize Podcast content by location
 # Getting Started
 
 <p align="center">
- <img src="https://i.imgur.com/VKbBWpW.png">
+ <img src="https://i.imgur.com/d7Ysmwh.png">
 </p>
 
 ## Installing

@@ -8,7 +8,7 @@ FactoryBot.define do
     facebook { "MyString" }
     description { "MyString" }
     adult_content { false }
-    spotify_uri { "MyString" }
+    podcast_uri { "MyString" }
     photo { "MyString" }
     status { "unapproved" }
     user { nil }

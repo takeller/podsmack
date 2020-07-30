@@ -36,7 +36,7 @@ describe 'As a registered user' do
       fill_in 'podcast[facebook]', with: 'www.facebook.com/test'
       fill_in 'podcast[description]', with: 'Favorite albums broken down'
       check 'podcast[adult_content]'
-      fill_in 'podcast[spotify_uri]', with: '2b025hq3gJ17tQdxS3aV43'
+      fill_in 'podcast[podcast_uri]', with: '2b025hq3gJ17tQdxS3aV43'
       fill_in 'podcast[photo]', with: 'https://picsum.photos/200'
 
       click_on 'Submit'
@@ -47,7 +47,7 @@ describe 'As a registered user' do
 
       expect(podcast.user.user_name).to eq(user.user_name)
       expect(podcast.location).to eq('Denver')
-      expect(podcast.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+      expect(podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
     end
 
     it 'Sad: podcast must have a podcast name' do
@@ -97,7 +97,7 @@ describe 'As a registered user' do
       create(:tag, name: 'Music')
       create(:tag, name: 'Software')
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
-    
+
       visit new_user_podcast_path(user)
 
       fill_in 'podcast[name]', with: 'Dissect'
@@ -111,7 +111,7 @@ describe 'As a registered user' do
       fill_in 'podcast[facebook]', with: 'www.facebook.com/test'
       fill_in 'podcast[description]', with: 'Favorite albums broken down'
       check 'podcast[adult_content]'
-      fill_in 'podcast[spotify_uri]', with: '2b025hq3gJ17tQdxS3aV43'
+      fill_in 'podcast[podcast_uri]', with: '2b025hq3gJ17tQdxS3aV43'
       fill_in 'podcast[photo]', with: 'https://picsum.photos/200'
 
       click_on 'Submit'
@@ -130,10 +130,26 @@ describe 'As a registered user' do
       admin = create(:admin)
       login_user(admin)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
+
+      @podcast = Podcast.last
+
+      expect(@podcast.user.user_name).to eq(user.user_name)
+      expect(@podcast.location).to eq('Denver')
+      expect(@podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+
+      click_on 'Logout'
+      expect(current_path).to eq('/')
+
+      @admin = create(:admin)
+
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+      login_user(@admin)
+
       click_on 'Dashboard'
      
       expect(current_path).to eq('/dashboard')
       expect(page).to have_css('.admin-dashboard')
+
       expect(page).to have_css("#podcast_pending_approval", count: 1)
       expect(page).to have_content(podcast.name)
     end

@@ -58,7 +58,7 @@ describe 'As a user' do
 
       visit '/dashboard'
       expect(page).to have_content(podcast.name)
-  
+
     end
   end
 end
