@@ -7,6 +7,14 @@ RSpec.describe Podcast, type: :model do
     it {should have_many(:podcast_tags).dependent(:destroy)}
   end
 
+  describe 'validations' do 
+    it {should validate_presence_of :name}
+    it {should validate_presence_of :location}
+    it {should validate_presence_of :description}
+    it {should validate_presence_of :podcast_uri}
+    it {should validate_uniqueness_of :podcast_uri}
+  end
+
   describe 'methods' do
     it 'locates podcasts with active: false ' do 
       @user = create(:user)
