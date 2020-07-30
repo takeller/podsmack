@@ -122,7 +122,7 @@ describe 'As a registered user' do
      
       expect(podcast.user.user_name).to eq(user.user_name)
       expect(podcast.location).to eq('Denver')
-      expect(podcast.spotify_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+      expect(podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
 
       click_on 'Logout'
       expect(current_path).to eq('/')
