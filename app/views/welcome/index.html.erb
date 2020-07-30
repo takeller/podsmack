@@ -1,7 +1,7 @@
 <header class="row">
   <div class="masthead-text container">
     <div class="center-search">
-      <h1 class="mb-5">Podsmack</h1>
+      <h1 class="podsmack-font">Podsmack</h1>
       <%= link_to 'Find your next favorite podcast', podcasts_path, :class => "btn btn-outline btn-xl js-scroll-trigger" %>
     </div>
 </header>
@@ -45,24 +45,5 @@
 </div>
 
     
-<section class="download bg-primary text-center" id="download">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <h2 class="section-heading">Featured Podcasts</h2>
-        <p>Our app helps you narrow down your search.</p>
-        <div class="featured_3">
-          <% @featured_podcasts.each do |podcast, description| %>
-            <section align ="center" class ="grid-item" >
-              <p><%= "#{podcast.name} - Description: #{description}" %></p>
-            </section>
-          <% end %>
-        </div>
-        <div class="badges">
-          <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-          <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </section>
