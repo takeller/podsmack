@@ -163,6 +163,12 @@ section h2 {
   }
 }
 
+.podsmack-font {
+  font-size: 100px;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  margin-bottom: .5em;
+}
+
 .flip-card-container {
   width: 1000px;
   height: 250px;
@@ -207,8 +213,8 @@ section h2 {
 }
 
 .flip-card-back {
-  background-color: #517fa4;
-  color: #fff;
+  background-color: #fdcc52;
+  color: #333;
   transform: rotateY(180deg);
 }
 
@@ -221,13 +227,13 @@ section h2 {
 .flip-card-back p {
   text-align: center;
   margin: 1rem;
-  font-size: .30rem;
+  font-size: .75rem;
   line-height: 1.5rem;
 }
 
 .flip-card-back p span {
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: italic;
   font-weight: bold;
   margin-top: 1rem;
@@ -523,7 +529,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline {
-  color: white;
+  color: #fdcc52;
   border: 1px solid;
   border-color: white;
 }
