@@ -24,13 +24,13 @@
 </section>
 
 <section class='episodes'>
-  <% @podcast_facade.episodes.each do |episode| %>
+  <% @podcast_facade.episodes.each_with_index do |episode, index| %>
       <p class="card-text">
-        <button class="btn btn-outline btn-xl" type="button" data-toggle="collapse" data-target=<%= "#episode#{episode.title.delete(' ')[0..5]}" %> aria-expanded="false" aria-controls=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
+        <button class="btn btn-outline btn-xl" type="button" data-toggle="collapse" data-target=<%= "#episode#{index}" %> aria-expanded="false" aria-controls=<%= "episode#{index}" %>>
           <%= raw(episode.title).html_safe %>
         </button>
       </p>
-      <div class="collapse" id=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
+      <div class="collapse" id=<%= "episode#{index}" %>>
         <div class="card card-body episode-card">
           <div class="card text-white episode-card mb-3 w-75">
             <div class="card-body">
