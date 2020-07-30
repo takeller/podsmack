@@ -1,25 +1,46 @@
-<h1> <%= @podcast_facade.podcast.name %> </h1>
-<%= image_tag(@podcast_facade.podcast.photo) %>
-<p> Description: <%= @podcast_facade.podcast.description %> </p>
-<p> Location: <%= @podcast_facade.podcast.location %> </p>
-<% @podcast_facade.social_media.each do |platform, handle|%>
-  <p> <%= platform + ": " + handle  %> </p>
-<% end %>
-<% if current_user && !current_user.following_podcasts.include?(@podcast_facade.podcast) %>
-  <%= button_to 'Follow', followings_path(podcast_id: @podcast_facade.podcast.id, user_id: current_user.id), method: :post %>
-<% end %>
+<section class="row">
+  <section class="column-left">
+    <%= image_tag(@podcast_facade.podcast.photo, class: 'podcast-image') %>
+    <% @podcast_facade.social_media.each do |platform, handle|%>
+    <p class="social-media-handles"> <%= platform.capitalize + ": " + handle  %> </p>
+    <% end %>
+  </section>
+  <section class="column-right">
+    <section class='podcast-info-header'>
+      <h1 class="podcast-title"> <%= @podcast_facade.podcast.name %> </h1>
+      Location: <%= @podcast_facade.podcast.location %>
+    </section>
+    <p class='podcast-description'><%= raw(@podcast_facade.podcast.description).html_safe %> </p>
+    <% if current_user && !current_user.following_podcasts.include?(@podcast_facade.podcast) %>
+      <%= button_to 'Follow', followings_path(podcast_id: @podcast_facade.podcast.id, user_id: current_user.id), method: :post, class: "btn btn-outline js-scroll-trigger" %>
+    <% end %>
 
-<section class="tags">
-  <h3>Content Tags</h3>
-  <% @podcast_facade.podcast.tags.each do |tag| %>
-    <%= tag.name + "," %>
+    <section class="tags">
+      <% @podcast_facade.podcast.tags.each do |tag| %>
+        <%= '#' + tag.name + " " %>
+      <% end %>
+    </section>
+  </section>
+</section>
+
+<section class='episodes'>
+  <% @podcast_facade.episodes.each do |episode| %>
+      <p class="card-text">
+        <button class="btn btn-outline btn-xl" type="button" data-toggle="collapse" data-target=<%= "#episode#{episode.title.delete(' ')[0..5]}" %> aria-expanded="false" aria-controls=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
+          <%= raw(episode.title).html_safe %>
+        </button>
+      </p>
+      <div class="collapse" id=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
+        <div class="card card-body episode-card">
+          <div class="card text-white episode-card mb-3 w-75">
+            <div class="card-body">
+              <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
+              <p class='card-text'><%= raw(episode.description).html_safe %></p>
+              <audio src= <%= episode.audio %> controls> </audio>
+              <div class="card-footer text-muted episode-footer"><%= episode.pub_date %></div>
+            </div>
+          </div>
+        </div>
+      </div>
   <% end %>
 </section>
-<% @podcast_facade.episodes.each do |episode| %>
-  <section class ="episodes">
-    <p class="title"><%= raw(episode.title).html_safe %></p>
-    <div class="description"><%= raw(episode.description).html_safe %></div>
-    <audio src= <%= episode.audio %> controls> </audio>
-    <p>Released On: <%= episode.pub_date %></p>
-  </section>
-<% end %>

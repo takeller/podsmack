@@ -7,8 +7,8 @@ describe "When I visit the podcast show page" do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
 
-      within(first('.episodes')) do
-        name = find(".title").text
+      within(first('.card-body')) do
+        name = find(".card-title").text
         expect(name).not_to be_empty
       end
     end
@@ -17,8 +17,8 @@ describe "When I visit the podcast show page" do
       podcast = create(:podcast)
       visit "/podcasts/#{podcast.id}"
 
-      within(first('.episodes')) do
-        description = find(".description").text
+      within(first('.card-body')) do
+        description = all("p")[1].text
         expect(description).not_to be_empty
       end
     end
