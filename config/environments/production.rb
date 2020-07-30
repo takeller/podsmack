@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.exception_app = self.routes
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
