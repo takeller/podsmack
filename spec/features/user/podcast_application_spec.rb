@@ -2,7 +2,11 @@ require 'rails_helper'
 
 describe 'As a registered user' do
   describe 'When I visit my dashboard' do
+<<<<<<< HEAD
     it 'I can apply to submit a podcast', :vcr do
+=======
+    it 'I can apply to submit a podcast' do
+>>>>>>> master
       user = create(:user)
 
       create(:tag, name: 'News')
@@ -49,8 +53,59 @@ describe 'As a registered user' do
       expect(podcast.instagram).to eq('www.instagram.com/test')
       expect(podcast.facebook).to eq('www.facebook.com/test')
     end
+<<<<<<< HEAD
   end
 end
+=======
+    it 'I can apply to submit a podcast then admin can approve' do
+      user = create(:user)
+      create(:tag, name: 'Interviews')
+      create(:tag, name: 'Music')
+      create(:tag, name: 'Software')
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
+      visit new_user_podcast_path(user)
+
+      fill_in 'podcast[name]', with: 'Dissect'
+      page.select 'Denver', from: 'podcast[location]'
+      check 'Interviews'
+      check 'Music'
+      check 'Software'
+      fill_in 'podcast[twitter]', with: 'www.twitter.com/test'
+      fill_in 'podcast[patreon]', with: 'www.patreon.com/test'
+      fill_in 'podcast[instagram]', with: 'www.instagram.com/test'
+      fill_in 'podcast[facebook]', with: 'www.facebook.com/test'
+      fill_in 'podcast[description]', with: 'Favorite albums broken down'
+      check 'podcast[adult_content]'
+      fill_in 'podcast[podcast_uri]', with: '2b025hq3gJ17tQdxS3aV43'
+      fill_in 'podcast[photo]', with: 'https://picsum.photos/200'
+
+      click_on 'Submit'
+
+      expect(current_path).to eq('/dashboard')
+
+      podcast = Podcast.last
+     
+      expect(podcast.user.user_name).to eq(user.user_name)
+      expect(podcast.location).to eq('Denver')
+      expect(podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+
+      click_on 'Logout'
+      expect(current_path).to eq('/')
+      
+      admin = create(:admin)
+      login_user(admin)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
+
+      @podcast = Podcast.last
+
+      expect(@podcast.user.user_name).to eq(user.user_name)
+      expect(@podcast.location).to eq('Denver')
+      expect(@podcast.podcast_uri).to eq('2b025hq3gJ17tQdxS3aV43')
+
+      click_on 'Logout'
+      expect(current_path).to eq('/')
+>>>>>>> master
 
     # it 'I can not submit a podcast with a blank location', :vcr do
     #   user = create(:user)
@@ -91,9 +146,19 @@ end
 #   end
 # end
 
+<<<<<<< HEAD
 
       # Remove when above section is restored.
 #       visit new_user_podcast_path(user)
+=======
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+      login_user(@admin)
+
+      click_on 'Dashboard'
+     
+      expect(current_path).to eq('/dashboard')
+      expect(page).to have_css('.admin-dashboard')
+>>>>>>> master
 
 #       fill_in 'podcast[name]', with: 'Dissect'
 #       page.select 'Denver', from: 'podcast[location]'
