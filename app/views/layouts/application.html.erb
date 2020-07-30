@@ -9,7 +9,14 @@
     <%= javascript_pack_tag 'application' %>
 
   </head>
-
+  <style>
+  footer {  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: clear;
+    text-align: center;}
+  </style>
 
   <body id="page-top" class="background-image"><div id="huntr-react-container-2"><!-- react-empty: 1 --></div>
 
@@ -53,6 +60,10 @@
       </div>
     <% end %>
     <%= yield %>
+    <footer>
+      <img src="api-transparent background for non-white background.png" alt="powered by listen notes", height = "20">
+    </footer>
+
   </body>
 
 </html>

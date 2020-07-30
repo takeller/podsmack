@@ -1,55 +1,52 @@
-<header class="masthead row">
-      <div class="masthead-text container h-100 col-lg-6">
-        <div class="row h-100">
-          <div class="col-lg-7 mb-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">Podsmack</h1>
-              <%= link_to 'Find your next favorite podcast', podcasts_path, :class => "btn btn-outline btn-xl js-scroll-trigger" %>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="gif-image col-lg-6">
-        <%= image_tag 'https://media.giphy.com/media/xT9IgFLfWUZigjoem4/giphy.gif' %>
-      </div>
-    </header>
+<header class="row">
+  <div class="masthead-text container">
+    <div class="center-search">
+      <h1 class="podsmack-font">Podsmack</h1>
+      <p>Find your next favorite local podcast. Podsmack makes it easier to find local podcasts you're interested in.</p>
+      <p>Have a great podcast? Register it on Podsmack and connect with local listeners.</p>
+      <%= link_to 'Find your next favorite podcast', podcasts_path, :class => "btn btn-outline btn-xl js-scroll-trigger" %>
+    </div>
+</header>
 
-    <section class="download bg-primary text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Featured Podcasts</h2>
-            <p>Our app helps you narrow down your search.</p>
-            <div class="featured_3">
-              <% @featured_podcasts.each do |podcast, description| %>
-                <section align ="center" class ="grid-item" >
-                  <p><%= "#{podcast.name} - Description: #{description}" %></p>
-                </section>
-              <% end %>
-            </div>
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-<footer>
-  <img src="/listen_notes.png" height="30">
-</footer>
+<div class="flip-card-container">
+  <div class="flip-card">
+    <div class="flip-card-front">
+      <img src="https://www.theledger.com/storyimage/LK/20200306/ENTERTAINMENT/200308810/AR/0/AR-200308810.jpg">
+    </div> 
+    <div class="flip-card-back">
+      <p>
+        <span>- The Revolutionists -</span>
+        "A weekly podcasting exploring great political revolutions. Now: The Russian Revolution Next: ???"
+      </p>
+    </div>
+  </div>  
+
+  <div class="flip-card">
+    <div class="flip-card-front">
+      <img src="https://media.wnyc.org/i/1400/1400/l/80/1/2DQ_1400X1400_NoWNYCSTUDIOS_2.png">
+    </div> 
+    <div class="flip-card-back">
+      <p>
+        <span>- Two Dope Queens -</span>
+        "Phoebe Robinson and Jessica Williams are funny. They're black. They're BFFs. And they host a live comedy show in Brooklyn. Join the 2 Dope Queens, along with their favorite comedians, for stories about sex, romance, race, hair journeys, living in New York, and Billy Joel. Plus a whole bunch of other s**t."
+      </p>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-front">
+      <img src="https://media.npr.org/images/podcasts/primary/icon_381444650-04c1bad8586e69edf04b78ea319846614c4a6a6b.png?s=1400">
+    </div> 
+    <div class="flip-card-back">
+      <p>
+        <span>- This American Life -</span>
+        "A weekly public radio program and podcast. Each week we choose a theme and put together different kinds of stories on that theme."
+      </p>
+    </div>
+  </div>
+</div>
+
+    
+
+</section>
+
