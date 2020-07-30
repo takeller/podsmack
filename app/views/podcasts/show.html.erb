@@ -26,11 +26,11 @@
 <section class='episodes'>
   <% @podcast_facade.episodes.each do |episode| %>
       <p class="card-text">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=<%= "#episode#{episode.title}" %> aria-expanded="false" aria-controls=<%= "episode#{episode.title}" %>>
+        <button class="btn btn-outline btn-xl" type="button" data-toggle="collapse" data-target=<%= "#episode#{episode.title.delete(' ')[0..5]}" %> aria-expanded="false" aria-controls=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
           <%= raw(episode.title).html_safe %>
         </button>
       </p>
-      <div class="collapse" id=<%= "episode#{episode.title}" %>>
+      <div class="collapse" id=<%= "episode#{episode.title.delete(' ')[0..5]}" %>>
         <div class="card card-body">
           <div class="card text-white bg-info mb-3 w-75">
             <div class="card-body">
