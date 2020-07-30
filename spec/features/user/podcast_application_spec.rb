@@ -49,6 +49,42 @@ describe 'As a registered user' do
       expect(podcast.instagram).to eq('www.instagram.com/test')
       expect(podcast.facebook).to eq('www.facebook.com/test')
     end
+
+    it 'I can not apply to submit a podcast that already exists', :vcr do
+      user = create(:user)
+
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+      visit '/dashboard'
+
+      click_on 'Upload your own podcast'
+
+      expect(current_path).to eq(search_path)
+      fill_in :podcast_name, with: "Conan"
+      click_on 'Search'
+      expect(current_path).to eq(search_path)
+      expect(page).to have_css('.search-result', count: 10)
+      
+      within first('.search-result') do
+        page.select 'Denver', from: 'Location'
+        check :adult_content
+
+        click_on 'Submit'
+      end
+      expect(current_path).to eq('/dashboard')
+      expect(page).to have_content('Podcast submitted and waiting approval')
+      click_on 'Upload your own podcast'
+
+      expect(current_path).to eq(search_path)
+      fill_in :podcast_name, with: "Conan"
+      click_on 'Search'
+      expect(current_path).to eq(search_path)
+      
+      within first('.search-result') do
+        expect(page).to have_content('This podcast has already been submitted by a user')
+        expect(page).to_not have_css('form')
+        
+      end
+    end
   end
 end
 
