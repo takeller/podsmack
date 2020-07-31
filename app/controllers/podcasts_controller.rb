@@ -24,7 +24,7 @@ class PodcastsController < ApplicationController
   def create
     podcast = current_user.podcasts.new(podcast_params)
     if podcast.save
-      params[:tags].each {|tag| PodcastTag.create({podcast_id: podcast.id, tag_id: tag})} if params[:tags]
+      params[:tags][:ids].each {|tag| PodcastTag.create({podcast_id: podcast.id, tag_id: tag})} if params[:tags]
       flash[:notice] = 'Podcast submitted and waiting approval'
       redirect_to '/dashboard'
     else
