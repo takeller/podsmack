@@ -34,7 +34,7 @@
       <div class="collapse" id=<%= "episode#{index}" %>>
         <div class="card card-body episode-card">
           <div class="card text-white episode-card mb-3 w-75">
-            <div class="card-body">
+            <div class="card-body episode-description">
               <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
               <p class='card-text'><%= raw(episode.description).html_safe %></p>
               <audio src= <%= episode.audio %> controls> </audio>
