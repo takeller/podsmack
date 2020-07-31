@@ -11,7 +11,7 @@
 </div>
 <br>
 
-<div  class="container" id="accordion">
+<div  class="container search-cards" id="accordion">
   <% @search_results.each do |result| %>
     <div class="card search-result">
       <div class="card-header" id=<%= "heading-#{result.podcast_id}" %>>
@@ -36,35 +36,34 @@
               <div class='form-group row'>
                 <%= label_tag :location, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-4'>
-                  <%= select_tag :location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']), required: true %> <br>
+                  <%= select_tag :location, options_for_select(['Denver', 'NYC', 'Dallas', 'San Francisco']), required: true %>
                 </div>
               </div>
-
               <%= label_tag :tags %>
               <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
-                <%= box.label {box.check_box + box.text} %> 
-              <% end %> <br>
+                <%= box.label(class: 'check-label') {box.check_box + box.text} %>
+              <% end %> <br><br>
               <div class='form-group row'>
                 <%= label_tag :patreon, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-3'>
-                  <%= text_field_tag :patreon, nil, class: 'form-control' %> <br>
+                  <%= text_field_tag :patreon, nil, class: 'form-control' %>
                 </div>
 
                 <%= label_tag :instagram, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-3'>
-                  <%= text_field_tag :instagram, nil, class: 'form-control' %> <br>
+                  <%= text_field_tag :instagram, nil, class: 'form-control' %>
                 </div>
               </div>
 
               <div class='form-group row'>
                 <%= label_tag :facebook, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-3'>
-                  <%= text_field_tag :facebook, nil, class: 'form-control' %> <br>
+                  <%= text_field_tag :facebook, nil, class: 'form-control' %>
                 </div>
 
                 <%= label_tag :twitter, nil, class: 'col-sm-2 col-form-label' %>
                 <div class='col-sm-3'>
-                  <%= text_field_tag :twitter, nil, class: 'form-control' %> <br>
+                  <%= text_field_tag :twitter, nil, class: 'form-control' %>
                 </div>
               </div>
 
