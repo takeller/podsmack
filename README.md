@@ -10,19 +10,23 @@ This is a Ruby on Rails application used to organize Podcast content by location
 
 ### Team
 <p>
-<a href="https://github.com/muydanny">Danny Ramos</a>
+<a href="https://github.com/muydanny">Danny Ramos GitHub</a>
+</br>
 <a href="https://www.linkedin.com/in/danny-ramos-j/">LinkedIn</a>
 </p>
 <p>
-<a href="https://github.com/takeller">Taylor Keller</a>
+<a href="https://github.com/takeller">Taylor Keller GitHub</a>
+</br>
 <a href="https://www.linkedin.com/in/taylor-a-keller/">LinkedIn</a>
 </p>
 <p>
-<a href="https://github.com/kiverso">Kyle Iverson</a>
+<a href="https://github.com/kiverso">Kyle Iverson GitHub</a>
+</br>
 <a href="https://www.linkedin.com/in/kyleiverson/">LinkedIn</a>
 </p>
 <p>
-<a href="https://github.com/janegreene">Jane Greene</a>
+<a href="https://github.com/janegreene">Jane Greene GitHub</a>
+</br>
 <a href="https://www.linkedin.com/in/jane-greene-mba/">LinkedIn</a>
 </p>
 
