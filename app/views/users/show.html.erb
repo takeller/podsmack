@@ -1,17 +1,21 @@
 <% if current_user %>
 
-<section class="podcast_following center-search">
-  <h1>Shows you are Following: <%= @user.following_podcasts.length %></h1>
-  <% @user.following_podcasts.each do |podcast| %>
-    <section id="follow">
-      <%= button_to  podcast.name , podcast_path(podcast.id), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
-    </section>
-  <% end %>
+<section class="container podcast_following">
+  <h3>Shows you are Following: <%= @user.following_podcasts.length %></h3><br>
+  <div class='row'>
+    <% @user.following_podcasts.each do |podcast| %>
+      <div id="follow" class='followed-button'>
+        <%= button_to  podcast.name , podcast_path(podcast.id), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
+      </div>
+    <% end %>
+  </div>
 </section>
-
-<h6 class="center-search"> Interested in becoming a contributor with Podsmack? Apply to add your show here:  </h6>
-<div class="center-search">
-  <%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
+<div class='container'>
+  <p> Interested in becoming a contributor with Podsmack?</p>
+  <div class='row'>
+    <p class='col-sm-4'> Apply to add your show here:</p>
+    <%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-custom js-scroll-trigger" %>
+  </div>
 </div>
 
 <% if current_user.admin %>
