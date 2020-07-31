@@ -61,26 +61,32 @@ This is a Ruby on Rails application used to organize Podcast content by location
 <p align="center">
  <img src="https://i.imgur.com/Hzf2h58.png">
 </p>
+
 ## User Dashboard
 <p align="center">
  <img src="https://i.imgur.com/wGTpD1t.png">
 </p>
+
 ## Admin Dashboard
 <p align="center">
  <img src="https://i.imgur.com/74H1Sgw.png">
 </p>
+
 ## Browse, Filter, and Search
 <p align="center">
  <img src="https://i.imgur.com/dBNrNtj.png">
 </p>
+
 ## Podcast Show Page
 <p align="center">
  <img src="https://i.imgur.com/qvo7JuI.png">
 </p>
+
 ## About Us
 <p align="center">
  <img src="https://i.imgur.com/gYYVIHz.png">
 </p>
+
 ## User Roles
 
 1. Visitor - this type of user can browse, search, and play podcasts but is unable to follow podcasts.
