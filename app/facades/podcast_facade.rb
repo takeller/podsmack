@@ -11,7 +11,7 @@ class PodcastFacade
                 'patreon' =>  @podcast[:patreon],
                 'instagram' => @podcast[:instagram]
               }
-    find = handles.find_all{ |k, v| v.nil? == false}
+    find = handles.find_all{ |k, v| v.present? == true}
     find.to_h
   end
 
@@ -21,4 +21,6 @@ class PodcastFacade
       Episode.new(episode_hash)
     end
   end
+
+
 end

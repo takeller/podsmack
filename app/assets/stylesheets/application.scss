@@ -636,7 +636,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
 .tags {
   padding-top: 0;
   padding-bottom: 0;
-  color: blue;
+  color: #fdcc52;
+  margin-top: 10px;
 }
 
 .episodes {
@@ -661,4 +662,10 @@ section.contact ul.list-social li.social-google-plus a:hover {
 .episode-footer {
   border-top: 0px;
   background-color: inherit;
+  color: white;
 }
+
+.location {
+  font-size: large;
+}
+
