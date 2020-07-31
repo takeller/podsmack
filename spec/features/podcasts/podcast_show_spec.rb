@@ -57,7 +57,7 @@ describe 'As a user' do
       click_on 'Follow'
 
       visit '/dashboard'
-      expect(page).to have_content(podcast.name)
+      expect(page).to have_button(podcast.name)
 
     end
   end

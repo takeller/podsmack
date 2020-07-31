@@ -127,7 +127,7 @@ section h2 {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: #4e4a4aa6;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
@@ -251,7 +251,7 @@ section h2 {
 .background-image {
   position: relative;
   // width: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
   padding-bottom: 100px;
   color: white;
   background: url(asset_path('bg-pattern.png')), #7b4397;

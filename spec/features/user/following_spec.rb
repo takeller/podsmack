@@ -12,7 +12,7 @@ describe 'As a registered user' do
       click_on 'Follow'
 
       visit '/dashboard'
-      expect(page).to have_content(podcast.name)
+      expect(page).to have_button(podcast.name)
       visit "/podcasts/#{podcast.id}"
       expect(page).to_not have_button("Follow")
     end
