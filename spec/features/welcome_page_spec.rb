@@ -37,17 +37,11 @@ RSpec.describe "Podsmack Home Page" do
       expect(current_path).to eq('/dashboard')
     end
 
-    xit 'shows 3 random featured podcasts' do 
-      user = create(:user)
-      podcast1 = create(:podcast, active: true)
-      podcast2 = create(:podcast, active: true)
-      podcast3 = create(:podcast, active: true)
-      podcast4 = create(:podcast)
-      podcast5 = create(:podcast)
-
+    it 'shows 3 featured podcasts' do
       visit '/'
-      expect(page).to have_css("#flip-card-container")
-      expect(page).to have_css("flip-card", count: 3)
+
+      expect(page).to have_css(".flip-card-container")
+      expect(page).to have_css(".flip-card", count: 3)
     end
 
   end
