@@ -654,7 +654,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .tags {
   padding-top: 0;
   padding-bottom: 0;
-  color: blue;
+  color: #fdcc52;
+  margin-top: 10px;
 }
 
 .episodes {
@@ -679,5 +680,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .episode-footer {
   border-top: 0px;
   background-color: inherit;
+  color: white;
 }
 
+.location {
+  font-size: large;
+}

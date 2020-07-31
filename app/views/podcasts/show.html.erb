@@ -8,7 +8,7 @@
   <section class="column-right">
     <section class='podcast-info-header'>
       <h1 class="podcast-title"> <%= @podcast_facade.podcast.name %> </h1>
-      Location: <%= @podcast_facade.podcast.location %>
+      <div class="location"> Location: <%= @podcast_facade.podcast.location %></div>
     </section>
     <p class='podcast-description'><%= raw(@podcast_facade.podcast.description).html_safe %> </p>
     <% if current_user && !current_user.following_podcasts.include?(@podcast_facade.podcast) %>
@@ -24,9 +24,10 @@
 </section>
 
 <section class='episodes'>
+  <h2>Episodes</h2>
   <% @podcast_facade.episodes.each_with_index do |episode, index| %>
       <p class="card-text">
-        <button class="btn btn-outline btn-xl" type="button" data-toggle="collapse" data-target=<%= "#episode#{index}" %> aria-expanded="false" aria-controls=<%= "episode#{index}" %>>
+        <button class="btn btn-outline btn-xl col-sm-5" type="button" data-toggle="collapse" data-target=<%= "#episode#{index}" %> aria-expanded="false" aria-controls=<%= "episode#{index}" %>>
           <%= raw(episode.title).html_safe %>
         </button>
       </p>
@@ -37,7 +38,7 @@
               <h5 class="card-title"><%= raw(episode.title).html_safe %></h5>
               <p class='card-text'><%= raw(episode.description).html_safe %></p>
               <audio src= <%= episode.audio %> controls> </audio>
-              <div class="card-footer text-muted episode-footer"><%= episode.pub_date %></div>
+              <div class="card-footer episode-footer"><%= episode.pub_date %></div>
             </div>
           </div>
         </div>
