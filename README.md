@@ -4,9 +4,16 @@
 
 This is a Ruby on Rails application used to organize Podcast content by location and topics of interest. Learning goals from this project were to design and build an application from scratch, consume a JSON API, authenticate users with OAuth, utilize a Sinatra microservice, and configure continuous integration.
 
-<p align="center">
+<h4 align="center">
   <a href="https://podsmack.herokuapp.com/">View our Brain Child</a>
+ </h4>
+<p align="center">
+  <a href="https://podsmack-microservice.herokuapp.com/">View our Microservice</a>
  </p>
+<p align="center">
+  <a href="https://github.com/muydanny/podsmack_microservice">View our Microservice Repo</a>
+ </p>
+
 
 ### Team
 <p>
