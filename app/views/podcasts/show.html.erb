@@ -1,11 +1,11 @@
 <section class="row">
-  <section class="column-left">
+  <section class="column-left" style="background-color:#4e4a4aa6">
     <%= image_tag(@podcast_facade.podcast.photo, class: 'podcast-image') %>
     <% @podcast_facade.social_media.each do |platform, handle|%>
     <p class="social-media-handles"> <%= platform.capitalize + ": " + handle  %> </p>
     <% end %>
   </section>
-  <section class="column-right">
+  <section class="column-right" style="background-color:#4e4a4aa6">
     <section class='podcast-info-header'>
       <h1 class="podcast-title"> <%= @podcast_facade.podcast.name %> </h1>
       Location: <%= @podcast_facade.podcast.location %>
