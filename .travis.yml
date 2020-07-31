@@ -1,11 +1,8 @@
 before_install:
-  - gem install bundler
-
+- gem install bundler
 language: ruby
-
 rbenv:
 - 2.5.3
-
 addons:
   postgresql: 12
   apt:
@@ -13,34 +10,29 @@ addons:
     - postgresql-12
     - postgresql-client-12
   chrome: stable
-
 env:
   global:
   - PGPORT=5433
-
 dist: xenial
-
 cache:
   bundler: true
   directories:
-    - node_modules
+  - node_modules
   yarn: true
-
 install:
-  - bundle install
-  - nvm install node
-  - node -v
-  - npm i -g yarn
-  - yarn
-
+- bundle install
+- nvm install node
+- node -v
+- npm i -g yarn
+- yarn
 script:
-  - bundle exec rails webpacker:compile
-  - yarn
-  - bundle exec rails db:{drop,create,migrate} RAILS_ENV=test
-  - bundle exec rspec
+- bundle exec rails webpacker:compile
+- yarn
+- bundle exec rails db:{drop,create,migrate} RAILS_ENV=test
+- bundle exec rspec
 deploy:
   provider: heroku
   api_key:
-    secure: adtSKdEYSVpa1qqncZ+d+wwYczo5PGgoYH2SU+Q7K+DU8Yzziy8OVUatOvLFI/We8SnmNUuYAuuEkiKYeK83NRF5cqU5tN5a1AQ2mOtQruI+QK3zah9LxAAx2txHXNivDf0Rlb0rtsani/X9tgXaI2KHN3lmQR2WIeVxlBxBbkGhUYqzxkUtATfA7clc7rTojcEYDrP/Pcpwwqzgw1ZmY3wACVy9BJY5GBB3FdBpuIqkdHYM/FBP3XXdjiKW3heodGkg7TLmJWwoRnq7MEUeFVxNulMg+ZjEzDFc0uraMekcPwrBaqSj3FyJnSqpGk9vbOIThU/HonKDVWUfSsRaOLX3/XOpJa1p+vMpPZfWsgCm/F/ZHqXYZnrn3JXIw5pDtC2GDJ8hFnrWdteGpUWVqR6htjJBTeb+IBsI0afd5+IG0scDcLU3hXRr+W6YlONSnzyhssSvnYGn8Wm4Q2jqhffrM2B6CYBtbhp7DOo/353W9rygnNk8/vVYrKJqOU3QTGDpkAuEjZ6AiXj9qjasgM0mBFX68eaYojZbY2DjK8+WKs7g+QMlcPbjdqq4Uy1gVJT9LbV02UUCfA48cYVwVdiK0+wWgEUNYxLIQmoWjYSVQdHkpeSmBy+N+rF5pWR7OJgzEN1mg7QYp5tPY7zgEgzjCthzl2nqmgxyvzDckQM=
+    secure: P/rA/JMSMgDUFRZy3PhUyVHcdQ92bFq/M1G4sePqSadlPnMUJQ6iB4dZnxqmLbqY/mJF9xGWTFiUcI/SFyBbafJlge3Gt0kvSDbMgK+3b80yvR43c7Hn/NlhXik+CmGVApNFFRlm+TyYea/EXo7QrHcVU4irPjual0PyxX8N+hdIRHjEppFdS6DKy/alZ2hHFZfcy7aupE7VF8xbtdA8ebulu9dS+HE2uS16huYVYfeVqkvNW9i7EJ131qkGhymMuPdoGUU+TbiPa5n6Iln7U/4qz7a0/nM/QBVaCZ491PyQHyfZzY7siQ6C30zAZ9FaStS9nLHrLp3CMzjOcSGkkPaxgpTYNTEIsUyA84JwI7NMYEwTaRthq7Jpz5t07VfNMNO6kYsdkpe9+UB1Qp0yjCAAvax7Q5sNB+1ih8s2kxzvLwhGy9nW1gUhVXDwuSwUGOt3gp4nFHiLFVB3lproBc3JgAKhByetQKhL+G49gb3ya/pEuTKcoNy40/3+bJQS5Iwtvsv69IjGnq0D4ztzPrCuKtuXfPTZk0ZRpfWBsYHe2kWA6CK0wbcwlmgNaFfz9u8qAcrddbTQi8Yq+J0t48vidIlPDivjGYzGzzWrpQqmdTRp3XNn+UAuCWNhDumbJJzsZyeXoxaYefLFmMpX8GVsQigOEf5kUzMj8K9Ccus=
   app: podsmack
   run: rails db:migrate
