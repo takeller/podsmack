@@ -2,7 +2,7 @@
 
 ## Background and Description
 
-This is a Ruby on Rails application used to organize Podcast content by location and topics of interest. Learning goals from this project were to build on top of brownfield code, consume a JSON API, authenticate users with OAuth, utilize a Sinatra microservice, and configure continuous integration.
+This is a Ruby on Rails application used to organize Podcast content by location and topics of interest. Learning goals from this project were to design and build an application from scratch, consume a JSON API, authenticate users with OAuth, utilize a Sinatra microservice, and configure continuous integration.
 
 <p align="center">
   <a href="https://podsmack.herokuapp.com/">View our Brain Child</a>

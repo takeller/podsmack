@@ -4,11 +4,7 @@
   <h1>Shows you are Following: <%= @user.following_podcasts.length %></h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
-<<<<<<< HEAD
       <%= button_to  podcast.name , podcast_path(podcast.id), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
-=======
-      <%= link_to podcast.name, "/podcasts/#{podcast.id}" %>
->>>>>>> master
     </section>
   <% end %>
 </section>
