@@ -29,23 +29,18 @@
   <br>
   <br>
   <div class='center-search'>
-    <%= submit_tag 'Search' %>
+    <%= submit_tag 'Search', class: "btn btn-outline" %>
   </div>
 <% end %>
-<br>
-<br>
-  <h3 class="center-search"> Podcast Collection </h3>
-<br>
-<br>
+
 
 <section class='podcast-browse center-search'>
-  <h1><%= @podcasts.length %> Results </h1>
+  <h3 class="center-search"> Podcast Collection: <%= @podcasts.length %> Results </h3>
+
   <% @podcasts.each do |podcast| %>
-    <section id='podcast_results'>
-      <%= link_to podcast.name, podcast_path(podcast.id) %>
-      <br>
+    <section class='podcast_results'>
+      <h4><%= link_to podcast.name, podcast_path(podcast.id) %></h4>
       <%= raw(podcast.description).html_safe  %>
     </section>
   <% end %>
 </section>
-
