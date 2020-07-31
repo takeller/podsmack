@@ -476,30 +476,13 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
-footer {
-  padding: 25px 0;
+.navbar-fixed-botttom {
+  padding: 25px;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
-
-}
-
-footer p {
-  font-size: 12px;
-  margin: 0;
-}
-
-footer ul {
-  margin-bottom: 0;
-}
-
-footer ul li a {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
-  text-decoration: none;
+  position: relative;
+  clear: both;
 }
 
 .checkbox-space{
@@ -619,7 +602,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   }
 }
 
-
 .card {
         margin: 0 auto;
         float: none;
@@ -680,4 +662,3 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-top: 0px;
   background-color: inherit;
 }
-
