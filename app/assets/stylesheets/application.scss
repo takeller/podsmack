@@ -636,7 +636,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
 .tags {
   padding-top: 0;
   padding-bottom: 0;
-  color: blue;
+  color: #fdcc52;
+  margin-top: 10px;
 }
 
 .episodes {
@@ -661,6 +662,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
 .episode-footer {
   border-top: 0px;
   background-color: inherit;
+  color: white;
 }
 
 .podcast-browse {
@@ -678,4 +680,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
   border: 0;
   text-align: left;
   padding-left: 90px;
+}
+
+.location {
+  font-size: large;
 }
