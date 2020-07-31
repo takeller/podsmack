@@ -1,51 +1,55 @@
 <%= form_tag(podcasts_path, method: "get") do %>
-  <div class="container">
+  <div class="container"><br><br>
     <div class="row">
+      <div class="col-sm-4">
+        <%= label_tag 'Location' %>
+        <%= select_tag(:location, options_for_select([nil, 'Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-custom js-scroll-trigger" })%>
+      </div>
 
-        <div class="col-sm center-search">
-          <%= label_tag 'Location' %>
-          <%= select_tag(:location, options_for_select([nil, 'Denver', 'NYC', 'Dallas', 'San Francisco']), { class: "btn btn-outline btn-xl js-scroll-trigger" })%>
-        </div>
-
-        <div class="col-sm center-search">
-          <button class="btn btn-outline btn-sml" type="button" data-toggle="collapse" data-target="#tags-collapse" aria-expanded="false" aria-controls="tags-collapse">
-            Tags
-          </button>
-          <div class="collapse" id="tags-collapse">
-            <div class="card card-body search-tags">
-              <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
-                <%= box.label {box.check_box + box.text} %>
-              <% end %>
-            </div>
+      <div class="col-sm center-search">
+        <button class="btn btn-outline btn-custom-lg" type="button" data-toggle="collapse" data-target="#tags-collapse" aria-expanded="false" aria-controls="tags-collapse">
+          Tags
+        </button>
+        <div class="collapse" id="tags-collapse">
+          <div class="card card-body search-tags">
+            <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
+              <%= box.label {box.check_box + box.text} %>
+            <% end %>
           </div>
         </div>
+      </div>
 
-        <div class="col-sm center-search">
-          <%= label_tag 'Exclude Adult Content' %>
-          <%= check_box_tag :adult_content, checked = false %>
-        </div>
-
-        <div class="col-sm center-search">
-          <%= label_tag :name %>
-          <%= text_field_tag :name %>
-        </div>
-
+      <div class="col-sm center-search">
+        <%= label_tag 'Exclude Adult Content' %>
+        <%= check_box_tag :adult_content, checked = false %>
+      </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <div class='center-search'>
-    <%= submit_tag 'Search', class: "btn btn-outline" %>
+    <div class='row'>
+      <div class="col-sm-10">
+        <%= label_tag :name %>
+        <%= text_field_tag :name, nil, class: 'col-sm-6' %>
+      </div>
+      <div>
+        <%= submit_tag 'Search', class: "btn btn-outline btn-custom-lg" %>
+      </div>
+    </div>
   </div>
 <% end %>
 
 
-<section class='podcast-browse center-search'>
+<section class='podcast-browse container'>
   <h3 class="center-search"> Podcast Collection: <%= @podcasts.length %> Results </h3>
 
   <% @podcasts.each do |podcast| %>
     <section class='podcast_results'>
-      <h4><%= link_to podcast.name, podcast_path(podcast.id) %></h4>
+      <div class='row search-result-header'>
+        <div class='col-sm-1'>
+          <%= image_tag(podcast.photo, size: '70') %>
+        </div>
+        <div class='col-sm-11 search-result-title'>
+          <h4 class='align-bottom'><%= link_to podcast.name, podcast_path(podcast.id) %></h4>
+        </div>
+      </div>
       <%= raw(podcast.description).html_safe  %>
     </section>
   <% end %>

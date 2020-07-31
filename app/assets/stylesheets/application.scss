@@ -65,7 +65,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 section h2 {
@@ -696,4 +696,25 @@ section.contact ul.list-social li.social-google-plus a:hover {
 
 .episode-description {
   padding-left: 150px;
+.followed-button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-custom {
+  font-size: 11px;
+  padding: 7px 25px;
+}
+.btn-custom-lg {
+  font-size: 12px;
+  padding: 10px 25px;
+}
+
+.search-result-header {
+  position: relative;
+}
+.search-result-title {
+position: absolute;
+bottom: 15px;
+left: 90px;
 }
