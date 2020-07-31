@@ -26,7 +26,7 @@ so_you_want = Podcast.create(name: "So You Want to Work Abroad", description: so
 
 mad_money = Podcast.create(name: "Mad Money w/ Jim Cramer", description: mad_money_description , location: 'Dallas', active: false, twitter: '@madmoney', instagram: '@madmoney', facebook: '@madmoney', photo: "https://cdn-images-1.listennotes.com/podcasts/mad-money-w-jim-cramer-cnbc-qzcgTHGP63V-a8p6YXsZcxV.300x300.jpg", user_id: users[3].id, adult_content: true, podcast_uri: 'e3bb1e6c39d245f081a4a4db8ce9b661' )
 
-rnz = Podcast.create(name: "RNZ: Flying Solo", description: rnz_description , location: 'San Fransisco', active: true, twitter: '@RNZ', instagram: '@RNZ', facebook: '@RNZ', photo: "https://cdn-images-1.listennotes.com/podcasts/rnz-flying-solo-radio-new-zealand-jCrRmkPl6Gn.300x300.jpg", user_id: users[1].id, adult_content: false, podcast_uri: '550e80e1c4a64bd290493b7bdbb4458c' )
+rnz = Podcast.create(name: "RNZ: Flying Solo", description: rnz_description , location: 'San Francisco', active: true, twitter: '@RNZ', instagram: '@RNZ', facebook: '@RNZ', photo: "https://cdn-images-1.listennotes.com/podcasts/rnz-flying-solo-radio-new-zealand-jCrRmkPl6Gn.300x300.jpg", user_id: users[1].id, adult_content: false, podcast_uri: '550e80e1c4a64bd290493b7bdbb4458c' )
 
 economists = Podcast.create(name: "The Economists", description: economists_description , location: 'NYC', active: false, twitter: '@theEconomists', instagram: '@theEconomists', patreon: '@theEconomists', photo: "https://cdn-images-1.listennotes.com/podcasts/the-economists-abc-radio-WmTPLCdOARV-1QEvsFy3b7R.300x300.jpg", user_id: users[4].id, adult_content: false, podcast_uri: '94d63164b0434261aaff5f9573921c7b' )
 
