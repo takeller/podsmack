@@ -8,10 +8,16 @@
         </div>
 
         <div class="col-sm center-search">
-          <%= label_tag :tags %>
-          <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %><br>
-            <%= box.label {box.check_box + box.text} %>
-          <% end %>
+          <button class="btn btn-outline btn-sml" type="button" data-toggle="collapse" data-target="#tags-collapse" aria-expanded="false" aria-controls="tags-collapse">
+            Tags
+          </button>
+          <div class="collapse" id="tags-collapse">
+            <div class="card card-body search-tags">
+              <%= collection_check_boxes(:tags, :ids, Tag.all, :id, :name, include_hidden: false) do |box| %>
+                <%= box.label {box.check_box + box.text} %>
+              <% end %>
+            </div>
+          </div>
         </div>
 
         <div class="col-sm center-search">
