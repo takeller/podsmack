@@ -707,3 +707,12 @@ section.contact ul.list-social li.social-google-plus a:hover {
   font-size: 12px;
   padding: 10px 25px;
 }
+
+.search-result-header {
+  position: relative;
+}
+.search-result-title {
+position: absolute;
+bottom: 15px;
+left: 90px;
+}
