@@ -1,15 +1,15 @@
 <% if current_user %>
 
 <section class="podcast_following center-search">
-  <h1><%= @user.following_podcasts.length %> Following</h1>
+  <h1>Shows you are Following: <%= @user.following_podcasts.length %></h1>
   <% @user.following_podcasts.each do |podcast| %>
     <section id="follow">
-      <%= podcast.name %>
+      <%= button_to  podcast.name , podcast_path(podcast.id), method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
     </section>
   <% end %>
 </section>
 
-<h4 class="center-search"> Podcast Application </h4>
+<h6 class="center-search"> Interested in becoming a contributor with Podsmack? Apply to add your show here:  </h6>
 <div class="center-search">
   <%= button_to 'Upload your own podcast', search_path, method: 'get', class: "btn btn-outline btn-xl js-scroll-trigger" %>
 </div>
