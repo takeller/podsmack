@@ -1,4 +1,8 @@
-# Podsmack
+# Podsmack | Backend Mod 3 Group Project
+## Podsmack Welcome Page
+<p align="center">
+<img src="https://i.imgur.com/Hzf2h58.png">
+</p>
 
 ## Background and Description
 
@@ -64,10 +68,6 @@ This is a Ruby on Rails application used to organize Podcast content by location
 - figaro
 
 # Have a Look
-## Podsmack Welcome Page
-<p align="center">
- <img src="https://i.imgur.com/Hzf2h58.png">
-</p>
 
 ## User Dashboard
 <p align="center">
